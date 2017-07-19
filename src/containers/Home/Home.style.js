@@ -40,7 +40,8 @@ export const RevealP = styled.p`
     background-color: white;
     transform-origin: left;
     transform: rotateY(90deg);
-    transition: transform 3s;
+    transition: transform 1s;
+    transition-duration: 5s;
   }
 
   ${({ hide }) => hide && css`

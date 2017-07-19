@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-
 import {Container} from '../../theme/grid';
-import {Image, HomeImage,RevealP} from  './Home.style';
+import { HomeImage, RevealP } from  './Home.style';
 
 class Home extends Component {
   render() {
