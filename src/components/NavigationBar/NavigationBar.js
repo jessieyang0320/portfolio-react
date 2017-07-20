@@ -6,7 +6,7 @@ class NavigationBar extends Component {
   render() {
     return (
       <NavigationContainer >
-        <NavItem to='/home'>Home</NavItem>
+        <NavItem to='/'>Home</NavItem>
         <NavItem to='/projects'>Projects</NavItem>
         <NavItem to='/me'>About Me</NavItem>
         <NavItem to='/contact'>Contact</NavItem>
