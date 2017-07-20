@@ -15,7 +15,7 @@ export const ImageButton = styled.div`
 		transform: scale(1.3);
 	}
 
-
-
-
+`
+export const ImageContainer = styled.div`
+	width: 450px;
 `
