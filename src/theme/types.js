@@ -15,7 +15,7 @@ export const A = styled.a`
     width: 100%;
     background-color: ${blue};
     z-index: -1;
-    transition: height .3s, background-color .3s;
+    transition: height .5s, background-color .3s;
   }
   &:hover:after {
     height: 40%;
@@ -30,9 +30,9 @@ export const Index = styled.div`
 	bottom: 0;
 	z-index: -1;
     font-size: 4em;
-    
+
 	h1{
-		
+
 		margin: 0;
 		weight: bold;
 		color: ${blue};

@@ -7,15 +7,15 @@ export const ImageButton = styled.div`
 	display: inline-block;
 
 	& > img {
-		transition-duration: .3s;
+		transition: .3s;
 	}
-	
+
 
 	&:hover {
 		transform: scale(1.3);
 	}
 
 
-	
+
 
 `
