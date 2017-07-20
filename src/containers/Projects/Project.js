@@ -4,11 +4,12 @@ import {ImageButton, ImageContainer, Title} from './Project.style';
 import {Container, Relative, Flex,Div} from '../../theme/grid';
 import { A, Index } from '../../theme/types';
 import ParallaxImage from 'react-image-parallax2';
-
+import NavigationBar from '../../components/NavigationBar/NavigationBar'
 class Project extends Component {
   render() {
     return (
       <Container>
+        <NavigationBar/>
         <Title>My Projects, see what I built</Title>
 
 // now can set margin bottom, since it inheritated from Div
