@@ -15,17 +15,10 @@ import './routes.css';
 const RoutesMap = () => (
   <Router>
     <div className="routes">
-      <ul>
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/me">About Me</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-      </ul>
 
-      <hr/>
 
       <Route exact path="/" component={App}/>
-          <Route path="/home" component={Home}/>
+          <Route exact path="/" component={Home}/>
           <Route path="/projects" component={Project}/>
           <Route path="/me" component={AboutMe}/>
           <Route path="/contact" component={Contact}/>
