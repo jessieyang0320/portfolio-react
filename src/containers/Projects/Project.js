@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactZoomy from 'react-zoomy';
-import {ImageButton, ImageContainer} from './Project.style';
+import {ImageButton, ImageContainer, Title} from './Project.style';
 import {Container, Relative, Flex,Div} from '../../theme/grid';
 import { A, Index } from '../../theme/types';
 import ParallaxImage from 'react-image-parallax2';
@@ -9,15 +9,17 @@ class Project extends Component {
   render() {
     return (
       <Container>
+        <Title>My Projects, see what I built</Title>
+
 // now can set margin bottom, since it inheritated from Div
-      	<Relative marginBottom="100px">
+      	<Relative marginBottom="40px" marginTop="125px">
       		<Index>
       			 <h1>01</h1>
       		</Index>
             <h1> the project One <A href="#" target="_blank">name</A></h1>
       	</Relative>
 
-     <Flex justify={ 'center' } >
+     <Flex justify={ 'center'  } marginBottom="100px">
 
         <ReactZoomy
 		    imageUrl={require('../../assets/k.jpg')}
@@ -38,7 +40,7 @@ class Project extends Component {
         />
      </Flex>
 
-     <Relative marginBottom="100px">
+     <Relative marginBottom="40px">
        <Index>
           <h1>02</h1>
        </Index>
@@ -60,7 +62,7 @@ class Project extends Component {
          <br/>
           <br/>
 
-          <Relative marginBottom="100px">
+          <Relative marginBottom="40px">
         		<Index>
         			 <h1>03</h1>
         		</Index>
