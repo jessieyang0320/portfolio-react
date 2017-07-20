@@ -29,6 +29,7 @@ export const HomeImage = styled.div`
 `	
 
 export const RevealP = styled.p`
+  font-size: 34px;
   position: relative;
   &:after {
     content: ' ';
@@ -39,9 +40,11 @@ export const RevealP = styled.p`
     height: 100%;
     background-color: white;
     transform-origin: left;
+    
     transform: rotateY(90deg);
-    transition: transform 1s;
-    transition-duration: 5s;
+    transition: rotateY(90deg) 2s;
+
+    
   }
 
   ${({ hide }) => hide && css`
