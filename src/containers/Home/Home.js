@@ -2,9 +2,24 @@ import React, { Component } from 'react';
 import {Container} from '../../theme/grid';
 import { HomeImage, RevealP } from  './Home.style';
 import WhenInView from '../../components/WhenInView/WhenInView';
-
+import Loading from '../../components/Loading/Loading';
 class Home extends Component {
+  constructor(){
+    super();
+    this.state = {
+      loading: true
+    };
+  }
+
+  componentDidMount(){
+    setTimeout(()=> this.setState({loading: false}),4000)
+  }
   render() {
+    const { loading } = this.state;
+
+    if(loading){
+      return <Loading/>
+    }
     return (
       <Container>
         <h1> Welcome Home </h1>
