@@ -6,6 +6,7 @@ import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 import './Home.css';
 import Footer from '../../components/Footer/Footer';
+import {Icon} from 'react-fa'
 
 class Home extends Component {
 
@@ -25,6 +26,7 @@ class Home extends Component {
 
         <Reveal effect="animated bounceInUp">
             <h1> Welcome Home </h1>
+            <Icon name="database" />
         </Reveal>
 
         <Reveal effect="animated fadeInUp" className="passage-block">
@@ -39,6 +41,9 @@ class Home extends Component {
               <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
              </p>
         </Reveal>
+
+
+
 
         <Reveal effect="animated fadeInLeft" className="passage-block">
               <h1>Skills fadeInLeft</h1>

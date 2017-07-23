@@ -8,7 +8,7 @@ import Reveal from 'react-reveal'; // this package
 import 'animate.css/animate.css';
 import './Project.css';
 import { Background } from '../../theme/Background.style';
-
+import {Tooltip} from 'react-lightweight-tooltip';
 
 class Project extends Component {
   render() {
@@ -23,6 +23,17 @@ class Project extends Component {
            Brief Description:
            Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
           </p>
+          <Tooltip
+  content={
+    [
+
+      <a href="https://github.com" key="githublink" target="_blank">Github</a>,
+
+      <a href="https://github.com" key="githublink" target="_blank">Google</a>
+    ]
+  }>
+  Tooltip with a link
+</Tooltip>
       </Reveal>
 
       	<Relative marginBottom="60px" marginTop="125px">

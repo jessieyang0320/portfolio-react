@@ -23,8 +23,8 @@ class AboutMe extends Component {
               <h2 className="talk-left"> What do you want to know about me, past work experience... entrepreural expereince? travel photography 3d printing show option buttons </h2>
 
           </div>
+          <Footer/>
 
-          
       </div>
     );
   }
