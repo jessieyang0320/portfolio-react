@@ -8,3 +8,5 @@ Responsive Image Breakpoints Generator, generate different sizes of the pic
 http://www.responsivebreakpoints.com/
 
 reactloading: for loading page
+
+react-reveal animate.css for scroll to reveal animation

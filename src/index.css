@@ -1,7 +1,11 @@
-/*body {
-  background-color: beige;
-  margin: 0 20px 0 20px;
+*{
+  margin: 0;
   padding: 0;
-  font-family: 'Shadows Into Light', cursive, sans-serif;
 
-}*/
+}
+body {
+
+  font-family: 'VT323', cursive, sans-serif;
+  font-size: 24px;
+
+}

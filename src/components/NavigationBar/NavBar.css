@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top:0;
+  width:100%;
+  background-color: beige;
+  padding: 20px;
+}
+
+.navbar ul{
+
+  list-style: none;
+  text-align: right;
+  padding: 20px ;
+}
+.navbar li {
+  display: inline;
+
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2398FF;
+  padding: 10px 10px;
+
+  cursor: pointer;
+
+}
+.navbar a:hover{
+  color: yellow;
+  background-color: coral;
+  transform: scale(1.2,1.2);
+  border-radius: 5%;
+
+
+
+}
