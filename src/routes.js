@@ -6,7 +6,7 @@ import {
 import App from './containers/App/App'
 import Home from './containers/Home/Home'
 import AboutMe from './containers/AboutMe/AboutMe'
-import Project from './containers/Projects/Project'
+import Projects from './containers/Projects/Projects'
 import Contact from './containers/Contact/Contact'
 import './routes.css';
 
@@ -18,7 +18,7 @@ const RoutesMap = () => (
 
       <Route exact path="/" component={App}/>
           <Route exact path="/" component={Home}/>
-          <Route path="/projects" component={Project}/>
+          <Route path="/projects" component={Projects}/>
           <Route path="/me" component={AboutMe}/>
           <Route path="/contact" component={Contact}/>
     </div>

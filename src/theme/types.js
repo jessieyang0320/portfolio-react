@@ -26,16 +26,25 @@ export const A = styled.a`
 
 export const Index = styled.div`
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	width: 150px;
+	height: 150px;
+	background-color: coral;
+	border-radius: 4%;
+
+	left:  50px;
+	bottom: -50px;
+	border: 3px solid white;
+
 	z-index: -1;
-    font-size: 4em;
+  font-size: 2em;
+
 
 	h1{
 
 		margin: 0;
 		weight: bold;
-		color: coral;
+		color: white;
+
 
 		transform: translateY(20%);
 

@@ -9,61 +9,40 @@ import 'animate.css/animate.css';
 import './Project.css';
 import { Background } from '../../theme/Background.style';
 import {Tooltip} from 'react-lightweight-tooltip';
+import Footer from '../../components/Footer/Footer';
+import SingleProject from './singleProject';
 
-class Project extends Component {
+
+
+class Projects extends Component {
   render() {
     return (
 
       <div>
         <NavigationBar/>
         <Background/>
+
       <Container>
       <Reveal effect="animated fadeInUp" className="passage-block">
           <p>
            Brief Description:
            Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
           </p>
-          <Tooltip
-  content={
-    [
 
-      <a href="https://github.com" key="githublink" target="_blank">Github</a>,
-
-      <a href="https://github.com" key="githublink" target="_blank">Google</a>
-    ]
-  }>
-  Tooltip with a link
-</Tooltip>
       </Reveal>
 
-      	<Relative marginBottom="60px" marginTop="125px">
+      <SingleProject
+          indexNum="01"
+          projectDescription="News-React is a news feed website made with Node.js and ReactJS"
+          projectName="News-React"
+          />
 
-      		<Index>
-      			 <h1>01</h1>
-      		</Index>
-            <h1> the project One <A href="#" target="_blank">name</A></h1>
-      	</Relative>
+          <SingleProject
+              indexNum="02"
+              projectDescription="Responsive Website, displayed well on different screen sized"
+              projectName="Responsive Web"
+              />
 
-         <Flex justify={ 'center'  } marginBottom="200px">
-            <ReactZoomy
-    		    imageUrl={require('../../assets/news-republic520.png')}
-    		    renderThumbnail={({ showImage }) =>
-    		    <ImageButton onClick={showImage}>
-            <Reveal effect="animated fadeInUp">
-    		  	<img src = {require('../../assets/news-republic520.png')}
-    		     alt="project"/>
-             </Reveal>
-    		  </ImageButton>
-              }
-    		  scale={[1.1, 1.1]}
-    		  imageProps={{
-    		    style: {
-    		      width: '100vw',
-    		      height: 'auto'
-    		    }
-    		  }}
-            />
-          </Flex>
 
      <Relative marginBottom="60px">
        <Index>
@@ -203,9 +182,10 @@ class Project extends Component {
        <A href="https://github.com/jessieyang0320" target="_blank">View More on Github</A>
 
       </Container>
+      <Footer/>
       </div>
     );
   }
 }
 
-export default Project;
+export default Projects;

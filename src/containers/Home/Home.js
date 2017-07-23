@@ -13,7 +13,7 @@ class Home extends Component {
   render() {
 
     return (
-
+<div>
       <Container>
 
         <HomeImage>
@@ -56,9 +56,10 @@ class Home extends Component {
               <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
              </p>
         </Reveal>
-        <Footer/>
-      </Container>
 
+      </Container>
+      <Footer/>
+</div>
     );
   }
 }
