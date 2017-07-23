@@ -1,63 +1,59 @@
 import React, { Component } from 'react';
 import {Container} from '../../theme/grid';
-import { HomeImage, RevealP } from  './Home.style';
-import WhenInView from '../../components/WhenInView/WhenInView';
-import Loading from '../../components/Loading/Loading';
+import { HomeImage} from  './Home.style';
+
+import Reveal from 'react-reveal';
+import 'animate.css/animate.css';
+import './Home.css';
+import Footer from '../../components/Footer/Footer';
+
 class Home extends Component {
-  constructor(){
-    super();
-    this.state = {
-      loading: true
-    };
-  }
 
-  componentDidMount(){
-    setTimeout(()=> this.setState({loading: false}),4000)
-  }
   render() {
-    const { loading } = this.state;
 
-    if(loading){
-      return <Loading/>
-    }
     return (
+
       <Container>
-        <h1> Welcome Home </h1>
 
         <HomeImage>
+
           <h1>Jessie Yang</h1>
           <h1>Front End Developer</h1>
+
         </HomeImage>
 
-        <WhenInView>
-            {({ isInView })=>
-            <RevealP hide= { !isInView }>
-               Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-            </RevealP>
-          }
 
-        </WhenInView>
+        <Reveal effect="animated bounceInUp">
+            <h1> Welcome Home </h1>
+        </Reveal>
 
-        <WhenInView>
-            {({ isInView })=>
-            <RevealP hide= { !isInView }>
-               Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-            </RevealP>
-          }
+        <Reveal effect="animated fadeInUp" className="passage-block">
+            <p>
+             <h1>Brief Description: fadeInUp</h1>
+             Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+            </p>
+        </Reveal>
 
-        </WhenInView>
+        <Reveal effect="animated flipInY" className="passage-block">
+              <h1>Skills Icons</h1>
+              <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+             </p>
+        </Reveal>
 
-        <WhenInView>
-            {({ isInView })=>
-            <RevealP hide= { !isInView }>
-               Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-            </RevealP>
-          }
+        <Reveal effect="animated fadeInLeft" className="passage-block">
+              <h1>Skills fadeInLeft</h1>
+              <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+             </p>
+        </Reveal>
 
-        </WhenInView>
-
-
+        <Reveal effect="animated zoomIn" className="passage-block">
+              <h1>Skills zoomIn</h1>
+              <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+             </p>
+        </Reveal>
+        <Footer/>
       </Container>
+
     );
   }
 }

@@ -17,19 +17,21 @@ ${({ marginRight }) => marginRight && css`
 
 `
 export const Container = styled(Div)`
+  width: 80%;
+  margin-top: 50px;
   padding-left: 120px;
   padding-right: 120px;
-  padding-top: 30px;
+  padding-top:0;
 
   ${media.tablet`
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 15px;
+    padding-top: 0;
     `}
   ${media.phone`
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 15px;
+    padding-top: 0;
     `}
 `;
 

@@ -1,12 +1,16 @@
 import styled from 'styled-components';
-import { Flex, Div } from '../../theme/grid';
+import { Flex } from '../../theme/grid';
 import { blue, yellow,red } from '../../theme/variables';
 import {Link} from 'react-router-dom';
 
 export const NavigationContainer = styled(Flex)`
   position: fixed;
-  right: 2em;
-  top: 1.8em;
+  padding: 30px;
+  margin-top:0;
+
+  width:100%;
+  background-color: gray;
+
 `;
 
 export const NavItem = styled(Link)`

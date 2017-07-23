@@ -35,8 +35,8 @@ export const Index = styled.div`
 
 		margin: 0;
 		weight: bold;
-		color: ${blue};
-		opacity: 0.5;
+		color: coral;
+
 		transform: translateY(20%);
 
 	}

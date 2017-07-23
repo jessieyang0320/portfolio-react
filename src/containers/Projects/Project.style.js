@@ -28,5 +28,5 @@ export const Title = styled.h1`
   color: ${red};
 	weight: bold;
 
-  margin-top: 0;
+  margin-top: 500;
 `;

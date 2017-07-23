@@ -5,7 +5,8 @@ import { black } from './variables';
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=VT323');
   body {
-    background-color: beige;
+    background-color: white;
+
     font-family: 'VT323', monospace;
     font-size: 24px;
     color: ${black};

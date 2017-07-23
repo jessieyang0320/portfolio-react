@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.loading-page {
+
+  margin: 140px auto;
+
+}
+
+.loading-text {
+  border: 1px solid black;
+  margin-top: 140px;
+  margin-bottom: 0;
+
+  text-align: center;
+}
