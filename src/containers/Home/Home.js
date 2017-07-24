@@ -23,39 +23,105 @@ class Home extends Component {
 
         </HomeImage>
 
+       <div className = "self-description">
+          <Reveal effect="animated zoomIn">
+              <p> Hi! My name is Jessie Yang. I am a New York based Front End Developer
+              and I create beautiful & functional websites! Below are tools I use: </p>
+          </Reveal>
+       </div>
 
-        <Reveal effect="animated bounceInUp">
-            <h1> Welcome Home </h1>
-            <Icon name="database" />
-        </Reveal>
+       <div className="skills">
 
-        <Reveal effect="animated fadeInUp" className="passage-block">
-            <p>
-             <h1>Brief Description: fadeInUp</h1>
-             Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-            </p>
-        </Reveal>
+          <div className="skill-box">
+              <div className="powerful-frameworks">
+                <Reveal effect="animated flipInY">
+                  <div className = "skill-circle">
+                      <img src = {require('../../assets/react-icon.png')}
+                      alt="framework"/>
 
-        <Reveal effect="animated flipInY" className="passage-block">
-              <h1>Skills Icons</h1>
-              <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-             </p>
-        </Reveal>
+                  </div>
+                  <div className="seperate"></div>
+
+                  <div className="skill-title">
+                      Powerful Frameworks
+                  </div>
+
+                  <div className="skill-detail">
+                      I work with agile frameworks such as Node.js, React, and Ruby on Rails.
+                  </div>
+               </Reveal>
+              </div>
+
+          </div>
+
+
+          <div className="skill-box">
+              <div className="ready-to-go">
+              <Reveal effect="animated flipInY">
+                  <div className = "skill-circle">
+                     <Icon paper-plane name="paper-plane" size="4x"/>
+                  </div>
+
+                  <div className="seperate"></div>
+
+                  <div className="skill-title">
+                     Ready to go
+
+                  </div>
+                  <div className="skill-detail">
+                    I use Git/Github for version control and deploy and Heroku.
+                  </div>
+
+              </Reveal>
+              </div>
+          </div>
 
 
 
+          <div className="skill-box">
+              <div className="secure-database">
+              <Reveal effect="animated flipInY">
+                  <div className = "skill-circle">
+                    <Icon database name="database" size="4x"/>
+                  </div>
 
-        <Reveal effect="animated fadeInLeft" className="passage-block">
-              <h1>Skills fadeInLeft</h1>
-              <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-             </p>
-        </Reveal>
+                  <div className="seperate"></div>
 
-        <Reveal effect="animated zoomIn" className="passage-block">
-              <h1>Skills zoomIn</h1>
-              <p>   Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-             </p>
-        </Reveal>
+                  <div className="skill-title">
+                        Secure Storage
+                  </div>
+                  <div className="skill-detail">
+                      I employ user authentication and maintain PostgreSQL,
+                      MongoDB database.
+                  </div>
+              </Reveal>
+              </div>
+          </div>
+
+          <div className="skill-box">
+              <div className="up-to-date">
+              <Reveal effect="animated flipInY">
+                  <div className = "skill-circle">
+                      <img src = {require('../../assets/nodejs.png')}
+                       alt="uptodate"/>
+                  </div>
+
+                  <div className="seperate"></div>
+
+                  <div className="skill-title">
+                      UP to Date
+                  </div>
+                  <div className="skill-detail">
+                         I keep on my toes with cutting-edge languages such as
+                         JavaScript, HTML5, CSS3, ES6, and Ruby.
+                  </div>
+              </Reveal>
+              </div>
+          </div>
+
+
+
+       </div>
 
       </Container>
       <Footer/>

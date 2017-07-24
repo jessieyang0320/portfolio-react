@@ -7,6 +7,7 @@ import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 
 // need to fix img url passed in as a props
+// if it`s http:... can be passed in easily, but local img not working
 
 class SingleProject extends Component {
   render() {

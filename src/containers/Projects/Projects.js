@@ -35,6 +35,7 @@ class Projects extends Component {
           indexNum="01"
           projectDescription="News-React is a news feed website made with Node.js and ReactJS"
           projectName="News-React"
+          url = " "
           />
 
           <SingleProject
