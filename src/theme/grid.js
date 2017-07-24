@@ -40,7 +40,7 @@ export const Relative = styled(Div)`
 `
 
 export const Flex = styled(Div)`
-
+  
 	display: flex;
 
 	${({ column }) => column && css`

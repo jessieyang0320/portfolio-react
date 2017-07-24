@@ -1,7 +1,13 @@
 .footer{
+  width: 100%;
   text-align: center;
   padding: 10px;
-  background: gray;
+  background: beige;
   margin-top: 40px;
-  width: 100%;
+
+}
+
+h2 {
+  font-size: 18px;
+  color: #2398FF
 }
