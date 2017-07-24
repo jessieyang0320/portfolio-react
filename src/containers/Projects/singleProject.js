@@ -38,7 +38,7 @@ class SingleProject extends Component {
             <ImageButton onClick={showImage}>
             <Reveal effect="animated fadeInUp">
 
-            <img src = {require('../../assets/news-republic520.png')}
+            <img src = {this.props.Url}
              alt="project"/>
              </Reveal>
           </ImageButton>

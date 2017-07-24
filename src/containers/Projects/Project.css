@@ -40,3 +40,14 @@ content: {
   border-bottom-right-radius: 20%;
 
 }
+
+.showPic{
+  width:55%;
+  float: right;
+  margin-bottom: 100px;
+  margin-right:15px;
+}
+.space{
+  width: 100%;
+  padding-bottom: 500px;
+}

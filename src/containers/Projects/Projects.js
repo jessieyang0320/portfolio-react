@@ -35,14 +35,10 @@ class Projects extends Component {
           indexNum="01"
           projectDescription="News-React is a news feed website made with Node.js and ReactJS"
           projectName="News-React"
-          url = " "
+          Url = ""
           />
 
-          <SingleProject
-              indexNum="02"
-              projectDescription="Responsive Website, displayed well on different screen sized"
-              projectName="Responsive Web"
-              />
+
 
 
      <Relative marginBottom="60px">
@@ -53,30 +49,14 @@ class Projects extends Component {
      </Relative>
 
 
-    <Flex justify={ 'center' } marginBottom="200px" >
 
-       <ReactZoomy
-       imageUrl={require('../../assets/responsive-website.png')}
-       renderThumbnail={({ showImage }) =>
-       <ImageButton onClick={showImage}>
-
-       <Reveal effect="animated fadeInUp">
-       <img src = {require('../../assets/responsive-website.png')}
-        alt="project"/>
+       <Reveal className="showPic" effect="animated fadeInUp">
+           <img src = {require('../../assets/responsive-website.png')}
+            alt="project"/>
         </Reveal>
 
-       </ImageButton>
-           }
 
-         scale={[1.1, 1.1]}
-         imageProps={{
-           style: {
-             width: '100vw',
-             height: 'auto'
-           }
-         }}
-        />
-    </Flex>
+<div className="space"> Spacce </div>
 
 
           <Relative marginBottom="60px">
