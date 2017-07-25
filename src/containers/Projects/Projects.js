@@ -25,142 +25,189 @@ class Projects extends Component {
       <Container>
       <Reveal effect="animated fadeInUp" className="passage-block">
           <p>
-           Brief Description:
-           Advice me cousin an spring of needed. Tell use paid law ever yet new. Meant to learn of vexed if style allow he there. Tiled man stand tears ten joy there terms any widen. Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+              I made beautiful and functional website with React, Nodejs, Express, Rails, MongoDB, Postgres.
+              and as a VR enthusiast, I made VR apps too.
+
           </p>
 
       </Reveal>
 
-      <SingleProject
-          indexNum="01"
-          projectDescription="News-React is a news feed website made with Node.js and ReactJS"
-          projectName="News-React"
-          Url = ""
-          />
+
+      <div className = "project-block">
+          <Relative marginBottom="60px" className="project-title">
+              <Index>
+                   <Reveal effect="animated slideInDown">
+                     <h1>01</h1>
+                   </Reveal>
+              </Index>
+              <Reveal effect="animated slideInRight">
+                  <h1> Project One <A href="#" target="_blank">News Republic</A></h1>
+              </Reveal>
+          </Relative>
+
+          <div className="description-block">
+              <p>News Republic is a news feed website made with Nodejs and ReactJS</p>
+
+              <div className = 'buttons'>
+                  <button> <a href="#"> github</a></button>
+                  <button><a href="#"> Demo</a></button>
+              </div>
+          </div>
+
+          <Reveal className="showPic" effect="animated fadeInUp">
+              <img src = {require('../../assets/news-republic.png')}
+               alt="project"/>
+         </Reveal>
+
+      </div>
 
 
 
+       <div className = "project-block">
+           <Relative marginBottom="60px" className="project-title">
+               <Index>
+                    <Reveal effect="animated slideInDown">
+                        <h1>02</h1>
+                    </Reveal>
+               </Index>
+               <Reveal effect="animated slideInRight">
+                   <h1> Project Two <A href="#" target="_blank">Responsive Web</A></h1>
+               </Reveal>
+           </Relative>
 
-     <Relative marginBottom="60px">
-       <Index>
-          <h1>02</h1>
-       </Index>
-         <h1> the project Two <A href="#" target="_blank">name</A></h1>
-     </Relative>
+           <div className="description-block">
+               <p>This is a pure front end responsive designed website, HTML CSS and JS</p>
 
+               <div className = 'buttons'>
+                   <button> <a href="#"> github</a></button>
+                   <button><a href="#"> Demo</a></button>
+               </div>
+           </div>
 
-
-       <Reveal className="showPic" effect="animated fadeInUp">
-           <img src = {require('../../assets/responsive-website.png')}
-            alt="project"/>
-        </Reveal>
-
-
-<div className="space"> Spacce </div>
-
-
-          <Relative marginBottom="60px">
-        		<Index>
-        			 <h1>03</h1>
-        		</Index>
-              <h1> the project Three <A href="#" target="_blank">name</A></h1>
-        	</Relative>
-
-
-           <Flex justify={ 'center' } marginBottom="200px">
-
-              <ReactZoomy
-      		    imageUrl={require('../../assets/v-hab.png')}
-      		    renderThumbnail={({ showImage }) =>
-          		  <ImageButton onClick={showImage}>
-                <Reveal effect="animated fadeInUp">
-                <img src = {require('../../assets/v-hab.png')}
-                 alt="project"/>
-                 </Reveal>
-          		  </ImageButton>
-                    }
-
-          		  scale={[1.1, 1.1]}
-          		  imageProps={{
-          		    style: {
-          		      width: '100vw',
-          		      height: 'auto'
-          		    }
-          		  }}
-                  />
-           </Flex>
-
-
-
-
-
-
-       <Relative marginBottom="60px">
-         <Index>
-          <Reveal effect="animated slideInDown">
-            <h1>04</h1>
+           <Reveal className="showPic" effect="animated fadeInUp">
+               <img src = {require('../../assets/responsive-website.png')}
+                alt="project"/>
           </Reveal>
-         </Index>
-         <Reveal effect="animated slideInRight">
-           <h1> the project Three <A href="#" target="_blank">name</A></h1>
-          </Reveal>
-       </Relative>
 
-       <Flex justify={ 'center' } marginBottom="200px">
-           <ReactZoomy
-           imageUrl={require('../../assets/data.png')}
-           renderThumbnail={({ showImage }) =>
-           <ImageButton onClick={showImage}>
-           <Reveal effect="animated fadeInUp">
-           <img src = {require('../../assets/data.png')}
-            alt="project"/>
-            </Reveal>
-           </ImageButton>
-             }
-
-           scale={[1.1, 1.1]}
-           imageProps={{
-           style: {
-             width: '100vw',
-             height: 'auto'
-           }
-           }}
-           />
-       </Flex>
-
-       <Relative marginBottom="60px">
-         <Index>
-            <h1>05</h1>
-         </Index>
-           <h1> the project Three <A href="#" target="_blank">name</A></h1>
-       </Relative>
-
-       <Flex justify={ 'center' } marginBottom="200px">
-
-       <ReactZoomy
-       imageUrl={require('../../assets/js.png')}
-       renderThumbnail={({ showImage }) =>
-       <ImageButton onClick={showImage}>
-       <Reveal effect="animated fadeInUp">
-       <img src = {require('../../assets/js.png')}
-        alt="project"/>
-        </Reveal>
-       </ImageButton>
-         }
-
-       scale={[1.1, 1.1]}
-       imageProps={{
-       style: {
-         width: '100vw',
-         height: 'auto'
-       }
-       }}
-       />
-       </Flex>
+       </div>
 
 
 
-       <A href="https://github.com/jessieyang0320" target="_blank">View More on Github</A>
+      <div className = "project-block">
+          <Relative marginBottom="60px" className="project-title">
+              <Index>
+                   <Reveal effect="animated slideInDown">
+                      <h1>03</h1>
+                   </Reveal>
+              </Index>
+              <Reveal effect="animated slideInRight">
+                  <h1> Project Three <A href="#" target="_blank">V-hab</A></h1>
+              </Reveal>
+          </Relative>
+
+          <div className="description-block">
+              <p>V-Hab is s VR game for hand rehab, made with LeapMotion SDK, Three.js</p>
+
+              <div className = 'buttons'>
+                  <button> <a href="#"> github</a></button>
+                  <button><a href="#"> Demo</a></button>
+              </div>
+          </div>
+
+          <Reveal className="showPic" effect="animated fadeInUp">
+              <img src = {require('../../assets/v-hab.png')}
+               alt="project"/>
+         </Reveal>
+
+      </div>
+
+
+      <div className = "project-block">
+          <Relative marginBottom="60px" className="project-title">
+              <Index>
+                   <Reveal effect="animated slideInDown">
+                      <h1>04</h1>
+                   </Reveal>
+              </Index>
+              <Reveal effect="animated slideInRight">
+                  <h1> Project Four <A href="#" target="_blank">Charts Template</A></h1>
+              </Reveal>
+          </Relative>
+
+          <div className="description-block">
+              <p>A data visualiztion template, made with html css and js </p>
+
+              <div className = 'buttons'>
+                  <button> <a href="#"> github</a></button>
+                  <button><a href="#"> Demo</a></button>
+              </div>
+          </div>
+
+          <Reveal className="showPic" effect="animated fadeInUp">
+              <img src = {require('../../assets/data.png')}
+               alt="project"/>
+         </Reveal>
+
+      </div>
+
+      <div className = "project-block">
+          <Relative marginBottom="60px" className="project-title">
+              <Index>
+                   <Reveal effect="animated slideInDown">
+                      <h1>05</h1>
+                   </Reveal>
+              </Index>
+              <Reveal effect="animated slideInRight">
+                  <h1> Project Five <A href="#" target="_blank">Vanilla JS</A></h1>
+              </Reveal>
+          </Relative>
+
+          <div className="description-block">
+              <p>A collection of small apps made with vanilla JavaScript and CSS</p>
+
+              <div className = 'buttons'>
+                  <button> <a href="#"> github</a></button>
+                  <button><a href="#"> Demo</a></button>
+              </div>
+          </div>
+
+          <Reveal className="showPic" effect="animated fadeInUp">
+              <img src = {require('../../assets/js.png')}
+               alt="project"/>
+         </Reveal>
+
+      </div>
+
+      <div className = "project-block">
+          <Relative marginBottom="60px" className="project-title">
+              <Index>
+                   <Reveal effect="animated slideInDown">
+                      <h1>06</h1>
+                   </Reveal>
+              </Index>
+              <Reveal effect="animated slideInRight">
+                  <h1> Project Six <A href="#" target="_blank">Photo Gallery</A></h1>
+              </Reveal>
+          </Relative>
+
+          <div className="description-block">
+              <p> randomly position photos on screen made with React</p>
+
+              <div className = 'buttons'>
+                  <button> <a href="#"> github</a></button>
+                  <button><a href="#"> Demo</a></button>
+              </div>
+          </div>
+
+          <Reveal className="showPic" effect="animated fadeInUp">
+              <img src = {require('../../assets/responsive-website.png')}
+               alt="project"/>
+         </Reveal>
+
+      </div>
+        <div className = "view-more">
+          <A href="https://github.com/jessieyang0320" target="_blank">View More on Github</A>
+        </div>
 
       </Container>
       <Footer/>

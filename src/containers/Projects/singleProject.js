@@ -23,7 +23,7 @@ class SingleProject extends Component {
         </Relative>
 
         <div className="description-block">
-        <p>{this.props.projectDescription}</p>
+          <p>{this.props.projectDescription}</p>
 
           <div className = 'buttons'>
               <button> <a href="#"> github</a></button>
@@ -33,7 +33,7 @@ class SingleProject extends Component {
 
          <Flex justify={ 'center'  } marginBottom="200px">
             <ReactZoomy
-            imageUrl={require('../../assets/news-republic520.png')}
+            imageUrl={require('../../assets/news-republic.png')}
             renderThumbnail={({ showImage }) =>
             <ImageButton onClick={showImage}>
             <Reveal effect="animated fadeInUp">

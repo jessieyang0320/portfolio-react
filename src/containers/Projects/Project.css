@@ -16,19 +16,37 @@ content: {
 
 }
 
+.passage-block{
+
+  margin-top: 200px;
+  margin-bottom: 0;
+  padding: 30px;
+  border: 1px solid black;
+}
+
 .description-block {
 
   color: black;
   padding: 15px;
   background-color: white;
-  width: 30%;
-  height: 150px;
-  margin-left: 150px;
+  width: 20%;
+  height-min: 200px;
+  margin-left: 170px;
   margin-top: -50px;
   border: 1px solid coral;
   border-radius:5%;
 
 }
+.projects {
+
+}
+.project-block{
+
+  margin: 150px auto;
+  padding: 100px 10px;
+  display: relative;
+}
+
 
 .buttons {
   margin-left: 60px;
@@ -38,16 +56,20 @@ content: {
 
   padding: 5px 10px;
   border-bottom-right-radius: 20%;
-
 }
 
 .showPic{
-  width:55%;
+  width:50%;
   float: right;
-  margin-bottom: 100px;
-  margin-right:15px;
+
+  margin-right:10px;
+  margin-top: -240px;
 }
 .space{
   width: 100%;
   padding-bottom: 500px;
+}
+
+.view-more{
+  text-align: center;
 }
