@@ -26,8 +26,8 @@ export const A = styled.a`
 
 export const Index = styled.div`
 	position: absolute;
-	width: 150px;
-	height: 150px;
+	width: 170px;
+	height: 170px;
 	background-color: coral;
 	border-radius: 4%;
 
@@ -36,14 +36,16 @@ export const Index = styled.div`
 	border: 3px solid white;
 
 	z-index: -1;
-  font-size: 2em;
+  font-size: 3em;
 
 
 	h1{
+    margin-top: -90px;
+		margin-left: -30px;
 
-		margin: 0;
 		weight: bold;
 		color: white;
+
 
 
 		transform: translateY(20%);
