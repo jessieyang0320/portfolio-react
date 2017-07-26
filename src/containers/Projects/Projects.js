@@ -41,7 +41,7 @@ class Projects extends Component {
                    </Reveal>
               </Index>
               <Reveal effect="animated slideInRight">
-                  <h1> Project One <A href="#" target="_blank">News Republic</A></h1>
+                  <h1> <A href="#" target="_blank">News Republic</A></h1>
               </Reveal>
           </Relative>
 
@@ -71,7 +71,7 @@ class Projects extends Component {
                     </Reveal>
                </Index>
                <Reveal effect="animated slideInRight">
-                   <h1> Project Two <A href="#" target="_blank">Responsive Web</A></h1>
+                   <h1> <A href="#" target="_blank">Responsive Web</A></h1>
                </Reveal>
            </Relative>
 
@@ -101,7 +101,7 @@ class Projects extends Component {
                    </Reveal>
               </Index>
               <Reveal effect="animated slideInRight">
-                  <h1> Project Three <A href="#" target="_blank">V-hab</A></h1>
+                  <h1> <A href="#" target="_blank">V-hab</A></h1>
               </Reveal>
           </Relative>
 
@@ -130,7 +130,7 @@ class Projects extends Component {
                    </Reveal>
               </Index>
               <Reveal effect="animated slideInRight">
-                  <h1> Project Four <A href="#" target="_blank">Charts Template</A></h1>
+                  <h1> <A href="#" target="_blank">Charts Template</A></h1>
               </Reveal>
           </Relative>
 
@@ -158,7 +158,7 @@ class Projects extends Component {
                    </Reveal>
               </Index>
               <Reveal effect="animated slideInRight">
-                  <h1> Project Five <A href="#" target="_blank">Vanilla JS</A></h1>
+                  <h1> <A href="#" target="_blank">Vanilla JS</A></h1>
               </Reveal>
           </Relative>
 
@@ -186,7 +186,7 @@ class Projects extends Component {
                    </Reveal>
               </Index>
               <Reveal effect="animated slideInRight">
-                  <h1> Project Six <A href="#" target="_blank">Photo Gallery</A></h1>
+                  <h1>  <A href="#" target="_blank">Photo Gallery</A></h1>
               </Reveal>
           </Relative>
 

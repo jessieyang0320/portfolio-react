@@ -1,4 +1,4 @@
-.talkbox {
+/*.talkbox {
   width:80%;
   padding: 150px;
   margin: 30px;
@@ -21,4 +21,40 @@
   font-size: 24px;
   padding: 10px,15px;
   margin: 40px,15px;
+}*/
+
+.content {
+
+  width: 70%;
+  border: 1px solid black;
+  margin:50px auto 20px auto;
+
+}
+
+.title {
+  margin-top:100px;
+  margin-bottom:0;
+  padding: 10px;
+  font-size:2em;
+}
+
+.left-conv{
+
+  float: left;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+
+.right-conv{
+  float:right;
+  margin-bottom: 20px;
+  text-align: right;
+
+}
+.clear-fix{
+  clear:both;
 }
