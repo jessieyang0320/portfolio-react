@@ -5,8 +5,10 @@ import { Background } from '../../theme/Background.style';
 import Footer from '../../components/Footer/Footer';
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
-import PartofMe from './partofMe.js'
-import Options from './options.js'
+import PartofMe from './partofMe.js';
+import Options from './options.js';
+import ClickHereCircle from '../../components/clickHere/clickHere';
+import { red } from '../../theme/variables'
 
 
 class AboutMe extends Component {
@@ -57,6 +59,7 @@ class AboutMe extends Component {
               Nice to meet you Jessie!
               <br/>
                tell me more about you,sth I do not know click to show response</p>
+               <ClickHereCircle color={red} className="clickHere"/>
             </div>
 
 
