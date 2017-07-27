@@ -1,32 +1,46 @@
-.travel {
-  position: relative;
-  left: 180px;
-  top: 80px;
+.options{
+  width:80%;
+  margin-left: -60px;
+  padding: 0;
 
-  width:70px;
-  height:70px;
-  border: 1px solid black;
-  border-radius: 50%;
+
+  background: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+/*.options {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}*/
+
+.travel {
+
 
 }
 
 .travel p{
- text-align: center;
- margin-top: 20px;
+
 }
 
 .entrepreneurial{
-  position: relative;
-  left: 380px;
-  top: 80px;
 
-  width:70px;
-  height:70px;
-  border: 1px solid black;
-  border-radius: 50%;
 }
 .entrepreneurial p{
- text-align: center;
- margin-top: 20px;
- margin-left: -30px;
+
 }
