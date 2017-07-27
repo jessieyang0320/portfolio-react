@@ -53,8 +53,15 @@
   float:right;
   margin-bottom: 20px;
   text-align: right;
+  cursor: pointer;
 
 }
 .clear-fix{
   clear:both;
+}
+
+.clickHere{
+  margin-top:-70px;
+  margin-left: 1000px;
+
 }

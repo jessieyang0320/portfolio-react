@@ -1,0 +1,32 @@
+.travel {
+  position: relative;
+  left: 180px;
+  top: 80px;
+
+  width:70px;
+  height:70px;
+  border: 1px solid black;
+  border-radius: 50%;
+
+}
+
+.travel p{
+ text-align: center;
+ margin-top: 20px;
+}
+
+.entrepreneurial{
+  position: relative;
+  left: 380px;
+  top: 80px;
+
+  width:70px;
+  height:70px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.entrepreneurial p{
+ text-align: center;
+ margin-top: 20px;
+ margin-left: -30px;
+}
