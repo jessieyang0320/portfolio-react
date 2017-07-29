@@ -8,7 +8,7 @@ class ButtonTwo extends Component {
 
     return (
       <div>
-        <button className="btn second">Button 2</button>
+         <div className="btn second">{this.props.name}</div>
 
       </div>
     );

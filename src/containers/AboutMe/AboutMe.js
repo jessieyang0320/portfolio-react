@@ -15,15 +15,11 @@ class AboutMe extends Component {
   constructor () {
      super()
      this.state = {
-       isHidden: true,
+
        showOptions: true
      }
    }
-   toggleHidden () {
-     this.setState({
-       isHidden: !this.state.isHidden
-     })
-   }
+
 
    showOptions () {
      this.setState({
@@ -65,7 +61,7 @@ class AboutMe extends Component {
 
 
 
-            <div className="left-conv">
+            <div>
 
                 {!this.state.showOptions && <Options />}
 
