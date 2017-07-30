@@ -1,34 +1,9 @@
-/*.talkbox {
-  width:80%;
-  padding: 150px;
-  margin: 30px;
-
-}
-
-.talk-left {
-  float: left;
-  color:red;
-  width: 75%;
-  font-size: 24px;
-  padding: 10px,15px;
-  margin: 40px,115px;
-}
-
-.talk-right {
-  float: right;
-  color:blue;
-  width: 75%;
-  font-size: 24px;
-  padding: 10px,15px;
-  margin: 40px,15px;
-}*/
 
 .content {
-
   width: 70%;
   border: 1px solid black;
   margin:50px auto 20px auto;
-
+  padding: 10px;
 }
 
 .title {
@@ -42,12 +17,7 @@
 
   float: left;
   margin-bottom: 20px;
-
-
 }
-
-
-
 
 .right-conv{
   float:right;
@@ -63,5 +33,4 @@
 .clickHere{
   margin-top:-70px;
   margin-left: 1000px;
-
 }

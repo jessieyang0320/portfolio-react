@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactZoomy from 'react-zoomy';
-import {ImageButton} from './Project.style';
+
 import {Relative, Flex} from '../../theme/grid';
 import { A, Index } from '../../theme/types';
 import Reveal from 'react-reveal';

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Container} from '../../theme/grid';
 import { HomeImage} from  './Home.style';
-
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 import './Home.css';

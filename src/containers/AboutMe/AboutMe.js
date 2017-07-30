@@ -5,7 +5,6 @@ import { Background } from '../../theme/Background.style';
 import Footer from '../../components/Footer/Footer';
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
-import PartofMe from './partofMe.js';
 import Options from './options.js';
 import ClickHereCircle from '../../components/clickHere/clickHere';
 import { red } from '../../theme/variables'
@@ -50,18 +49,18 @@ class AboutMe extends Component {
               Since you are here, I guess you want to know more about me</p>
             </div>
 
-            <div className="right-conv">
-              <p onClick={this.showOptions.bind(this)}>
+            <div className="right-conv" onClick={this.showOptions.bind(this)}>
+              <p >
               Nice to meet you Jessie!
               <br/>
-               tell me more about you,sth I do not know click to show response</p>
+               tell me more about you,sth I do not know</p>
                <ClickHereCircle color={red} className="clickHere"/>
             </div>
 
 
+  <div className="clear-fix"></div>
 
-
-            <div>
+            <div >
 
                 {!this.state.showOptions && <Options />}
 
@@ -71,7 +70,7 @@ class AboutMe extends Component {
 
 
 
-          <div className="clear-fix"></div>
+  <div className="clear-fix"></div>
           <Footer/>
 
       </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactZoomy from 'react-zoomy';
-import {ImageButton, Title} from './Project.style';
 import {Container, Relative, Flex} from '../../theme/grid';
 import { A, Index } from '../../theme/types';
 import NavigationBar from '../../components/NavigationBar/NavigationBar'
@@ -8,9 +7,8 @@ import Reveal from 'react-reveal'; // this package
 import 'animate.css/animate.css';
 import './Project.css';
 import { Background } from '../../theme/Background.style';
-import {Tooltip} from 'react-lightweight-tooltip';
 import Footer from '../../components/Footer/Footer';
-import SingleProject from './singleProject';
+
 
 
 
