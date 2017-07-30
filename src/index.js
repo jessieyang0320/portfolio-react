@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import RoutesMap from './routes';
 import registerServiceWorker from './registerServiceWorker';
-import './theme/globalStyle';
 
 
 ReactDOM.render(

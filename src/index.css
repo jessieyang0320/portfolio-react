@@ -1,11 +1,6 @@
-*{
+body {
   margin: 0;
   padding: 0;
-
-}
-body {
-
   font-family: 'VT323', cursive, sans-serif;
   font-size: 24px;
-
 }

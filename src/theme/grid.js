@@ -19,8 +19,8 @@ ${({ marginRight }) => marginRight && css`
 export const Container = styled(Div)`
   width: 80%;
   margin-top: 50px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-top:0;
 
   ${media.tablet`
@@ -40,7 +40,7 @@ export const Relative = styled(Div)`
 `
 
 export const Flex = styled(Div)`
-  
+
 	display: flex;
 
 	${({ column }) => column && css`

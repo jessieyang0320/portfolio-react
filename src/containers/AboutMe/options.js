@@ -1,50 +1,152 @@
-import React, { Component } from 'react';
-import './options.css';
-import ClickHereCircle from '../../components/clickHere/clickHere';
-import { red } from '../../theme/variables';
-import ButtonOne from '../../components/Buttons/button1';
-import ButtonTwo from '../../components/Buttons/button2';
-import ButtonThree from '../../components/Buttons/button3'
-
-class Options extends Component {
+import { CardStack, Card } from 'react-cardstack';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import people from './Facts/Facts';
 
 
-  render() {
+const Options = (props) => (
+	<div>
+		<CardStack
+			height={600}
+			width={900}
+			background="#f8f8f8"
+			hoverOffset={25}>
 
-    return (
-      <div>
-          <p>Sure,
-          <br/>
-          click on bubbles below to get to know more about me:</p>
-          <p> use a donut chart maybe</p>
+			{people.map((person, i) =>
+				<Card className="card"
+					key={i}
+					background={person.background}>
+					<TeamMemberCard {...person} />
+				</Card>
+			)}
 
-          <div className="options">
+		</CardStack>
+	</div>
+);
 
-              <div className="travel">
+const ProfilePicture = ({ imgSrc, borderColor }) => (
+	<img
+		style={{
+			width: '60px',
+			height: '60px',
+			borderRadius: '100%',
+			border: `3px solid ${borderColor}`,
+		}}
+		src={imgSrc}
+	/>
+);
 
-                <ButtonTwo name={'Travel'}/>
-                <ClickHereCircle color={red} className="clickHere"/>
-              </div>
+const ContentImg = ({ contentImg, borderColor }) => (
+	<img
+		style={{
+			width: '300px',
+			height: '200px',
+			borderRadius: '5%',
+			border: `3px solid ${borderColor}`,
+		}}
+		src = {contentImg}
+	/>
+);
 
-              <div className="entrepreneurial">
+const DetailsRow = ({ icon, title, summary }) => {
+	const renderSummary = () => {
+		if (summary)	return (
+			<p style={{ fontWeight: 300, lineHeight: 1.45 }}>
+				{summary}
+			</p>
+		);
+		return null;
+	};
 
-                <ButtonOne name={'StartUp'}/>
-              </div>
+	return (
+		<div style={styles.detailsRow.row}>
+			<span
+			className={`icon ${icon}`}
+			style={{ ...styles.detailsRow.icon, alignSelf: 'flex-start' }}
+			/>
+			<div style={{ width: '80%' }}>
+				<h2 style={styles.detailsRow.title}>
+					{title}
+				</h2>
+				{renderSummary()}
+			</div>
+		</div>
+	);
+};
 
-              <div className="coding-skills">
+const TeamMemberCard = (props) => (
+	<div style={{ position: 'absolute', top: 0 }} onClick={props.onClick}>
+		<header style={styles.cardHeader} className='card-header-details'>
+			<ProfilePicture imgSrc={props.imgSrc} borderColor={props.imgBorderColor} />
+			<div>
+				<h1 style={styles.headerName}>{props.name}</h1>
 
-                <ButtonThree/>
-              </div>
+			</div>
+		</header>
 
-              <div className="photography">
-                
-                <ButtonOne name={'photography'}/>
-              </div>
-          </div>
+		<div style={{color: '#fff'}}>
+			<DetailsRow
+				icon='ion-ios-telephone-outline'
+				title={props.mobileNo}
+			/>
 
-      </div>
-    );
-  }
-}
+      <ContentImg contentImg={props.contentImg} borderColor={props.imgBorderColor} />
 
-export default Options;
+			<DetailsRow
+				icon='icon ion-ios-paper-outline'
+				title='Article'
+				summary={props.role}
+			/>
+		</div>
+  </div>
+);
+
+const styles = {
+	cardHeader: {
+		display: 'flex',
+		height: '125px',
+		justifyContent: 'space-between',
+		alignItems: 'center',
+		padding: '10px 20px',
+		color: '#fff',
+	},
+	headerName: {
+		margin: 0,
+		fontWeight: 500,
+		fontSize: '25px',
+		textAlign: 'right'
+	},
+	headerTitle: {
+		margin: '4px 0 0',
+		fontWeight: 300,
+		fontSize: '17px',
+		opacity: 0.8,
+		textAlign: 'right'
+	},
+	detailsRow: {
+		row: {
+			width: '100%',
+			padding: '0 20px',
+			display: 'flex',
+			alignItems: 'center',
+			margin: '25px 0',
+		},
+		icon: {
+			display: 'block',
+			width: '25px',
+			height: '30px',
+			margin: '0 20px 0 0',
+			borderBottom: '1px solid rgba(255, 255, 255, 0.8)',
+			textAlign: 'center',
+			fontSize: '22px',
+		},
+		title: {
+			fontWeight: 500,
+			fontSize: '20px',
+			margin: 0,
+			fontStyle: 'italic',
+		},
+	},
+};
+
+export default Options
