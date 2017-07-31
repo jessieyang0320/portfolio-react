@@ -1,152 +1,62 @@
-import { CardStack, Card } from 'react-cardstack';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import people from './Facts/Facts';
+import React, { Component } from 'react';
+import './options.css';
+import ButtonTwo from '../../components/Buttons/button2';
+import Travel from './Facts/travel';
+import Entreprenuer from './Facts/entreprenuer';
+
+class Options extends Component {
+  constructor () {
+     super()
+     this.state = {
+       travel: true,
+       entreprenuer: true
+
+     }
+   }
+   toggleEntreprenuer () {
+
+     this.setState({
+        entreprenuer: !this.state.entreprenuer
+     })
+   }
+   toggleTravel () {
+
+     this.setState({
+       travel: !this.state.travel
+     })
+   }
 
 
-const Options = (props) => (
-	<div>
-		<CardStack
-			height={600}
-			width={900}
-			background="#f8f8f8"
-			hoverOffset={25}>
+  render() {
 
-			{people.map((person, i) =>
-				<Card className="card"
-					key={i}
-					background={person.background}>
-					<TeamMemberCard {...person} />
-				</Card>
-			)}
+    return (
+      <div className = "option-container">
+          <p>Sure,
+          <br/>
+          click on bubbles below to get to know more about me:</p>
 
-		</CardStack>
-	</div>
-);
 
-const ProfilePicture = ({ imgSrc, borderColor }) => (
-	<img
-		style={{
-			width: '60px',
-			height: '60px',
-			borderRadius: '100%',
-			border: `3px solid ${borderColor}`,
-		}}
-		src={imgSrc}
-	/>
-);
+          <div className = "options">
 
-const ContentImg = ({ contentImg, borderColor }) => (
-	<img
-		style={{
-			width: '300px',
-			height: '200px',
-			borderRadius: '5%',
-			border: `3px solid ${borderColor}`,
-		}}
-		src = {contentImg}
-	/>
-);
 
-const DetailsRow = ({ icon, title, summary }) => {
-	const renderSummary = () => {
-		if (summary)	return (
-			<p style={{ fontWeight: 300, lineHeight: 1.45 }}>
-				{summary}
-			</p>
-		);
-		return null;
-	};
+							<div className='buttons'>
+			            <button className="btn first" onClick= {this.toggleTravel.bind(this)}>entrepreneur</button>
+			            <button className="btn second" onClick= {this.toggleEntreprenuer.bind(this)}>Travel</button>
+			            <button className="btn third">Photography</button>
+			            <button className="btn fourth">Coding</button>
+			            <button className="btn fifth">Quirks</button>
 
-	return (
-		<div style={styles.detailsRow.row}>
-			<span
-			className={`icon ${icon}`}
-			style={{ ...styles.detailsRow.icon, alignSelf: 'flex-start' }}
-			/>
-			<div style={{ width: '80%' }}>
-				<h2 style={styles.detailsRow.title}>
-					{title}
-				</h2>
-				{renderSummary()}
-			</div>
-		</div>
-	);
-};
+			        </div>
 
-const TeamMemberCard = (props) => (
-	<div style={{ position: 'absolute', top: 0 }} onClick={props.onClick}>
-		<header style={styles.cardHeader} className='card-header-details'>
-			<ProfilePicture imgSrc={props.imgSrc} borderColor={props.imgBorderColor} />
-			<div>
-				<h1 style={styles.headerName}>{props.name}</h1>
+              <div className="show-aspect">
+                  {!this.state.travel && <Travel />}
+                  {!this.state.entreprenuer && <Entreprenuer/>}
 
-			</div>
-		</header>
+              </div>
+        </div>
+      </div>
+    );
+  }
+}
 
-		<div style={{color: '#fff'}}>
-			<DetailsRow
-				icon='ion-ios-telephone-outline'
-				title={props.mobileNo}
-			/>
-
-      <ContentImg contentImg={props.contentImg} borderColor={props.imgBorderColor} />
-
-			<DetailsRow
-				icon='icon ion-ios-paper-outline'
-				title='Article'
-				summary={props.role}
-			/>
-		</div>
-  </div>
-);
-
-const styles = {
-	cardHeader: {
-		display: 'flex',
-		height: '125px',
-		justifyContent: 'space-between',
-		alignItems: 'center',
-		padding: '10px 20px',
-		color: '#fff',
-	},
-	headerName: {
-		margin: 0,
-		fontWeight: 500,
-		fontSize: '25px',
-		textAlign: 'right'
-	},
-	headerTitle: {
-		margin: '4px 0 0',
-		fontWeight: 300,
-		fontSize: '17px',
-		opacity: 0.8,
-		textAlign: 'right'
-	},
-	detailsRow: {
-		row: {
-			width: '100%',
-			padding: '0 20px',
-			display: 'flex',
-			alignItems: 'center',
-			margin: '25px 0',
-		},
-		icon: {
-			display: 'block',
-			width: '25px',
-			height: '30px',
-			margin: '0 20px 0 0',
-			borderBottom: '1px solid rgba(255, 255, 255, 0.8)',
-			textAlign: 'center',
-			fontSize: '22px',
-		},
-		title: {
-			fontWeight: 500,
-			fontSize: '20px',
-			margin: 0,
-			fontStyle: 'italic',
-		},
-	},
-};
-
-export default Options
+export default Options;
