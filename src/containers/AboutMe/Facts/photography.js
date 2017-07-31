@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ImageSlick from '../../../components/ImageSlick/ImageSlick'
 
-class Travel extends Component {
+class Photography extends Component {
 
   render() {
     return (
       <div>
-        <h1>This is the Travel Part</h1>
+        <h1>This is the Photography Part</h1>
         <ImageSlick/>
 
       </div>
@@ -14,4 +14,4 @@ class Travel extends Component {
   }
 }
 
-export default Travel;
+export default Photography;
