@@ -6,48 +6,51 @@ import Entreprenuer from './Facts/entreprenuer';
 import Photography from './Facts/photography';
 import Coding from './Facts/coding';
 import RandomFacts from './Facts/randomfacts';
+import Accounting from './Facts/accounting';
 
 class Options extends Component {
   constructor () {
      super()
      this.state = {
-       travel: true,
-       entreprenuer: true,
-       photography: true,
-       coding:true,
-       randomfacts:true
+       active: ""
 
      }
    }
    toggleEntreprenuer () {
 
      this.setState({
-        entreprenuer: !this.state.entreprenuer
+        active: "entreprenuer"
      })
    }
    toggleTravel () {
 
      this.setState({
-       travel: !this.state.travel
+       active: "travel"
      })
    }
 
    togglePhotography () {
-
      this.setState({
-       photography: !this.state.photography
+       active: "photography"
      })
    }
    toggleCoding () {
 
      this.setState({
-       coding: !this.state.coding
+       active: "coding"
      })
    }
    toggleRandomFacts () {
 
      this.setState({
-       randomfacts: !this.state.randomfacts
+       active: "randomfacts"
+     })
+   }
+
+   toggleAccounting () {
+
+     this.setState({
+       active: "accounting"
      })
    }
 
@@ -70,15 +73,17 @@ class Options extends Component {
 			            <button className="btn third" onClick= {this.togglePhotography.bind(this)}>Photography</button>
 			            <button className="btn fourth" onClick= {this.toggleCoding.bind(this)}>Coding</button>
 			            <button className="btn fifth" onClick= {this.toggleRandomFacts.bind(this)}>Quirks</button>
+                  <button className="btn fourth" onClick= {this.toggleAccounting.bind(this)}>Accounting</button>
 
 			        </div>
 
               <div className="show-aspect">
-                  {!this.state.travel && <Travel />}
-                  {!this.state.entreprenuer && <Entreprenuer/>}
-                  {!this.state.photography && <Photography/>}
-                  {!this.state.coding && <Coding/>}
-                  {!this.state.randomfacts && <RandomFacts/>}
+                  {this.state.active==="travel" ? <Travel /> : null}
+                  {this.state.active === "entreprenuer" ? <Entreprenuer/>:null}
+                  {this.state.active === "photography" ? <Photography/> : null}
+                  {this.state.active === "coding" ? <Coding/> : null}
+                  {this.state.active === "randomfacts" ? <RandomFacts/> : null}
+                  {this.state.active === "accounting" ? <Accounting/> : null}
 
               </div>
         </div>

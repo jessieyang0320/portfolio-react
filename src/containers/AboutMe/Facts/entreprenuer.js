@@ -12,12 +12,17 @@ class Entreprenuer extends Component {
         <h1>This is the Entreprenuer Part</h1>
         <img src="" alt=""/>
         <ImageSlick/>
-        <p>And not just so you can say “Yarr”! (Although that’s really fun, isn’t it? Go ahead. Say it one more time. Yarr!) Being a pirate here means looking around at the work other people are doing and using it as inspiration for your own portfolio.
-        And not just so you can say “Yarr”! (Although that’s really fun, isn’t it? Go ahead. Say it one more time. Yarr!) Being a pirate here means looking around at the work other people are doing and using it as inspiration for your own portfolio.
-        And not just so you can say “Yarr”! (Although that’s really fun, isn’t it? Go ahead. Say it one more time. Yarr!) Being a pirate here means looking around at the work other people are doing and using it as inspiration for your own portfolio.
-        And not just so you can say “Yarr”! (Although that’s really fun, isn’t it? Go ahead. Say it one more time. Yarr!) Being a pirate here means looking around at the work other people are doing and using it as inspiration for your own portfolio.
-        And not just so you can say “Yarr”! (Although that’s really fun, isn’t it? Go ahead. Say it one more time. Yarr!) Being a pirate here means looking around at the work other people are doing and using it as inspiration for your own portfolio.
-        And not just so you can say “Yarr”! (Although that’s really fun, isn’t it? Go ahead. Say it one more time. Yarr!) Being a pirate here means looking around at the work other people are doing and using it as inspiration for your own portfolio.
+        <p>
+        1. entrepreneur:   I consider myself a person with leadership and entrepreneur spirit.
+        I started a company named MagiTech in 2015. Our goal is to change how people
+        grow vegetables in China. Inspired by <a href="https://www.theaquaponicsource.com/what-is-aquaponics/">Aquaponic system</a>, me and my business partner
+        redesigned a solar powered greenhouse, inside it, we utilized Aquaponic system to
+        grow vegetables and keep fish, all these products are organic. Pro: organic,
+        no fertilizer or pesticide, no pollution to water or soil  Con: hard to maintain,
+        high cost. We got seed fund from Chinese local government and started our project
+        picture: 1234  绿色
+        
+
         </p>
 
       </div>
