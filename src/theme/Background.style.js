@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { backgroundblue} from './variables'
+import { backgroundblue, wildBlue,almond} from './variables'
 
 export const Background = styled.div`
   position: fixed;
   background-image: url(${require('../assets/head2.png')});
-  background-color: ${backgroundblue};
+  background-color: white;
   z-index: -99;
   background-size:50%;
   top: 140px;
@@ -13,5 +13,5 @@ export const Background = styled.div`
   height:80vh;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.35;
+  opacity: 0.3;
 `
