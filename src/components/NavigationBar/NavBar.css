@@ -2,7 +2,7 @@
   position: fixed;
   top:0;
   width:100%;
-  background-color: beige;
+
   padding: 20px;
 }
 
@@ -19,7 +19,7 @@
 
 .navbar a {
   text-decoration: none;
-  color: #2398FF;
+  color: white;
   padding: 10px 10px;
 
   cursor: pointer;
