@@ -6,8 +6,10 @@ class Travel extends Component {
   render() {
     return (
       <div>
+
         <h1>This is the Travel Part</h1>
-        <ImageSlick/>
+        <img src={require("../../../assets/travelMap.png")}/>
+
 
       </div>
     );
