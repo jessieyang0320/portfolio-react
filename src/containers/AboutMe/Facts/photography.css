@@ -1,0 +1,20 @@
+.photoContainer{
+  background-color: #D9F49A;
+
+}
+.photoTitle {
+  
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+
+}
+.photoArticle {
+  display:block;
+  width:80%;
+  margin:auto;
+  text-align: center;
+  padding:15px;
+  color: black;
+
+}

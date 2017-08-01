@@ -1,3 +1,36 @@
+.codingContainer{
+  background: white;
+
+}
+.codingTitle {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+  color:gray;
+}
+.codingArticle {
+
+  display:block;
+  width:80%;
+  margin:auto;
+  text-align: center;
+  padding:15px;
+  color: gray;
+
+
+}
+
+.skill-icons{
+ display: block;
+ width: 80%;
+
+  margin: 0 auto;
+}
+
 svg {
-  width: 2em;
+
+
+  width: 10%;
+  padding: 15px;
+  margin-right: 10px;
 }

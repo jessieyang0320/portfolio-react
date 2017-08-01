@@ -37,6 +37,7 @@ class AboutMe extends Component {
 
           <div className="title">
             Getting to Know Me
+             I am a combination of business, technology and artist 
           </div>
 
           <div className="content">

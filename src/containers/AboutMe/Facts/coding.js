@@ -6,9 +6,9 @@ class Coding extends Component {
 
   render() {
     return (
-      <div>
-        <h1>This is the Coding Skills Part</h1>
-        <p>
+      <div className="codingContainer">
+        <h1 className="codingTitle">This is the Coding Skills Part</h1>
+        <p className="codingArticle">
         2. coding skills: I started teaching myself coding when I realized
         I need a landing page for my business. I learn things online,
         youtube, medium, blog, so many new things to learn.

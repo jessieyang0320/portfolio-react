@@ -13,17 +13,15 @@ class Options extends Component {
      super()
      this.state = {
        active: ""
-
      }
    }
    toggleEntreprenuer () {
-
      this.setState({
         active: "entreprenuer"
      })
    }
-   toggleTravel () {
 
+   toggleTravel () {
      this.setState({
        active: "travel"
      })
@@ -34,21 +32,20 @@ class Options extends Component {
        active: "photography"
      })
    }
-   toggleCoding () {
 
+   toggleCoding () {
      this.setState({
        active: "coding"
      })
    }
-   toggleRandomFacts () {
 
+   toggleRandomFacts () {
      this.setState({
        active: "randomfacts"
      })
    }
 
    toggleAccounting () {
-
      this.setState({
        active: "accounting"
      })
