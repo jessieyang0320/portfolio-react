@@ -1,0 +1,27 @@
+.entrepreneurContainer {
+  background-color:#4DC65B;
+}
+img{
+  width: 80%;
+  border-radius: 6px;
+}
+
+.entrepreneurimageSlide {
+  margin: 0 auto;
+  padding-bottom: 5px;
+  width: 70%;
+  color: #333;
+  background: #4DC65B;
+}
+
+.entrepreneurArticle {
+  margin: 0 auto;
+  width:80%;
+  text-align: center;
+  padding:20px;
+}
+
+.entrepreneurTitle {
+  text-align: center;
+  margin: 10px auto;
+}

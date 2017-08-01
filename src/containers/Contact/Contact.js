@@ -21,6 +21,16 @@ class Contact extends Component {
             <button className="btn fifth">Button 5</button>
             <button className="btn sixth">Button 6</button>
         </div>
+        <nav className="menu">
+          <ul>
+            <li><a href="#products">LinkedIn</a></li>
+            <li><a href="#services">Github</a></li>
+            <li><a href="#careers">Resume</a></li>
+            <li><a href="#about">Email</a></li>
+            <li><a href="#contact">Medium</a></li>
+          
+          </ul>
+       </nav>
        </Container>
         <Footer/>
       </div>

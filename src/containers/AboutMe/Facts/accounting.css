@@ -1,0 +1,19 @@
+.accountingContainer {
+  background-color: #6B4310;
+
+}
+.accountingTitle {
+
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+
+
+}
+.accountingArticle {
+  display:block;
+  width:80%;
+  margin:auto;
+  text-align: center;
+  padding:15px;
+}
