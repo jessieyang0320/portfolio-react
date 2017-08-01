@@ -7,6 +7,7 @@ export const Image = styled.img`
 export const HomeImage = styled.div`
 
 	height: 100vh;
+	width:100%;
 	background-image: url('${require('../../assets/home.jpg')}');
 	background-repeat: no-repeat;
 	background-size: cover;
