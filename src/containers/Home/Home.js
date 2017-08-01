@@ -13,7 +13,7 @@ class Home extends Component {
 
     return (
 <div>
-      <Container>
+      <div>
 
         <HomeImage>
 
@@ -35,8 +35,7 @@ class Home extends Component {
               <div className="powerful-frameworks">
                 <Reveal effect="animated flipInY">
                   <div className = "skill-circle">
-                      <img src = {require('../../assets/react-icon.png')}
-                      alt="framework"/>
+                      <Icon className="icon" code name="code" size="3x"/>
 
                   </div>
                   <div className="seperate"></div>
@@ -58,7 +57,7 @@ class Home extends Component {
               <div className="ready-to-go">
               <Reveal effect="animated flipInY">
                   <div className = "skill-circle">
-                     <Icon paper-plane name="paper-plane" size="4x"/>
+                     <Icon className="icon" name="paper-plane" size="3x"/>
                   </div>
 
                   <div className="seperate"></div>
@@ -81,7 +80,7 @@ class Home extends Component {
               <div className="secure-database">
               <Reveal effect="animated flipInY">
                   <div className = "skill-circle">
-                    <Icon database name="database" size="4x"/>
+                    <Icon className="icon" name="database" size="3x"/>
                   </div>
 
                   <div className="seperate"></div>
@@ -101,8 +100,7 @@ class Home extends Component {
               <div className="up-to-date">
               <Reveal effect="animated flipInY">
                   <div className = "skill-circle">
-                      <img src = {require('../../assets/nodejs.png')}
-                       alt="uptodate"/>
+                      <Icon className="icon" name="battery-full" size="3x"/>
                   </div>
 
                   <div className="seperate"></div>
@@ -122,7 +120,7 @@ class Home extends Component {
 
        </div>
 
-      </Container>
+      </div>
       <Footer/>
 </div>
     );
