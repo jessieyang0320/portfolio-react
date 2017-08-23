@@ -17,7 +17,7 @@ export const HomeImage = styled.div`
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-
+	
 	text-align: center;
 	color:white;
 

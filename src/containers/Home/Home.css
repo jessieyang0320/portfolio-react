@@ -2,6 +2,49 @@
   margin:0;
   padding: 0;
 }
+
+/*.line-1 {
+  color: White; 
+  
+  font-size: 60px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+.line-1:nth-child(2){
+  animation: type2 8s steps(60, end);
+}*/
+
+
+
+/*span{
+  animation: blink 1s infinite;
+}*/
+
+/*@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}*/
+.homecontainer{
+  width: 80%;
+  margin:0 auto;
+}
 .passage-block {
   width: 600px;
 
@@ -46,12 +89,8 @@
 }
 
 .icon{
-  border-radius: 50%;
-
-  padding: 20px;
-
   background: beige;
-  margin: 15px 0;
+  margin: 25px 0;
 
 }
 .seperate{
@@ -71,6 +110,5 @@
 .skill-detail{
   text-align: center;
   font-size: 20px;
-
 
 }
