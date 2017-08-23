@@ -5,20 +5,24 @@ import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 import './Home.css';
 import Footer from '../../components/Footer/Footer';
-import {Icon} from 'react-fa'
+import {Icon} from 'react-fa';
+import ScrollDown from '../../components/ScrollDown/ScrollDown'
 
 class Home extends Component {
 
   render() {
 
     return (
-<div>
+<div className="homecontainer">
       <div>
 
         <HomeImage>
 
-          <h1>Jessie Yang</h1>
-          <h1>Front End Developer</h1>
+          <h1 className="line-1 anim-typewriter">I am Jessie Yang</h1>
+          <h1 className="line-1 anim-typewriter">
+          Front End Developer</h1>
+
+          <ScrollDown/>
 
         </HomeImage>
 

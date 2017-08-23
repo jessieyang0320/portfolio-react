@@ -1,3 +1,4 @@
+
 .navbar {
   position: fixed;
   top:0;
@@ -19,15 +20,15 @@
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: #626B6A;
   padding: 10px 10px;
 
   cursor: pointer;
 
 }
 .navbar a:hover{
-  color: yellow;
-  background-color: coral;
+  color: white;
+  background-color: #6FA8A7;
   transform: scale(1.2,1.2);
   border-radius: 5%;
 
