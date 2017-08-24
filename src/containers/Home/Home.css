@@ -42,73 +42,241 @@
   background: black;
 }*/
 .homecontainer{
-  width: 80%;
+  width: 94%;
+  max-width: 1170px;
   margin:0 auto;
 }
-.passage-block {
-  width: 600px;
 
-  margin: 20px auto;
-}
 .self-description {
+
   padding: 90px 20px;
   margin-top: 0;
-  background-color:#DD5444;
+  background-color:#DEDECD;
 }
 .self-description p {
   width: 80%;
+  max-width: 900px;
   text-align: center;
   margin: auto;
 }
 .skills{
-  display: flex;
+  width: 94%;
+  max-width: 1170px;
+  margin:0 auto;
+  
+  
 }
+
 .skill-box{
-  display:block;
-  width:100%;
-  border: 1px solid black;
-  padding: 30px;
-  background:  beige;
-  color: gray;
-
-
+  width: 20.6%;
+  float:left;
+  margin-right: 5.86%;
+  text-align: center;
+  font-size:15px;
+  margin-top:-45px;
+  line-height:25px;
 }
+
+.skill-box-last{
+    width:20.6%;
+    float:left;
+    text-align:center;
+    font-size:15px;
+    margin-top:-45px;
+    line-height:25px;
+}
+
 
 .skill-circle{
-  background-color: beige;
-  margin: -80px auto;
-  /*margin-top:-80px;
-  margin-left: 10px;*/
-  width:130px;
-  height: 130px;
- /*border: 1px solid black;*/
- color: #DD5444;
- border-radius: 50%;
- text-align: center;
-
+  background-color:#EEEFE5;
+  width:112px;
+  height:96px;
+  text-align:center;
+  padding-top:16px;
+  margin:0px auto;
+  -moz-border-radius: 56px;
+  -webkit-border-radius: 56px;
+  border-radius: 56px;
+  -khtml-border-radius: 56px;
 }
+
+
 
 .icon{
-  background: beige;
-  margin: 25px 0;
-
+    width:73.2%;
+    max-width:82px;
+    margin: 18px 0;
 }
 .seperate{
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 35px auto 35px auto;
   background: #DD5444;
   width: 20%;
   height: 2px;
 }
 
+
 .skill-title{
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 25px;
+  font-size:20px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin-bottom: 20px;
 }
 .skill-detail{
   text-align: center;
   font-size: 20px;
 
 }
+
+.clear-fix {
+  height:100px;
+  width:100%;
+  clear:both;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 980px){
+.self-description {
+  padding:62px 0px 92px 0px;
+}
+.self-description p{
+  font-size:24px;
+  line-height:35px;
+}
+
+
+.skill-box {
+  font-size:14px;
+  line-height:20px;
+}
+.skill-box-last {
+  font-size:14px;
+  line-height:20px;
+}
+
+.clear-fix{
+  height:80px;
+  width:100%;
+  clear:both;
+}
+
+}
+
+@media screen and (max-width: 820px){
+
+}
+
+@media screen and (max-width: 750px){
+
+.homecontainer{
+  width: 100%;
+  max-width: 1170px;
+  margin:0 auto;
+}
+
+.self-description {
+  padding:52px 0px 52px 0px;
+}
+.self-description p{
+  font-size:20px;
+  line-height:30px;
+}
+
+/*skill box parts*/
+
+.powerful-frameworks {
+  background-image:url(../../assets/home-icons/icon1.png);
+  background-size:67px 66px;
+  background-repeat:no-repeat;
+  background-position:top left;
+  padding-left:85px;
+}
+.ready-to-go {
+  background-image:url(../../assets/home-icons/icon2.png);
+  background-size:67px 66px;
+  background-repeat:no-repeat;
+  background-position:top left;
+  padding-left:85px;
+}
+.secure-database {
+  background-image:url(../../assets/home-icons/icon1.png);
+  background-size:67px 66px;
+  background-repeat:no-repeat;
+  background-position:top left;
+  padding-left:85px;
+}
+.up-to-date {
+  background-image:url(../../assets/home-icons/icon3.png);
+  background-size:67px 66px;
+  background-repeat:no-repeat;
+  background-position:top left;
+  padding-left:85px;
+}
+
+.skills{
+    width:94%;
+    max-width:1200px;
+    margin:60px auto 0px auto;
+
+}
+
+.skill-box {
+  width:94%;
+  float:none;
+  margin-right:3%;
+  margin-left:3%;
+  text-align:left;
+  font-size:14px;
+  margin-top:30px;
+  line-height:20px;
+}
+.skill-box-last {
+  width:94%;
+  float:none;
+  margin-right:3%;
+  margin-left:3%;
+  text-align:left;
+  font-size:14px;
+  margin-top:30px;
+  line-height:20px;
+}
+
+.skill-circle {
+  display:none;
+}
+.skill-title {
+  font-size:18px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin-bottom:6px;
+}
+.skill-detail{
+   display:inline-block;
+}
+.seperate {
+  display:none;
+}
+
+.clear-fix{
+  height:60px;
+  width:100%;
+  clear:both;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
