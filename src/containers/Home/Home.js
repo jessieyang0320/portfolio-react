@@ -6,7 +6,7 @@ import 'animate.css/animate.css';
 import './Home.css';
 import Footer from '../../components/Footer/Footer';
 import {Icon} from 'react-fa';
-import ScrollDown from '../../components/ScrollDown/ScrollDown'
+// import ScrollDown from '../../components/ScrollDown/ScrollDown'
 
 class Home extends Component {
 
@@ -22,7 +22,7 @@ class Home extends Component {
           <h1 className="line-1 anim-typewriter">
           Front End Developer</h1>
 
-          <ScrollDown/>
+          
 
         </HomeImage>
 
@@ -100,7 +100,7 @@ class Home extends Component {
               </div>
           </div>
 
-          <div className="skill-box">
+          <div className="skill-box-last">
               <div className="up-to-date">
               <Reveal effect="animated flipInY">
                   <div className = "skill-circle">
@@ -120,11 +120,10 @@ class Home extends Component {
               </div>
           </div>
 
-
-
        </div>
-
+        <div className="clear-fix"></div>
       </div>
+
       <Footer/>
 </div>
     );
