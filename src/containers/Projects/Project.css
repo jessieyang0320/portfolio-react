@@ -10,10 +10,9 @@
 
 .project{
   width:100%;
-  
   height: auto;
-  
-  margin-bottom: 300px;
+  margin-bottom: 100px;
+  border:1px solid black;
   
 }
 
@@ -177,7 +176,12 @@ img{
   width:100%;
 }
 
-
+.project{
+  width:100%;
+  height: auto;
+  margin-bottom: 30px;
+  
+}
 
 .fly-left {
   width:100%;

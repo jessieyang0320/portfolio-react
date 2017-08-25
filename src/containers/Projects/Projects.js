@@ -79,7 +79,7 @@ class Projects extends Component {
                     </div>   
 
 
-                    <Modal className="project" key="1" title="Project Info" visible={this.state.visible} onOk={this.handleOk} onCancel={this.handleCancel}>  
+                    <Modal  key="1" title="Project Info" visible={this.state.visible} onOk={this.handleOk} onCancel={this.handleCancel}>  
                         <div id='inline_content'  visible={this.state.visible}>
                               <div className="popUpLeft">
                                 <img src={require('../../assets/projects/example.jpg')} alt="" />
@@ -96,7 +96,9 @@ class Projects extends Component {
                               </div>
                               <div className="space"></div>
                           </div>
-                    </Modal>          
+                    </Modal>  
+
+                    <div className="clear-fix"></div>        
                 </div>
 
 
@@ -131,7 +133,8 @@ class Projects extends Component {
                               </div>
                               <div className="space"></div>
                           </div>
-                    </Modal>          
+                    </Modal>  
+                    <div className="clear-fix"></div>        
                 </div>
 
 
