@@ -8,11 +8,43 @@ import 'animate.css/animate.css';
 import './Project.css';
 import { Background } from '../../theme/Background.style';
 import Footer from '../../components/Footer/Footer';
+import { Modal } from 'antd';
+
 
 
 
 
 class Projects extends Component {
+  constructor(){
+    super()
+    this.state={
+      visible:false,
+      key:''
+    }
+  }
+
+  showModal = (e)=>{
+    console.log(e.target)
+    this.setState({
+      visible:true,
+      key: this.key
+    })
+  }
+
+  handleOk = (e) => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+  }
+  handleCancel = (e) => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+  }
+
+
   render() {
     return (
 
@@ -20,194 +52,114 @@ class Projects extends Component {
         <NavigationBar/>
         <Background/>
 
-      <Container>
-      <Reveal effect="animated fadeInUp" className="passage-block">
-          <p>
-              I made beautiful and functional website with React, Nodejs, Express, Rails, MongoDB, Postgres.
-              and as a VR enthusiast, I made VR apps too.
+      <div className="projects-container">
+              <Reveal effect="animated fadeInUp" className="passage-block">
+                  <p>
+                      I made beautiful and functional website with React, Nodejs, Express, Rails, MongoDB, Postgres.
+                      and as a VR enthusiast, I made VR apps too.
 
-          </p>
+                  </p>
 
-      </Reveal>
-
-
-      <div className = "project-block">
-          <Relative marginBottom="60px" className="project-title">
-              <Index>
-                   <Reveal effect="animated slideInDown">
-                     <h1>01</h1>
-                   </Reveal>
-              </Index>
-              <Reveal effect="animated slideInRight">
-                  <h1> <A href="#" target="_blank">News Republic</A></h1>
               </Reveal>
-          </Relative>
-
-          <div className="description-block">
-              <p>News Republic is a news feed website made with Nodejs and ReactJS</p>
-
-              <div className = 'buttons'>
-                  <button> <a href="#"> github</a></button>
-                  <button><a href="#"> Demo</a></button>
-              </div>
-          </div>
-
-          <Reveal className="showPic" effect="animated fadeInUp">
-              <img src = {require('../../assets/news-republic.png')}
-               alt="project"/>
-         </Reveal>
-
-      </div>
 
 
+            <div className = "project-block">
 
-       <div className = "project-block">
-           <Relative marginBottom="60px" className="project-title">
-               <Index>
-                    <Reveal effect="animated slideInDown">
+
+                <div className="project">               
+                    <div className="fly-left animated slideInLeft">
+                        <h1>01</h1>
+                        <h1> <A className="p-title" href="#" target="_blank">News Republic</A></h1>
+                     </div>
+                
+                  
+                    <div className="fly-right animated slideInRight">
+                        <img src = {require('../../assets/news-republic.png')}
+                     alt="project" onClick={this.showModal} key="1"/>
+                    </div>   
+
+
+                    <Modal className="project" key="1" title="Project Info" visible={this.state.visible} onOk={this.handleOk} onCancel={this.handleCancel}>  
+                        <div id='inline_content'  visible={this.state.visible}>
+                              <div className="popUpLeft">
+                                <img src={require('../../assets/projects/example.jpg')} alt="" />
+                              </div>
+                              <div className="popUpRight">
+                                <div className="popUpTitle">News Republic</div>
+                                    <div className="popUpTech">ReactJS</div>
+                                    <div className="popUpTech">Responsive</div>
+                                    <div className="popUpTech">Web Desgin</div>
+                                    <div className="popUpTech">API</div>
+                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                  <br/><br/>
+                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                              </div>
+                              <div className="space"></div>
+                          </div>
+                    </Modal>          
+                </div>
+
+
+
+                <div className="project">               
+                    <div className="fly-left animated slideInLeft">
                         <h1>02</h1>
-                    </Reveal>
-               </Index>
-               <Reveal effect="animated slideInRight">
-                   <h1> <A href="#" target="_blank">Responsive Web</A></h1>
-               </Reveal>
-           </Relative>
-
-           <div className="description-block">
-               <p>This is a pure front end responsive designed website, HTML CSS and JS</p>
-
-               <div className = 'buttons'>
-                   <button> <a href="#"> github</a></button>
-                   <button><a href="#"> Demo</a></button>
-               </div>
-           </div>
-
-           <Reveal className="showPic" effect="animated fadeInUp">
-               <img src = {require('../../assets/responsive-website.png')}
-                alt="project"/>
-          </Reveal>
-
-       </div>
+                        <h1> <A className="p-title" href="#" target="_blank">V-Hab</A></h1>
+                     </div>
+                
+                  
+                    <div className="fly-right animated slideInRight">
+                        <img src = {require('../../assets/v-hab.png')}
+                     alt="project" onClick={this.showModal}/>
+                    </div>   
 
 
+                    <Modal title="Project Info" visible={this.state.visible} onOk={this.handleOk} onCancel={this.handleCancel}>  
+                        <div id='inline_content'  visible={this.state.visible}>
+                              <div className="popUpLeft">
+                                <img src={require('../../assets/projects/example.jpg')} alt="" />
+                              </div>
+                              <div className="popUpRight">
+                                <div className="popUpTitle">V-Hab</div>
+                                    <div className="popUpTech">ThreeJS</div>
+                                    <div className="popUpTech">VR</div>
+                                    <div className="popUpTech">Web Desgin</div>
+                                    <div className="popUpTech">API</div>
+                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                  <br/><br/>
+                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                              </div>
+                              <div className="space"></div>
+                          </div>
+                    </Modal>          
+                </div>
 
-      <div className = "project-block">
-          <Relative marginBottom="60px" className="project-title">
-              <Index>
-                   <Reveal effect="animated slideInDown">
-                      <h1>03</h1>
-                   </Reveal>
-              </Index>
-              <Reveal effect="animated slideInRight">
-                  <h1> <A href="#" target="_blank">V-hab</A></h1>
-              </Reveal>
-          </Relative>
 
-          <div className="description-block">
-              <p>V-Hab is s VR game for hand rehab, made with LeapMotion SDK, Three.js</p>
 
-              <div className = 'buttons'>
-                  <button> <a href="#"> github</a></button>
-                  <button><a href="#"> Demo</a></button>
-              </div>
-          </div>
 
-          <Reveal className="showPic" effect="animated fadeInUp">
-              <img src = {require('../../assets/v-hab.png')}
-               alt="project"/>
-         </Reveal>
+
 
       </div>
 
 
-      <div className = "project-block">
-          <Relative marginBottom="60px" className="project-title">
-              <Index>
-                   <Reveal effect="animated slideInDown">
-                      <h1>04</h1>
-                   </Reveal>
-              </Index>
-              <Reveal effect="animated slideInRight">
-                  <h1> <A href="#" target="_blank">Charts Template</A></h1>
-              </Reveal>
-          </Relative>
 
-          <div className="description-block">
-              <p>A data visualiztion template, made with html css and js </p>
+       
 
-              <div className = 'buttons'>
-                  <button> <a href="#"> github</a></button>
-                  <button><a href="#"> Demo</a></button>
-              </div>
-          </div>
 
-          <Reveal className="showPic" effect="animated fadeInUp">
-              <img src = {require('../../assets/data.png')}
-               alt="project"/>
-         </Reveal>
 
-      </div>
+      
 
-      <div className = "project-block">
-          <Relative marginBottom="60px" className="project-title">
-              <Index>
-                   <Reveal effect="animated slideInDown">
-                      <h1>05</h1>
-                   </Reveal>
-              </Index>
-              <Reveal effect="animated slideInRight">
-                  <h1> <A href="#" target="_blank">Vanilla JS</A></h1>
-              </Reveal>
-          </Relative>
 
-          <div className="description-block">
-              <p>A collection of small apps made with vanilla JavaScript and CSS</p>
+     
 
-              <div className = 'buttons'>
-                  <button> <a href="#"> github</a></button>
-                  <button><a href="#"> Demo</a></button>
-              </div>
-          </div>
+      
 
-          <Reveal className="showPic" effect="animated fadeInUp">
-              <img src = {require('../../assets/js.png')}
-               alt="project"/>
-         </Reveal>
-
-      </div>
-
-      <div className = "project-block">
-          <Relative marginBottom="60px" className="project-title">
-              <Index>
-                   <Reveal effect="animated slideInDown">
-                      <h1>06</h1>
-                   </Reveal>
-              </Index>
-              <Reveal effect="animated slideInRight">
-                  <h1>  <A href="#" target="_blank">Photo Gallery</A></h1>
-              </Reveal>
-          </Relative>
-
-          <div className="description-block">
-              <p> randomly position photos on screen made with React</p>
-
-              <div className = 'buttons'>
-                  <button> <a href="#"> github</a></button>
-                  <button><a href="#"> Demo</a></button>
-              </div>
-          </div>
-
-          <Reveal className="showPic" effect="animated fadeInUp">
-              <img src = {require('../../assets/responsive-website.png')}
-               alt="project"/>
-         </Reveal>
-
-      </div>
+ 
         <div className = "view-more">
           <A href="https://github.com/jessieyang0320" target="_blank">View More on Github</A>
         </div>
 
-      </Container>
+      </div>
       <Footer/>
       </div>
     );
