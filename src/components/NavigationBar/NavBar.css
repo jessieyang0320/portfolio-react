@@ -58,7 +58,7 @@ header {
   display:block;
   width:50%;
   float:left;
-
+  z-index: 2;
 
 }
 .accordionButton{
@@ -83,7 +83,7 @@ header {
   font-weight:500;
   padding:15px 0px 15px 0px;
   color:#ffffff;
-  
+
 }
 .accordionContent a {
   color:#ffffff;

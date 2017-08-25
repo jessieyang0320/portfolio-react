@@ -1,7 +1,9 @@
+
 *{
   margin:0;
   padding: 0;
 }
+
 
 /*.line-1 {
   color: White; 
@@ -41,6 +43,23 @@
 ::selection{
   background: black;
 }*/
+
+.banner {
+  background-image:url(../../assets/home.jpg);
+  background-position:top center;
+  background-size: cover;
+  color: #ffffff;
+  height: 480px;
+  margin: 0px 0px 0px 0px;
+  padding: 70px 0 0 0;
+  text-align: center;
+  
+}
+
+.banner-text{
+  margin: 200px auto;
+
+}
 .homecontainer{
   width: 94%;
   max-width: 1170px;

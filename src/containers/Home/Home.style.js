@@ -12,6 +12,7 @@ export const HomeImage = styled.div`
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	z-index:999;
 
 	display: flex;
 	flex-direction: column;

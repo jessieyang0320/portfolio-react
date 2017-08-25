@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import {Icon} from 'react-fa';
 // import ScrollDown from '../../components/ScrollDown/ScrollDown'
 
+
 class Home extends Component {
 
   render() {
@@ -16,15 +17,17 @@ class Home extends Component {
 <div className="homecontainer">
       <div>
 
-        <HomeImage>
+        <div className="banner">
 
-          <h1 className="line-1 anim-typewriter">I am Jessie Yang</h1>
-          <h1 className="line-1 anim-typewriter">
-          Front End Developer</h1>
+          <div className="banner-text">
 
+              <h1> I am Jessie Yang</h1>
+             
+              <h1>Front End Developer</h1>
+          </div>
           
 
-        </HomeImage>
+        </div>
 
        <div className = "self-description">
           <Reveal effect="animated zoomIn">
