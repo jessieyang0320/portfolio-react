@@ -2,12 +2,116 @@
   padding: 0;
   margin: 0;
 }
+.passage-block{
 
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 30px;
+  border: 1px solid black;
+}
 .projects-container{
-  width: 80%;
+  width: 90%;
   margin:0 auto;
+  
+
 }
 
+/*new style*/
+
+  
+.workGroup1 {
+  display:none;
+}
+.workGroup2 {
+  display:block;
+}
+.yellowBox {
+  width:30%;
+  float:left;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  background-color:#e1e4b3;
+  text-align:center;
+  letter-spacing:3px;
+  color:#778472;
+  padding:55px 0px 25px 0px;
+  height:300px;
+  font-family: 'Raleway', sans-serif;
+  font-size:20px;
+  font-weight:700;
+  line-height:16px;
+  border-radius: 4px;
+}
+.yellowBox img {
+  width:90%;
+  max-width:250px;
+  margin-bottom:25px;
+  margin-top: -10px;
+}
+
+.boxesInfo {
+  font-size:15px;
+  font-style:italic;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  letter-spacing:0px;
+  padding:2px 50px 0px 50px;
+  line-height:15px;
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.view-more{
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 950px){
+.yellowBox {
+  height:240px;
+  font-size:15px;
+}
+
+.boxesInfo {
+  font-size:15px;
+}
+
+.yellowBox img {
+  width:90%;
+  margin-bottom:15px;
+  margin-top: -20px;
+}
+
+
+
+}
+
+@media screen and (max-width: 750px){
+.yellowBox {
+  width:45%;
+  height:250px;
+  margin-bottom: 3%;
+}
+
+
+
+}
+
+/*style before
 .project{
   width:100%;
   height: auto;
@@ -53,6 +157,7 @@
  height: 300px;
  
 }
+*/
 
 #inline_content {
    
@@ -130,14 +235,8 @@
 }
 
 
-.passage-block{
 
-  margin-top: 200px;
-  margin-bottom: 0;
-  padding: 30px;
-  border: 1px solid black;
-}
-
+/*
 
 
 .project-block{
@@ -147,9 +246,7 @@
 }
 
 
-.view-more{
-  text-align: center;
-}
+
 
 img{
   z-index: -1;
@@ -230,7 +327,7 @@ img{
 
 
 }
-
+*/
 
 
 
