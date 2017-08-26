@@ -71,7 +71,7 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="1" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                            <img id="1" src={require('../../assets/news-republic.png')} alt="news" className="grow"/><br/>
                                       News Republic<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
@@ -81,7 +81,7 @@ class Projects extends Component {
 
                     <a className="inline">
                         <div className="yellowBox">
-                            <img id="2" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                            <img id="2" src={require('../../assets/v-hab.png')} alt="news" className="grow"/><br/>
                                       V-Hab<br/>
                             <div className="boxesInfo">VR / Three.JS</div>
                         </div>
@@ -91,7 +91,7 @@ class Projects extends Component {
 
                     <a className="inline">
                         <div className="yellowBox">
-                            <img src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                            <img id="3" src={require('../../assets/responsive-website.png')} alt="news" className="grow"/><br/>
                                      Web Design<br/>
                             <div className="boxesInfo">Web Design / Responsive</div>
                         </div>
@@ -100,8 +100,8 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="1" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
-                                      News Republic<br/>
+                            <img id="4" src={require('../../assets/js.png')} alt="news" className="grow"/><br/>
+                                      Vanilla JS<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
                     </div>
@@ -109,8 +109,8 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="1" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
-                                      News Republic<br/>
+                            <img id="5" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                                      Find the Github<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
                     </div>
@@ -118,8 +118,8 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="1" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
-                                      News Republic<br/>
+                            <img id="6" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                                      React Music<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
                     </div>
@@ -127,8 +127,24 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="1" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
-                                      News Republic<br/>
+                            <img id="7" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                                      React Image Gallery<br/>
+                            <div className="boxesInfo">Web Design / Development</div>
+                        </div>
+                    </div>
+
+                    <div href="#" target="_blank" className="inline"  >
+                        <div className="yellowBox">
+                            <img id="8" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                                      Restaurant finder<br/>
+                            <div className="boxesInfo">Web Design / Development</div>
+                        </div>
+                    </div>
+
+                    <div href="#" target="_blank" className="inline"  >
+                        <div className="yellowBox">
+                            <img id="9" src={require('../../assets/data.png')} alt="news" className="grow"/><br/>
+                                      Data Visualization<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
                     </div>
