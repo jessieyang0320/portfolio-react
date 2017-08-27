@@ -1,144 +1,113 @@
 .buttons {
-  margin-top: 110px;
-}
-.menu {
-  position: relative;
-  background: #cd3e3d;
-  width: 3em;
-  height: 3em;
-  border-radius: 5em;
-  margin: auto;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  cursor: pointer;
-  border: 1em solid #fdaead;
-}
-.menu:after {
-  content: "";
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  width: 1em;
-  height: 0.2em;
-  border-top: 0.6em double #fff;
-  border-bottom: 0.2em solid #fff;
-}
-.menu ul {
-  list-style: none;
-  padding: 0;
-
-}
-.menu li {
-  width: 5em;
-  height: 1.4em;
-  padding: 0.2em;
-  margin-top:1em;
-  text-align: center;
-  border-top-right-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  transition: all 1s;
-  background: #fdaead;
-  opacity: 0;
-  z-index: -1;
-}
-.menu:hover li {
-  opacity: 1;
-}
-/**
- * Add a pseudo element to cover the space
- * between the links. This is so the menu
- * does not lose :hover focus and disappear
- */
-.menu:hover ul::before {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  display: block;
-  left: 50%;
-  top: -5.0em;
-  /**
-   * The pseudo-element is a semi-circle
-   * created with CSS. Top, bottom, and right
-   * borders are 6.5em (left being 0), and then
-   * a border-radius is added to the two corners
-   * on the right.
-   */
-  border-width: 6.5em;
-  border-radius: 0 7.5em 7.5em 0;
-  border-left: 100px;
-  border-style: solid;
-  /**
-   * Have to have a border color for the border
-   * to be hoverable. I'm using a very light one
-   * so that it looks invisible.
-   */
-  border-color: rgba(0,0,0,0.01);
-  /**
-   * Put the psuedo-element behind the links
-   * (So they can be clicked on)
-   */
-  z-index: -1;
-  /**
-   * Make the cursor default so it looks like
-   * nothing is there
-   */
-  cursor: default;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-  /**
-   * This is to vertically center the text on the
-   * little tab-like things that the text is on.
-   */
-  line-height: 1.5em;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-}
-.menu ul {
-  transform: rotate(180deg) translateY(-2em);
-  transition: 1s all;
-}
-.menu:hover ul {
-  transform: rotate(0deg) translateY(-1em);
-}
-.menu li:hover {
-  background: #cd3e3d;
-  z-index: 10;
+  margin-top: 80px;
 }
 
-.menu li:nth-of-type(1) {
-  transform: rotate(-90deg);
-  position: absolute;
-  left: -1.2em;
-  top: -4.2em;
-}
-.menu li:nth-of-type(2) {
-  transform: rotate(-45deg);
-  position: absolute;
-  left: 2em;
-  top: -3em;
-}
-.menu li:nth-of-type(3) {
-  position: absolute;
-  left: 3.4em;
-  top: 0.3em;
-}
-.menu li:nth-of-type(4) {
-  transform: rotate(45deg);
-  position: absolute;
-  left: 2em;
-  top: 3.7em;
-}
-.menu li:nth-of-type(5) {
-  transform: rotate(90deg);
-  position: absolute;
-  left: -1.2em;
-  top: 5em;
-}
-.hint {
+.contactBkg {
+  width:100%;
+  background-image:url(../../assets/bkg.png);
+  background-position:top center;
+  background-size: cover;
+  color: #ffffff;
+  height: 700px;
+  margin: 0px 0px 0px 0px;
+  padding: 70px 0 0 0;
   text-align: center;
+
+}
+.contactWrapper {
+  width:94%;
+  max-width:710px;
+  margin:0px auto;
+  text-align:center;
+  font-size:18px;
+  line-height:27px;
+  padding:100px 0px 0px 0px;
+}
+
+.contactWrapper h2{
+  
+  font-size:86px;
+  line-height:100px;
+  color:#FFFFFF;
+  
+}
+
+
+.submitBtn {
+  width:100%;
+  background-color:#d76713;
+  height:120px;
+  font-size:53px;
+  
+  color:#e6e8bf;
+  opacity: 1.0;
+    filter: alpha(opacity=100);
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+   -webkit-appearance: none;
+}
+.submitBtn:hover {
+  background-color:#813107;
+  cursor:pointer;
+  opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.submitBtnNew {
+  padding:25px 0px 25px 0px;
+  background-color:#d76713;
+  height:auto;
+  font-size:50px;
+  line-height:50px;
+ 
+  color:#e6e8bf;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+   -webkit-appearance: none;
+  width:90%;
+  margin:0px 5% 0px 5%;
+}
+.submitBtnNew:hover {
+  background-color:#813107;
+  cursor:pointer;
+}
+
+.submitBtnBkg {
+  width:100%;
+  margin:0px auto;
+  max-width:460px;
+}
+.submitBtnBkg a:link {color: #e6e8bf; text-decoration:none;}
+.submitBtnBkg a:visited {color: #e6e8bf; text-decoration:none;}
+.submitBtnBkg a:hover {color: #e6e8bf; text-decoration:none;}
+.submitBtnBkg a:active {color: #e6e8bf; text-decoration:none;}
+
+@media screen and (max-width: 750px){
+
+.contactWrapper h2{ 
+  font-size:50px; 
+}
+
+
+  .submitBtnNew {
+  padding:5px 0;
+  height:auto;
+  font-size:25px;
+  width:75%;
+  margin:0 auto;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.contactBkg {
+  height: 500px;
+  padding: 10px 0 0 0;
+ 
+
+}
+
+
+
 }
