@@ -4,7 +4,7 @@
 
 .contactBkg {
   width:100%;
-  background-image:url(../../assets/bkg.jpeg);
+  background-image:url(../../assets/bkg.png);
   background-position:top center;
   background-size: cover;
   color: #ffffff;
@@ -82,3 +82,32 @@
 .submitBtnBkg a:hover {color: #e6e8bf; text-decoration:none;}
 .submitBtnBkg a:active {color: #e6e8bf; text-decoration:none;}
 
+@media screen and (max-width: 750px){
+
+.contactWrapper h2{ 
+  font-size:50px; 
+}
+
+
+  .submitBtnNew {
+  padding:5px 0;
+  height:auto;
+  font-size:25px;
+  width:75%;
+  margin:0 auto;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.contactBkg {
+  height: 500px;
+  padding: 10px 0 0 0;
+ 
+
+}
+
+
+
+}

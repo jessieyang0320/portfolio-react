@@ -182,6 +182,16 @@
 }
 
 
+@media screen and (max-width: 470px){
+
+.yellowBox {
+  width:100%;
+  margin: 0 auto 3% auto;
+  height:250px;
+  
+ }
+}
+
 
 
 

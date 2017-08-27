@@ -45,11 +45,11 @@
 }*/
 
 .banner {
-  background-image:url(../../assets/home.jpg);
+  background-image:url(../../assets/homebanner.jpg);
   background-position:top center;
   background-size: cover;
   color: #ffffff;
-  height: 480px;
+  height: 500px;
   margin: 0px 0px 0px 0px;
   padding: 70px 0 0 0;
   text-align: center;

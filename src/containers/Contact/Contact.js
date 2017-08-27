@@ -26,8 +26,7 @@ class Contact extends Component {
                       <button className="btn first">LinkeIn</button>
                       <button className="btn second">Github</button>
                       <button className="btn third">Resume</button>
-                      <button className="btn fourth">Button 4</button>
-                      <button className="btn fifth">Button 5</button>
+                      
                   </div>
                       
               </div>
