@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import './Contact.css'
 
 
+
 class Contact extends Component {
   render() {
     return (
@@ -23,14 +24,15 @@ class Contact extends Component {
                   </div>
 
                   <div className='buttons'>
-                      <button className="btn first">LinkeIn</button>
-                      <button className="btn second">Github</button>
-                      <button className="btn third">Resume</button>
+                      <a href="https://www.linkedin.com/in/jessie-lijie-yang/" target="_blank"><button className="btn first">LinkeIn</button></a>
+                      <a href="https://github.com/jessieyang0320" target="_blank"><button className="btn second">Github</button></a>
+                      <a href="../../assets/Jessie Yang Resume.pdf" target="_blank"><button className="btn third">Resume</button></a>
                       
                   </div>
                       
               </div>
             </div>
+   
                
             <Footer/>
       </div>
