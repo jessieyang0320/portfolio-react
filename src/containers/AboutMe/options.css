@@ -2,15 +2,12 @@
   width: 100%;
 }
 .options{
-  display: flex;
-  flex-direction: column;
+
   margin-top: -70px;
 }
 
 
-.show-aspect {
-  background: yellow;
-}
 .buttons {
   margin-top: 40px;
+
 }

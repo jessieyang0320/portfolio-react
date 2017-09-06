@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import './PopNewsRepublic.css';
 
-class PopNewsRepublic extends Component {
+class PopData extends Component {
 
 	constructor(){
     super()
@@ -28,7 +28,7 @@ class PopNewsRepublic extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/news-republic.png')} alt="news" 
+         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/data.png')} alt="news" 
           className="grow"/></a>
          
         <ReactModal 
@@ -46,7 +46,7 @@ class PopNewsRepublic extends Component {
                                 <img src={require('../../../assets/projects/example.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
-                                <div className="popUpTitle">News Republic</div>
+                                <div className="popUpTitle">Data Visualization</div>
                                     <div className="popUpTech">ReactJS</div>
                                     <div className="popUpTech">Responsive</div>
                                     <div className="popUpTech">Web Desgin</div>
@@ -70,4 +70,4 @@ class PopNewsRepublic extends Component {
   }
 }
 
-export default PopNewsRepublic;
+export default PopData;

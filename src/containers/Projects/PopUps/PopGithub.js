@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import './PopNewsRepublic.css';
 
-class PopNewsRepublic extends Component {
+class PopGithub extends Component {
 
 	constructor(){
     super()
@@ -70,4 +70,4 @@ class PopNewsRepublic extends Component {
   }
 }
 
-export default PopNewsRepublic;
+export default PopGithub;

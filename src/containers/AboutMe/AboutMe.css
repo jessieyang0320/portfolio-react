@@ -1,21 +1,23 @@
-
+.aboutMeContainer{
+  width: 80%;
+  margin:0 auto;
+}
 .content {
-  width: 70%;
+  width: 100%;
   height:500px;
   border: 1px solid black;
   margin:50px auto 20px auto;
   padding: 10px;
 }
 
-.title {
-  margin-top:100px;
+.aboutMeOpen {
+  margin-top:30px;
   margin-bottom:0;
   padding: 10px;
-  font-size:2em;
+  font-size:1.5em;
 }
 
 .left-conv{
-
   float: left;
   margin-bottom: 20px;
 }
