@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import './PopNewsRepublic.css';
 
-class PopGithub extends Component {
+class PopMusic extends Component {
 
 	constructor(){
     super()
@@ -28,7 +28,7 @@ class PopGithub extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/github-finder.png')} alt="news" 
+         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/music-player.png')} alt="news" 
           className="grow"/></a>
          
         <ReactModal 
@@ -46,17 +46,21 @@ class PopGithub extends Component {
                                 <img src={require('../../../assets/projects/example.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
-                                <div className="popUpTitle">Find the Github</div>
-                                    <div className="popUpTech">jQuery</div>
-                                    <div className="popUpTech">Github Api</div>
-                                    <div className="popUpTech">Bootstrap</div>
-                                    <div className="popUpTech">Ajax</div>
-                                    <div className="popUpTech">Responsive</div>
-                                  Enter a username, it will show his/her github info, including profile image, followers,
-                                  starts, all the repositories.                  
+                                <div className="popUpTitle">React Music Player</div>
+                                    <div className="popUpTech">ReactJS</div>
+                                    <div className="popUpTech"> API</div>
+                                    <div className="popUpTech"> HTML and CSS</div>
+                                    A music player built with Reactjs. 
+                                    control pannel: play the previous song, stop/play, play next song. 
+                                    It plays next music randomly. Click on "music list", a list of 10 songs showed
+                                    up and music will play when click on the name. 
+                                    aliyun Music Api provide 10 songs for free.
+
+                                    
+                                                   
                                   <br/><br/>
-                                <a href="https://jessieyang0320.github.io/find-the-github/" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
-                                <a href="https://github.com/jessieyang0320/find-the-github" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a href="https://jessieyang0320.github.io/music-player-react" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
+                                <a href="https://github.com/jessieyang0320/music-player-react" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>
@@ -73,4 +77,4 @@ class PopGithub extends Component {
   }
 }
 
-export default PopGithub;
+export default PopMusic;

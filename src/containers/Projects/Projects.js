@@ -10,6 +10,10 @@ import PopNewsRepublic from './PopUps/PopNewsRepublic'
 import PopVhab from './PopUps/PopVhab'
 import PopPtoPWeb from './PopUps/PopPtoPWeb'
 import PopData from './PopUps/PopData'
+import PopGithub from './PopUps/PopGithub'
+import PopGallery from './PopUps/PopGallery'
+import PopTetris from './PopUps/PopTetris'
+import PopMusic from './PopUps/PopMusic'
 
 class Projects extends Component {
   constructor(){
@@ -18,9 +22,6 @@ class Projects extends Component {
       
     }
   }
-
-
-
 
 
 
@@ -86,16 +87,16 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="5" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                            <PopGithub/><br/>
                                       Find the Github<br/>
-                            <div className="boxesInfo">Web Design / Development</div>
+                            <div className="boxesInfo"> jQuery / Github Api / Bootstrap</div>
                         </div>
                     </div>
 
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="6" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                            <PopMusic/><br/>
                                       React Music<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
@@ -104,25 +105,25 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="7" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
+                            <PopGallery/><br/>
                                       React Image Gallery<br/>
-                            <div className="boxesInfo">Web Design / Development</div>
+                            <div className="boxesInfo">ReactJS / Webpack</div>
                         </div>
                     </div>
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <img id="8" src={require('../../assets/p-icon.png')} alt="news" className="grow"/><br/>
-                                      Restaurant finder<br/>
-                            <div className="boxesInfo">Web Design / Development</div>
+                            <PopTetris/><br/>
+                                      Websocket Tetris Game<br/>
+                            <div className="boxesInfo"> JavaScript / Websocket / Game</div>
                         </div>
                     </div>
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
                             <PopData/><br/>
-                                      Data Visualization<br/>
-                            <div className="boxesInfo">Web Design / Development</div>
+                                      Report Generate Templates <br/>
+                            <div className="boxesInfo"> jQuery / canvas / Data Visualize</div>
                         </div>
                     </div>
 

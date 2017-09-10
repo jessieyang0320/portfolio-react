@@ -28,7 +28,7 @@ class PopGallery extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/news-republic.png')} alt="news" 
+         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/image-gallery.png')} alt="news" 
           className="grow"/></a>
          
         <ReactModal 
@@ -46,14 +46,19 @@ class PopGallery extends Component {
                                 <img src={require('../../../assets/projects/example.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
-                                <div className="popUpTitle">News Republic</div>
+                                <div className="popUpTitle">React Image Gallery</div>
                                     <div className="popUpTech">ReactJS</div>
-                                    <div className="popUpTech">Responsive</div>
-                                    <div className="popUpTech">Web Desgin</div>
-                                    <div className="popUpTech">API</div>
-                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                    <div className="popUpTech">Webpack</div>
+                                    <div className="popUpTech">ES6</div>
+                                    <div className="popUpTech">Yeoman</div>
+                                  An Images display app built with ReactJS and webpack, it displayed images randomly on the 
+                                  screen, and users can click on each one of the images, it will move the image to center
+                                  and when you click the centered image, it will flip and show message on the back. 
+                                  This was a gift for my mom, she is always confused what does it mean when I say I am making
+                                  an app, I showed her what I can do with this small app:)                   
                                   <br/><br/>
-                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://github.com/jessieyang0320/Image-Gallery-React" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

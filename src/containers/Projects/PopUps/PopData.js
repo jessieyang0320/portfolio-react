@@ -47,13 +47,19 @@ class PopData extends Component {
                               </div>
                               <div className="popUpRight">
                                 <div className="popUpTitle">Data Visualization</div>
-                                    <div className="popUpTech">ReactJS</div>
-                                    <div className="popUpTech">Responsive</div>
-                                    <div className="popUpTech">Web Desgin</div>
-                                    <div className="popUpTech">API</div>
-                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                    <div className="popUpTech"> jQuery </div>
+                                    <div className="popUpTech"> fullpage.js</div>
+                                    <div className="popUpTech"> canvas.js </div>
+                                    <div className="popUpTech">HTML and CSS</div>
+                                  This is a data visualization template for generate data reports. 
+                                  This template is built with jQyert abd canvas, it also uses fullpage.js to make
+                                  scroll smooth, it is designed based on the concept of componentization and 
+                                  each type of charts is styled and works individually. 
+                                  With this kind of design, users can quickly generate reports with multi-types 
+                                  of charts and customized style by simply passing data into it.                 
                                   <br/><br/>
-                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://canvas-report.herokuapp.com/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB DEMO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>
