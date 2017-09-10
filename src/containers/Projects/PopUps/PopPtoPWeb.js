@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Modal } from 'antd';
 import ReactModal from 'react-modal';
+import './PopNewsRepublic.css';
 
 
 class PopPtoPWeb extends Component {
@@ -44,14 +45,16 @@ class PopPtoPWeb extends Component {
                                 <img src={require('../../../assets/projects/example.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
-                                <div className="popUpTitle">P 2 P</div>
-                                    <div className="popUpTech">ReactJS</div>
+                                <div className="popUpTitle">Website Design</div>
+                                    <div className="popUpTech">HTML5</div>
+                                    <div className="popUpTech">CSS3</div>
                                     <div className="popUpTech">Responsive</div>
                                     <div className="popUpTech">Web Desgin</div>
-                                    <div className="popUpTech">API</div>
-                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                    
+                                  A responsive website built with HTML and CSS, displayed well on various sizes screens                
                                   <br/><br/>
-                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/responsive-web-design/blob/master/src/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://github.com/jessieyang0320/responsive-web-design" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

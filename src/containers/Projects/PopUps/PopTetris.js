@@ -46,14 +46,17 @@ class PopTetris extends Component {
                                 <img src={require('../../../assets/projects/example.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
-                                <div className="popUpTitle">News Republic</div>
-                                    <div className="popUpTech">ReactJS</div>
-                                    <div className="popUpTech">Responsive</div>
-                                    <div className="popUpTech">Web Desgin</div>
-                                    <div className="popUpTech">API</div>
-                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                <div className="popUpTitle">Websocket Tetris</div>
+                                    <div className="popUpTech">vanilla JavaScript</div>
+                                    <div className="popUpTech"> Socket.io</div>
+                                    <div className="popUpTech">Simple Player</div>
+                                    <div className="popUpTech">Multi-player</div>
+                                    
+                                  This is Tetris Game built with JavaScript and socket.io, players can choose single player mode or play with another
+                                  player. With Multi-player mode. With socket.io, player can see the other player`s game in real-time.                 
                                   <br/><br/>
-                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://github.com/jessieyang0320/Tetris-websocket" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
+                                <a href="https://jessieyang0320.github.io/Tetris-websocket/game.html" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

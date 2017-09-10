@@ -51,9 +51,15 @@ class PopVhab extends Component {
                                     <div className="popUpTech">Responsive</div>
                                     <div className="popUpTech">Web Desgin</div>
                                     <div className="popUpTech">API</div>
-                                  News Republic is a news feed website made with Nodejs and ReactJS                  
+                                  I was inspired by a good friend of mine who lost her hands functions in a car accident, I see her went through the
+                                  whole physical therophy process, it was expensive and boring, I want to make something that can help these people  
+                                  practice using their hands while also have fun.  
+                                  V-hab is a VR game built with Three.js, it uses leap motion controller to capture users hands movement
+                                  and rendered the data on screen. Users need to perform certain hands functions to pass the tasks.   
                                   <br/><br/>
-                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://www.youtube.com/watch?v=qPoWPNmsvx0&feature=youtu.be&t=2m44s" target="_blank"><div className="popUpBtn">Live Demo</div></a>
+                                <a href="https://github.com/jessieyang0320/VHab" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a href="https://www.coursereport.com/schools/dev-bootcamp#/news/final-project-spotlight-jessie-jenna-natalie-albert-of-dev-bootcamp" target="_blank"><div className="popUpBtn">Interview with Course Report</div></a>
                               </div>
                               <div className="space"></div>
                           </div>
