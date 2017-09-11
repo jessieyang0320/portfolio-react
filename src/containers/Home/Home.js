@@ -4,6 +4,7 @@ import 'animate.css/animate.css';
 import './Home.css';
 import Footer from '../../components/Footer/Footer';
 import {Icon} from 'react-fa';
+import HomeBanner from '../../components/HomeBanner/HomeBanner'
 // import ScrollDown from '../../components/ScrollDown/ScrollDown'
 
 
@@ -19,12 +20,7 @@ class Home extends Component {
 
         <div className="banner">
 
-          <div className="banner-text">
-
-              <h1> I am Jessie Yang</h1>
-             
-              <h1>Front End Developer</h1>
-          </div>
+          <HomeBanner/>
           
 
         </div>

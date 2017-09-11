@@ -28,7 +28,7 @@ class Entreprenuer extends Component {
   render() {
 
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -45,6 +45,20 @@ class Entreprenuer extends Component {
            onRequestClose={this.handleCloseModal}
            className="Modal"
            overlayClassName="Overlay"
+           style={{
+              overlay: {
+                backgroundColor: 'papayawhip'
+              },
+              content: {
+                color: 'lightsteelblue',
+                width:'80%',
+                
+                
+                
+              },
+             
+              
+            }}
         >
               <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 

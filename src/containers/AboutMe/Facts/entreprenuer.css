@@ -1,24 +1,7 @@
-  .Modal {
-    width: 80%;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    right: 40px;
-    bottom: 40px;
-    background-color: red;
-  }
-
-  .Overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rebeccapurple;
-  }
-
+ 
 .entrepreneurContainer {
   background-color:#4DC65B;
+  color:white;
 }
 img{
   width: 80%;
@@ -29,18 +12,21 @@ img{
   margin: 0 auto;
   padding-bottom: 5px;
   width: 70%;
-  color: #333;
   background: #4DC65B;
 }
 
 .entrepreneurArticle {
-  margin: 0 auto;
-  width:80%;
+  margin: -30px auto 0 auto;
+  margin-top: -50px;
+  width:100%;
   text-align: center;
-  padding:20px;
+  padding:5px;
+  font-size: 20px;
+  
 }
 
 .entrepreneurTitle {
   text-align: center;
   margin: 10px auto;
+  font-size: 1.5em;
 }
