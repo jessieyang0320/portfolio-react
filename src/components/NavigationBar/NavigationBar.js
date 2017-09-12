@@ -21,7 +21,7 @@ class NavigationBar extends Component {
              <div className="navbar1">
 
                 <ul>
-                   <a href="#" id="menu-icon"></a>
+                   
                     <li><a href="/">Home </a></li>
                     <li><a href="/projects" >Projects </a></li>
                     <li><a href="/me" >About </a></li>

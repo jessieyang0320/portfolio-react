@@ -45,7 +45,7 @@ class Travel extends Component {
         <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
         <h1 className="travelTitle">This is the Travel Part</h1>
-        <img className="travelMap" src={require("../../../assets/travelMap.png")}/>
+        <img className="travelMap" src={require("../../../assets/travelMap.png")} alt=""/>
         <p className="travelArticle">why do I like traveling?  I love to travel because
         it makes you fall in love with your life. When I`m not working,
         most proud travel experience so far? backpacking in Europe for a

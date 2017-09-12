@@ -55,8 +55,8 @@ class PopGallery extends Component {
                                   Click on the centered one, img will flip and show msg on the back
                                                    
                                   <br/><br/>
-                                <a href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
-                                <a href="https://github.com/jessieyang0320/Image-Gallery-React" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/Image-Gallery-React" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

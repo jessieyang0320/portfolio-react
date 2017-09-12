@@ -55,8 +55,8 @@ class PopGithub extends Component {
                                   Enter a username, it will show his/her github info, including profile image, followers,
                                   starts, all the repositories.                  
                                   <br/><br/>
-                                <a href="https://jessieyang0320.github.io/find-the-github/" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
-                                <a href="https://github.com/jessieyang0320/find-the-github" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/find-the-github/" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/find-the-github" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

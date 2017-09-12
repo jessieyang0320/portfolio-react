@@ -8,6 +8,7 @@ header{
 .navbar {
   max-width: 1200px;
   margin: 0 auto; 
+  z-index: 999;
   
 }
 
@@ -56,9 +57,11 @@ header {
 } 
 .navbar2 {
   display:block;
+  position: fixed;
   width:50%;
-  float:left;
-  z-index: 2;
+  z-index: 999;
+  opacity:.9;
+  
 
 }
 .accordionButton{
@@ -70,12 +73,17 @@ header {
  line-height: 30px;
  font-weight: 500;
  letter-spacing: 3px;
- padding: 10px 0 0 15px;
+ color:#ffffff;
+ padding: 10px 0 0 35px;
 }
 
 .accordionContent {
+
   width: 80%;
-  float: left;
+  float:left;
+  
+  top:0;
+  left:0;
   background: #6FA8A7;
   font-size:20px;
   line-height:12px;
