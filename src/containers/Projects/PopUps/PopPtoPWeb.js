@@ -35,14 +35,17 @@ class PopPtoPWeb extends Component {
           className="grow"/></a>
         <ReactModal 
            isOpen={this.state.showModal}
-           contentLabel="Minimal Modal Example"
+           contentLabel="onRequestClose Example"
+           onRequestClose={this.handleCloseModal}
+           className="Modal"
+           overlayClassName="Overlay"
         >
-          <button onClick={this.handleCloseModal}>x</button>
+          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
           <a href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
-                                <img src={require('../../../assets/projects/example.jpg')} alt="" />
+                                <img src={require('../../../assets/projects/responsive-web.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
                                 <div className="popUpTitle">Website Design</div>

@@ -23,7 +23,7 @@
 }
 
 .right-conv{
-  float:right;
+  float:right;  
   margin-bottom: 20px;
   text-align: right;
   cursor: pointer;
@@ -35,5 +35,18 @@
 
 .clickHere{
   margin-top:-70px;
-  margin-left: 1000px;
+  float:right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

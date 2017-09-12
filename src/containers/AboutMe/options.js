@@ -37,12 +37,39 @@ class Options extends Component {
       
 
 							<div className='buttons' >
-			            <Entreprenuer/>
-                  <Travel/>
-                  <Photography/>
-                  <Coding/>
-                  <RandomFacts/>
-                  <Accounting/>
+
+                <div className='opt-btn'>
+                <Entreprenuer/>
+                </div>
+
+                <div className='opt-btn'>
+                <Travel/>
+                  
+                </div>
+
+                <div className='opt-btn'>
+                <Photography/>
+                  
+                </div>
+
+                <div className='opt-btn'>
+                <Coding/>
+                  
+                </div>
+
+                <div className='opt-btn'>
+                <RandomFacts/>
+                  
+                </div>
+
+                <div className='opt-btn'>
+                <Accounting/>
+                </div>
+
+
+
+			            
+                  
 
 			        </div>
 

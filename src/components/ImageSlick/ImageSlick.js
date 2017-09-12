@@ -17,14 +17,14 @@ class ImageSlick extends Component {
     return (
       <div className="imageSlide">
           <Slider {...settings}>
-            <div><img src= {require('../../assets/photography/city1.jpg')}/></div>
-            <div><img src={require('../../assets/photography/city2.jpg')} /></div>
-            <div><img src={require('../../assets/photography/city3.jpg')} /></div>
-            <div><img src={require('../../assets/photography/city4.jpg')} /></div>
-            <div><img src= {require('../../assets/photography/city5.jpg')}/></div>
-            <div><img src= {require('../../assets/photography/city6.jpg')}/></div>
-            <div><img src= {require('../../assets/photography/city7.jpg')}/></div>
-            <div><img src= {require('../../assets/photography/city8.jpg')}/></div>
+            <div><img src= {require('../../assets/photography/city1.jpg')} alt=""/></div>
+            <div><img src={require('../../assets/photography/city2.jpg')} alt=""/></div>
+            <div><img src={require('../../assets/photography/city3.jpg')} alt=""/></div>
+            <div><img src={require('../../assets/photography/city4.jpg')} alt=""/></div>
+            <div><img src= {require('../../assets/photography/city5.jpg')} alt=""/></div>
+            <div><img src= {require('../../assets/photography/city6.jpg')} alt=""/></div>
+            <div><img src= {require('../../assets/photography/city7.jpg')} alt=""/></div>
+            <div><img src= {require('../../assets/photography/city8.jpg')} alt=""/></div>
           
           </Slider>
       </div>

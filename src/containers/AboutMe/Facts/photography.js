@@ -34,6 +34,20 @@ class Photography extends Component {
            onRequestClose={this.handleCloseModal}
            className="Modal"
            overlayClassName="Overlay"
+           style={{
+              overlay: {
+                backgroundColor: 'papayawhip'
+              },
+              content: {
+                color: 'lightsteelblue',
+                width:'60%',
+                height:'80%',
+               
+                
+              },
+             
+              
+            }}
         >
 
           <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>

@@ -27,7 +27,7 @@ class Coding extends Component {
     return (
       <div>
 
-          <button onClick={this.handleOpenModal} className="btn fourth" id="coding">Coding</button>
+          <button onClick={this.handleOpenModal} className="btn first" id="coding">Coding</button>
 
           <ReactModal 
            isOpen={this.state.showModal}
@@ -35,6 +35,16 @@ class Coding extends Component {
            onRequestClose={this.handleCloseModal}
            className="Modal"
            overlayClassName="Overlay"
+           style={{
+              overlay: {
+                backgroundColor: 'papayawhip'
+              },
+              content: {
+                color: 'lightsteelblue',
+                width:'60%',
+                height:'80%',                               
+              },                           
+            }}
         >
 
               <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>

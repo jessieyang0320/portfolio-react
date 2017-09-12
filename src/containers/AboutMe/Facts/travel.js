@@ -31,8 +31,15 @@ class Travel extends Component {
            isOpen={this.state.showModal}
            contentLabel="onRequestClose Example"
            onRequestClose={this.handleCloseModal}
-           className="Modal"
-           overlayClassName="Overlay"
+           
+           style={{
+              overlay: {
+                backgroundColor: 'papayawhip'
+              },
+              content: {
+                color: 'lightsteelblue'                         
+              }                           
+            }}
         >
 
         <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>

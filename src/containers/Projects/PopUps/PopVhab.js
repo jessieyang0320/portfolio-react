@@ -43,14 +43,14 @@ class PopVhab extends Component {
           <a href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
-                                <img src={require('../../../assets/projects/example.jpg')} alt="" />
+                                <img src={require('../../../assets/projects/v-hab.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
                                 <div className="popUpTitle">V-Hab</div>
                                     <div className="popUpTech">ReactJS</div>
-                                    <div className="popUpTech">Responsive</div>
-                                    <div className="popUpTech">Web Desgin</div>
-                                    <div className="popUpTech">API</div>
+                                    <div className="popUpTech">ThreeJS</div>
+                                    <div className="popUpTech">VR</div>
+                                    
                                   I was inspired by a good friend of mine who lost her hands functions in a car accident, I see her went through the
                                   whole physical therophy process, it was expensive and boring, I want to make something that can help these people  
                                   practice using their hands while also have fun.  

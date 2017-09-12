@@ -23,7 +23,7 @@ class RandomFacts extends Component {
   render() {
     return (
       <div>
-      	<button onClick={this.handleOpenModal} className="btn fifth" id="randomfacts">Quirks</button>
+      	<button onClick={this.handleOpenModal} className="btn second" id="randomfacts">Quirks</button>
 
       	<ReactModal 
            isOpen={this.state.showModal}

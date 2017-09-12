@@ -1,13 +1,20 @@
 .option-container {
   width: 100%;
+  margin-top: -60px;
+
 }
 .options{
+  margin-top: -30px;
+  margin-left: 10%;
 
-  margin-top: -70px;
 }
 
 
 .buttons {
   margin-top: 40px;
 
+}
+
+.opt-btn {
+	float: left;
 }
