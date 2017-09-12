@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './options.css';
-import ButtonTwo from '../../components/Buttons/button2';
+import '../../components/Buttons/buttonStyle.css';
 import Travel from './Facts/travel';
 import Entreprenuer from './Facts/entreprenuer';
 import Photography from './Facts/photography';

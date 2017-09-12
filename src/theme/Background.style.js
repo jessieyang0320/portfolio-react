@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { backgroundblue, wildBlue,almond} from './variables'
+
 
 export const Background = styled.div`
   position: fixed;

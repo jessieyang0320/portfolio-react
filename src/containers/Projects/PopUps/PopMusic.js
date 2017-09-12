@@ -59,8 +59,8 @@ class PopMusic extends Component {
                                     
                                                    
                                   <br/><br/>
-                                <a href="https://jessieyang0320.github.io/music-player-react" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
-                                <a href="https://github.com/jessieyang0320/music-player-react" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
+                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/music-player-react" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/music-player-react" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

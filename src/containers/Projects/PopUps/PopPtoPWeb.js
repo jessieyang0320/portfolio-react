@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Modal } from 'antd';
 import ReactModal from 'react-modal';
 import './PopNewsRepublic.css';
 
@@ -56,8 +55,8 @@ class PopPtoPWeb extends Component {
                                     
                                   A responsive website built with HTML and CSS, displayed well on various sizes screens                
                                   <br/><br/>
-                                <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/responsive-web-design/blob/master/src/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
-                                <a href="https://github.com/jessieyang0320/responsive-web-design" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/responsive-web-design/blob/master/src/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/responsive-web-design" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

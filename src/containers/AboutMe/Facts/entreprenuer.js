@@ -52,7 +52,7 @@ class Entreprenuer extends Component {
             
             
             <div className="part">    
-                <div className="entrepreneur-img-1"><img src={require('../../../assets/greenhouse1.JPG')} /></div>
+                <div className="entrepreneur-img-1"><img src={require('../../../assets/greenhouse1.JPG')} alt=""/></div>
                 <p className="entrepreneurArticle-1">
                     1. entrepreneur:   I consider myself a person with leadership and entrepreneur spirit.
                     I started a company named MagiTech in 2015. Our goal is to change how people
@@ -66,7 +66,7 @@ class Entreprenuer extends Component {
             </div>
 
             <div className="part"> 
-                <div className="entrepreneur-img-2"><img src={require('../../../assets/greenhouse2.JPG')} /></div>
+                <div className="entrepreneur-img-2"><img src={require('../../../assets/greenhouse2.JPG')} alt="" /></div>
                 <p className="entrepreneurArticle-2">
                   1. entrepreneur:   I consider myself a person with leadership and entrepreneur spirit.
                   I started a company named MagiTech in 2015. Our goal is to change how people
@@ -80,7 +80,7 @@ class Entreprenuer extends Component {
             </div>
             
             <div className="part"> 
-                <div className="entrepreneur-img-1"><img src={require('../../../assets/greenhouse3.JPG')} /></div>
+                <div className="entrepreneur-img-1"><img src={require('../../../assets/greenhouse3.JPG')} alt=""/></div>
                 <p className="entrepreneurArticle-1">
                   1. entrepreneur:   I consider myself a person with leadership and entrepreneur spirit.
                   I started a company named MagiTech in 2015. Our goal is to change how people
@@ -94,7 +94,7 @@ class Entreprenuer extends Component {
             </div>
 
             <div className="part"> 
-                <div className="entrepreneur-img-2"><img src={require('../../../assets/greenhouse4.JPG')} /></div>
+                <div className="entrepreneur-img-2"><img src={require('../../../assets/greenhouse4.JPG')} alt=""/></div>
                 <p className="entrepreneurArticle-2">
                   1. entrepreneur:   I consider myself a person with leadership and entrepreneur spirit.
                   I started a company named MagiTech in 2015. Our goal is to change how people

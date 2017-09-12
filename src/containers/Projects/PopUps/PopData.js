@@ -56,8 +56,8 @@ class PopData extends Component {
                                   scroll smooth, it is designed based on the concept of componentization and 
                                             
                                   <br/><br/>
-                                <a href="https://canvas-report.herokuapp.com/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
-                                <a href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB DEMO</div></a>
+                                <a rel="noopener noreferrer" href="https://canvas-report.herokuapp.com/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB DEMO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

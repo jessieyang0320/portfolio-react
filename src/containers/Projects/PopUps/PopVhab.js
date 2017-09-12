@@ -57,9 +57,9 @@ class PopVhab extends Component {
                                   V-hab is a VR game built with Three.js, it uses leap motion controller to capture users hands movement
                                   and rendered the data on screen. Users need to perform certain hands functions to pass the tasks.   
                                   <br/><br/>
-                                <a href="https://www.youtube.com/watch?v=qPoWPNmsvx0&feature=youtu.be&t=2m44s" target="_blank"><div className="popUpBtn">Live Demo</div></a>
-                                <a href="https://github.com/jessieyang0320/VHab" target="_blank"><div className="popUpBtn">Github Repo</div></a>
-                                <a href="https://www.coursereport.com/schools/dev-bootcamp#/news/final-project-spotlight-jessie-jenna-natalie-albert-of-dev-bootcamp" target="_blank"><div className="popUpBtn">Interview with Course Report</div></a>
+                                <a rel="noopener noreferrer" href="https://www.youtube.com/watch?v=qPoWPNmsvx0&feature=youtu.be&t=2m44s" target="_blank"><div className="popUpBtn">Live Demo</div></a>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/VHab" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a rel="noopener noreferrer" href="https://www.coursereport.com/schools/dev-bootcamp#/news/final-project-spotlight-jessie-jenna-natalie-albert-of-dev-bootcamp" target="_blank"><div className="popUpBtn">Interview with Course Report</div></a>
                               </div>
                               <div className="space"></div>
                           </div>

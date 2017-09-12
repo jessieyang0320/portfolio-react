@@ -53,13 +53,13 @@ class PopJS extends Component {
                                     Small projects built for practicing vanilla JavaScript
                                                                                 
                                   <br/><br/>
-                                <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/day-1/day-1-drumkit.html" target="_blank"><div className="popUpBtn">One</div></a>
-                                <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/02-JS-CSS-Clock/CSS-Clock.html" target="_blank"><div className="popUpBtn">Two</div></a>
-                               <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/03-update-css-variables-withJS/update-css-variables.html" target="_blank"><div className="popUpBtn">Three</div></a>
-                                <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/05-flex-panel/flex-panel.html" target="_blank"><div className="popUpBtn">Four</div></a>
-                                 <a href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/06-ajax-type-ahead/ajax-type-ahead.html" target="_blank"><div className="popUpBtn">Five</div></a>
-                                  <a href="https://jessieyang0320.github.io/split-screen-react/" target="_blank"><div className="popUpBtn">Six</div></a>
-                                  <a href="https://jessieyang0320.github.io/JavaScript-30days/" target="_blank"><div className="popUpBtn">Github Repo</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/day-1/day-1-drumkit.html" target="_blank"><div className="popUpBtn">One</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/02-JS-CSS-Clock/CSS-Clock.html" target="_blank"><div className="popUpBtn">Two</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/03-update-css-variables-withJS/update-css-variables.html" target="_blank"><div className="popUpBtn">Three</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/05-flex-panel/flex-panel.html" target="_blank"><div className="popUpBtn">Four</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/06-ajax-type-ahead/ajax-type-ahead.html" target="_blank"><div className="popUpBtn">Five</div></a>
+                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/split-screen-react/" target="_blank"><div className="popUpBtn">Six</div></a>
+                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/JavaScript-30days/" target="_blank"><div className="popUpBtn">Github Repo</div></a>
 
                                 
                               </div>

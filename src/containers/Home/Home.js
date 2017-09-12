@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 import './Home.css';
+import NavigationBar from '../../components/NavigationBar/NavigationBar'
+
 import Footer from '../../components/Footer/Footer';
 import {Icon} from 'react-fa';
 import HomeBanner from '../../components/HomeBanner/HomeBanner'
@@ -16,7 +18,11 @@ class Home extends Component {
 
       <div>
 
+      <NavigationBar/>
+
       <div className="homecontainer">
+
+
 
         <div className="banner">
 
@@ -38,7 +44,7 @@ class Home extends Component {
               <div className="powerful-frameworks">
                 <Reveal effect="animated flipInY">
                   <div className = "skill-circle">
-                      <Icon className="icon" code name="code" size="3x"/>
+                      <Icon className="icon" name="code" size="3x"/>
 
                   </div>
                   <div className="seperate"></div>

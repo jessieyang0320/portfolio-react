@@ -11,8 +11,7 @@ class App extends Component {
 
     return (
       <div>
-        <NavigationBar/>
-
+        
         {this.props.children}
         
       </div>

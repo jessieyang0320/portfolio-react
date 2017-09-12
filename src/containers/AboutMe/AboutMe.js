@@ -3,7 +3,6 @@ import NavigationBar from '../../components/NavigationBar/NavigationBar'
 import './AboutMe.css';
 import { Background } from '../../theme/Background.style';
 import Footer from '../../components/Footer/Footer';
-import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 import Options from './options.js';
 import ClickHereCircle from '../../components/clickHere/clickHere';
