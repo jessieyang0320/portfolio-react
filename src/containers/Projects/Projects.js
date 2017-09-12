@@ -14,6 +14,7 @@ import PopGithub from './PopUps/PopGithub'
 import PopGallery from './PopUps/PopGallery'
 import PopTetris from './PopUps/PopTetris'
 import PopMusic from './PopUps/PopMusic'
+import PopJS from './PopUps/PopJS'
 
 class Projects extends Component {
   constructor(){
@@ -58,7 +59,7 @@ class Projects extends Component {
 
 
                     <a className="inline">
-                        <div className="yellowBox">
+                        <div className="ltGreenBox">
                             <PopVhab/><br/>
                                       V-Hab<br/>
                             <div className="boxesInfo">VR / Three.JS</div>
@@ -68,7 +69,7 @@ class Projects extends Component {
 
 
                     <a className="inline">
-                        <div className="yellowBox">
+                        <div className="ltOrangeBox">
                             <PopPtoPWeb/><br/>
                                      Web Design<br/>
                             <div className="boxesInfo">Web Design / Responsive</div>
@@ -77,8 +78,8 @@ class Projects extends Component {
 
 
                     <div href="#" target="_blank" className="inline"  >
-                        <div className="yellowBox">
-                            <img id="4" src={require('../../assets/js.png')} alt="news" className="grow"/><br/>
+                        <div className="ltGreenBox">
+                            <PopJS/><br/>
                                       Vanilla JS<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
@@ -86,7 +87,7 @@ class Projects extends Component {
 
 
                     <div href="#" target="_blank" className="inline"  >
-                        <div className="yellowBox">
+                        <div className="ltOrangeBox">
                             <PopGithub/><br/>
                                       Find the Github<br/>
                             <div className="boxesInfo"> jQuery / Github Api / Bootstrap</div>
@@ -104,7 +105,7 @@ class Projects extends Component {
 
 
                     <div href="#" target="_blank" className="inline"  >
-                        <div className="yellowBox">
+                        <div className="ltOrangeBox">
                             <PopGallery/><br/>
                                       React Image Gallery<br/>
                             <div className="boxesInfo">ReactJS / Webpack</div>
@@ -120,7 +121,7 @@ class Projects extends Component {
                     </div>
 
                     <div href="#" target="_blank" className="inline"  >
-                        <div className="yellowBox">
+                        <div className="ltGreenBox">
                             <PopData/><br/>
                                       Report Generate Templates <br/>
                             <div className="boxesInfo"> jQuery / canvas / Data Visualize</div>

@@ -43,7 +43,7 @@ class PopData extends Component {
           <a href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
-                                <img src={require('../../../assets/projects/example.jpg')} alt="" />
+                                <img src={require('../../../assets/projects/report-template.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
                                 <div className="popUpTitle">Data Visualization</div>
@@ -54,9 +54,7 @@ class PopData extends Component {
                                   This is a data visualization template for generate data reports. 
                                   This template is built with jQyert abd canvas, it also uses fullpage.js to make
                                   scroll smooth, it is designed based on the concept of componentization and 
-                                  each type of charts is styled and works individually. 
-                                  With this kind of design, users can quickly generate reports with multi-types 
-                                  of charts and customized style by simply passing data into it.                 
+                                            
                                   <br/><br/>
                                 <a href="https://canvas-report.herokuapp.com/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
                                 <a href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB DEMO</div></a>

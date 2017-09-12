@@ -27,7 +27,7 @@ class Coding extends Component {
     return (
       <div>
 
-          <button onClick={this.handleOpenModal} className="btn fourth" id="coding">Coding</button>
+          <button onClick={this.handleOpenModal} className="btn first" id="coding">Coding</button>
 
           <ReactModal 
            isOpen={this.state.showModal}
@@ -42,12 +42,8 @@ class Coding extends Component {
               content: {
                 color: 'lightsteelblue',
                 width:'60%',
-                height:'80%',
-               
-                
-              },
-             
-              
+                height:'80%',                               
+              },                           
             }}
         >
 

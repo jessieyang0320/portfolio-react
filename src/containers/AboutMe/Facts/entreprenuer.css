@@ -1,32 +1,53 @@
- 
+
 .entrepreneurContainer {
-  background-color:#4DC65B;
+  width: 100%;
+  background-color:#ACE5C1;
   color:white;
 }
-img{
-  width: 80%;
-  border-radius: 6px;
+
+.entrepreneur-img-1 {
+  width: 35%;
+  float:left;
+  margin-left: 2%;
+  border-radius: 15px;
 }
 
-.entrepreneurimageSlide {
-  margin: 0 auto;
-  padding-bottom: 5px;
-  width: 70%;
-  background: #4DC65B;
+.entrepreneur-img-2 {
+  width: 35%;
+  float:right;
+  margin-right: 2%;
+  
+  border-radius: 15px;
 }
 
-.entrepreneurArticle {
-  margin: -30px auto 0 auto;
-  margin-top: -50px;
-  width:100%;
+
+.entrepreneurTitle {
+  text-align: center;
+  margin: 10px auto 20px auto;
+  font-size: 1.5em;
+}
+
+.entrepreneurArticle-1 {
+  float:right;
+  margin: 10px auto 10px auto;
+ 
+  width:60%;
+  text-align: center;
+  padding:5px;
+  font-size: 20px;
+  
+}
+.entrepreneurArticle-2 {
+  float:left;
+  margin: 10px auto 10px auto;
+ 
+  width:60%;
   text-align: center;
   padding:5px;
   font-size: 20px;
   
 }
 
-.entrepreneurTitle {
-  text-align: center;
-  margin: 10px auto;
-  font-size: 1.5em;
-}
+
+
+

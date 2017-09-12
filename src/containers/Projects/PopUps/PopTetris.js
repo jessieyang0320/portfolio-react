@@ -28,7 +28,7 @@ class PopTetris extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/news-republic.png')} alt="news" 
+         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/websocket-tetris.png')} alt="news" 
           className="grow"/></a>
          
         <ReactModal 
@@ -55,8 +55,9 @@ class PopTetris extends Component {
                                   This is Tetris Game built with JavaScript and socket.io, players can choose single player mode or play with another
                                   player. With Multi-player mode. With socket.io, player can see the other player`s game in real-time.                 
                                   <br/><br/>
-                                <a href="https://github.com/jessieyang0320/Tetris-websocket" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
-                                <a href="https://jessieyang0320.github.io/Tetris-websocket/game.html" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
+                                   <a href="https://jessieyang0320.github.io/Tetris-websocket/game.html" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
+                                   <a href="https://github.com/jessieyang0320/Tetris-websocket" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
+                               
                               </div>
                               <div className="space"></div>
                           </div>

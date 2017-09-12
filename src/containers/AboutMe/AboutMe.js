@@ -48,11 +48,13 @@ class AboutMe extends Component {
                             Since you are here, I guess you want to know more about me</p>
                           </div>
 
+                           <div className="clear-fix"></div>
+
                           <div className="right-conv" onClick={this.showOptions.bind(this)}>
                             <p >
                             Nice to meet you Jessie!
                             <br/>
-                             tell me more about you,sth I do not know</p>
+                             tell me more about you, (click to know more)</p>
                              <ClickHereCircle color={red} className="clickHere"/>
                           </div>
 

@@ -43,7 +43,7 @@ class PopGallery extends Component {
           <a href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
-                                <img src={require('../../../assets/projects/example.jpg')} alt="" />
+                                <img src={require('../../../assets/projects/react-gallery.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
                                 <div className="popUpTitle">React Image Gallery</div>
@@ -51,11 +51,9 @@ class PopGallery extends Component {
                                     <div className="popUpTech">Webpack</div>
                                     <div className="popUpTech">ES6</div>
                                     <div className="popUpTech">Yeoman</div>
-                                  An Images display app built with ReactJS and webpack, it displayed images randomly on the 
-                                  screen, and users can click on each one of the images, it will move the image to center
-                                  and when you click the centered image, it will flip and show message on the back. 
-                                  This was a gift for my mom, she is always confused what does it mean when I say I am making
-                                  an app, I showed her what I can do with this small app:)                   
+                                  Built with ReactJS and webpack, click on one img, all imgs will be positioned randomly.
+                                  Click on the centered one, img will flip and show msg on the back
+                                                   
                                   <br/><br/>
                                 <a href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
                                 <a href="https://github.com/jessieyang0320/Image-Gallery-React" target="_blank"><div className="popUpBtn">Github Repo</div></a>

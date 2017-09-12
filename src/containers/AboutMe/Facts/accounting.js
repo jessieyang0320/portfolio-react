@@ -25,7 +25,7 @@ class Accounting extends Component {
   render() {
     return (
       <div>
-          <button onClick={this.handleOpenModal} className="btn fourth" id="accounting">Accounting</button>
+          <button onClick={this.handleOpenModal} className="btn third" id="accounting">Accounting</button>
 
           <ReactModal 
            isOpen={this.state.showModal}

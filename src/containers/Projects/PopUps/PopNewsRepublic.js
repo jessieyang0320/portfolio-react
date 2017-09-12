@@ -43,7 +43,7 @@ class PopNewsRepublic extends Component {
           <a href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
-                                <img src={require('../../../assets/projects/example.jpg')} alt="" />
+                                <img src={require('../../../assets/projects/news-republic.jpg')} alt="" />
                               </div>
                               <div className="popUpRight">
                                 <div className="popUpTitle">News Republic</div>
@@ -53,7 +53,8 @@ class PopNewsRepublic extends Component {
                                     <div className="popUpTech">API</div>
                                   News Republic is a news feed website made with Nodejs and ReactJS                  
                                   <br/><br/>
-                                <a href="http://briabby.com/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a href="https://jessieyang0320.github.io/news-republic-react/" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
+                                <a href="https://github.com/jessieyang0320/News-Republic" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>
