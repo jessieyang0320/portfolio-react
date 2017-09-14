@@ -52,7 +52,7 @@ class Entreprenuer extends Component {
             
             
             <div className="part">    
-                <div className="entrepreneur-img-1"><img src={require('../../../assets/greenhouse1.JPG')} alt=""/></div>
+                <div ><img className="entrepreneur-img-1" src={require('../../../assets/greenhouse1.JPG')} alt=""/></div>
                 <p className="entrepreneurArticle-1">
                     1. entrepreneur:   I consider myself a person with leadership and entrepreneur spirit.
                     I started a company named MagiTech in 2015. Our goal is to change how people
