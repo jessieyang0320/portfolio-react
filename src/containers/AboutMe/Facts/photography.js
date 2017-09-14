@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import ImageSlick from '../../../components/ImageSlick/ImageSlick';
+
 import './photography.css';
 import ReactModal from 'react-modal';
+import Tiles from '../../../components/ImageWall/Tiles'
 
 
 class Photography extends Component {
@@ -22,8 +23,119 @@ class Photography extends Component {
   handleCloseModal () {
     this.setState({ showModal: false });
   }
+  
 
   render() {
+    let data = [
+  {
+    "fileName": "1.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "2.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "3.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "4.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "5.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "6.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "7.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "8.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "9.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "10.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "11.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "12.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "13.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "14.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "15.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  {
+    "fileName": "16.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+   {
+    "fileName": "17.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+   {
+    "fileName": "18.jpg",
+    "title": "Heaven of time",
+    "desc": "Here he comes Here comes Speed Racer."
+  },
+  
+];
+
+
+
+// generate change image data to image url:
+
+function genImageURL(imageDataArr) {
+  for(var i=0;i< imageDataArr.length; i++) {
+    var singleImageData = imageDataArr[i];
+    singleImageData.imageURL = require('../../../assets/photography/' + singleImageData.fileName);
+
+      imageDataArr[i] = singleImageData;
+  }
+
+  return imageDataArr;
+}
+
+ data = genImageURL(data);
     return (
       <div>
           <button onClick={this.handleOpenModal} className="btn third" id="photography">Photography</button>
@@ -32,18 +144,17 @@ class Photography extends Component {
            isOpen={this.state.showModal}
            contentLabel="onRequestClose Example"
            onRequestClose={this.handleCloseModal}
-           className="Modal"
-           overlayClassName="Overlay"
+
            style={{
               overlay: {
                 backgroundColor: 'papayawhip'
               },
               content: {
                 color: 'lightsteelblue',
-                width:'60%',
-                height:'80%',
-               
-                
+                width: '90%',
+                margin: '5px auto'
+            
+                              
               },
              
               
@@ -53,8 +164,8 @@ class Photography extends Component {
           <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
           <div className="photoContainer">
-            <h1 className="photoTitle">This is the Photography Part</h1>
-            <ImageSlick/>
+            <h1 className="photoTitle">I Love Photography</h1>
+            <Tiles data={data}/>
             <p className="photoArticle">
             Simply three words: I love Photography. Taking pictures, leaving memories. 
             I am new to NYC, so you`ll find me exploring and taking photos of the city.

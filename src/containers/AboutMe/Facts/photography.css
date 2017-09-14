@@ -1,5 +1,6 @@
 .photoContainer{
-  background-color: #D9F49A;
+  background-color: #eeeeee;
+  width: 85vw;
 
 }
 .photoTitle {
@@ -17,3 +18,5 @@
   padding: 5px;
 
 }
+
+

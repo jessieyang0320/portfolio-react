@@ -1,0 +1,20 @@
+
+
+.tiles {
+  margin: 5px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  
+}
+.tile {
+  border: 1px solid white;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 5px;
+  border-radius: 10px;
+  height: 18vw;
+  
+}
