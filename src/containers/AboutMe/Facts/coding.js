@@ -27,7 +27,7 @@ class Coding extends Component {
     return (
       <div>
 
-          <button onClick={this.handleOpenModal} className="btn first" id="coding">Coding</button>
+          <button onClick={this.handleOpenModal} className="btn forth" id="coding">Developer</button>
 
           <ReactModal 
            isOpen={this.state.showModal}
@@ -41,21 +41,23 @@ class Coding extends Component {
               },
               content: {
                 color: 'lightsteelblue',
-                width:'60%',
-                height:'80%',                               
+                width:'60vw',
+                height: '80vh',
+                boxShadow: '-10px 10px 35px lightsteelblue'                               
               },                           
             }}
         >
 
               <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
               <div className="codingContainer">
-                <h1 className="codingTitle">This is the Coding Skills Part</h1>
+                <h1 className="codingTitle">Coding to Make a Difference</h1>
                 <p className="codingArticle">
-                2. coding skills: I started teaching myself coding when I realized
-                I need a landing page for my business. I learn things online,
-                youtube, medium, blog, so many new things to learn.
-                Feels like a butterfly run into a flower garden.  these are tools what
-                I have learnt to use:
+                I started teaching myself HTML and CSS when I realized
+                I need a landing page for my business. I enjoy making beautiful and 
+                functional websites with different tools. I believe that programming has 
+                the power to make people`s life better and easier!
+                 
+                <br/>these are tools that I use:
                 </p>
 
                 <div className="skill-icons">

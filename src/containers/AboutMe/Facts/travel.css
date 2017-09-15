@@ -11,16 +11,23 @@
 .travelMap {
   display: block;
   margin: auto;
-  width:80%;
-  padding: 5px;
+  width:60%;
+  float:left;
+  
   border-radius: 10px;
+  border: 5px solid orange;
 
+}
+.travelArticle-part {
+  width:35%;
+  float: right; 
+  
 }
 .travelArticle {
   display:block;
-  width:100%;
-  margin:auto;
-  text-align: center;
-  padding:10px;
+  
+  text-align:justify;
+  
 }
+
 

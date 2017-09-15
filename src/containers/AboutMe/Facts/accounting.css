@@ -1,20 +1,26 @@
 .accountingContainer {
-  background-color: #6B4310;
-  border: 1px solid black;
+  background-image: url('../../../assets/leaf.png');
+  background-size:70%;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  
 
 }
 .accountingTitle {
 
-  margin-top: 10px;
+  margin-top: 40px;
   text-align: center;
-  padding: 5px;
-
+  font-size:34px;
+  padding-top: 20px;
+  color: #956a39;
 
 }
 .accountingArticle {
-  display:block;
+
   width:80%;
   margin:auto;
-  text-align: center;
+  text-align: justify;
   padding:15px;
+  margin-bottom: 10px;
 }

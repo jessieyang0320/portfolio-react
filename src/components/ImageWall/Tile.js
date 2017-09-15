@@ -38,8 +38,8 @@ class Tile extends Component {
       tileStyle = {
         width: '62vw',
         height: '40vw',
-        position: 'absolute',
-        top: '30%',
+        position: 'fixed',
+        top: '70%',
         left: '50%',
         margin: '0',
         marginTop: '-31vw',

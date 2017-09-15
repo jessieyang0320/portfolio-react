@@ -112,19 +112,20 @@ h1 {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
-.fourth {
-  border-color: #f1c40f;
+.forth {
+  border-color: #FCEA49;
   color: #fff;
-  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
-  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
-  background-position: 100%;
-  background-size: 400%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
+  box-shadow: 0 0 40px 40px #FCEA49 inset, 0 0 0 0 #FCEA49;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
-.fourth:hover {
-  background-position: 0;
+.forth:hover {
+  box-shadow: 0 0 10px 0 #FCEA49 inset, 0 0 10px 4px #FCEA49;
 }
+
+
+
+
 
 .fifth {
   border-color: #8e44ad;

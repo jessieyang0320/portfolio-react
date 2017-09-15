@@ -138,7 +138,7 @@ function genImageURL(imageDataArr) {
  data = genImageURL(data);
     return (
       <div>
-          <button onClick={this.handleOpenModal} className="btn third" id="photography">Photography</button>
+          <button onClick={this.handleOpenModal} className="btn third" id="photography">Photographer</button>
          
          <ReactModal 
            isOpen={this.state.showModal}
@@ -147,12 +147,14 @@ function genImageURL(imageDataArr) {
 
            style={{
               overlay: {
-                backgroundColor: 'papayawhip'
+                backgroundColor: '#d7e2d1'
               },
               content: {
-                color: 'lightsteelblue',
+                backgroundColor:'#eeeeee',
+                color: '#775c8f',
                 width: '90%',
-                margin: '5px auto'
+                margin: '5px auto',
+                boxShadow: '-10px 10px 35px gray'
             
                               
               },

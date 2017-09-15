@@ -17,7 +17,6 @@ class AboutMe extends Component {
      }
    }
 
-
    showOptions () {
      this.setState({
        showOptions: !this.state.showOptions
@@ -36,8 +35,7 @@ class AboutMe extends Component {
           <div className="aboutMeContainer">
 
                   <div className="aboutMeOpen">
-                        Getting to Know Me
-                         I am a combination of business technology and artist 
+                        I have a business background and I know how to code
                   </div>
 
                    <div className="content">
