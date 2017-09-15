@@ -1,11 +1,115 @@
 
 .entrepreneurContainer {
   width: 100%;
-  background-color:#ACE5C1;
+  
   color:white;
+  background-image: url('../../../assets/leaf2.png');
+  background-size:50%;
+  
+  
+  background-position: center;
+}
+.entrepreneurTitle{
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+img {
+	width: 100%;
+	border-radius: 15px;
+}
+.img-part {
+	width: 30%;
+	float:left;
+	margin-left: 3%;
+}
+
+.article-part {
+	width: 60%;
+	float: right;
+	margin-right: 3%;
+}
+
+.article-part p {
+	margin-bottom: 10%;
+}
+
+.last-paragraph {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 830px){
+
+ .entrepreneurTitle{
+ 	font-size: 34px;
+	margin-left: 2%;
+	margin-bottom: 3%;
+  }
+  .img-part {
+  	display: absolute;
+  	margin-left: 10%;
+	width: 80%;
+	
+	border: 1px solid white;
+
+}
+
+.article-part {
+	width: 90%;
+	text-align: center;
+	margin-right:5% ;
+}
+
 }
 
 
+@media screen and (max-width: 830px){
 
+ .entrepreneurTitle{
+ 	font-size: 34px;
+	margin-left: 2%;
+	margin-bottom: 3%;
+  }
+  .img-part {
+  	display: absolute;
+  	margin-left: 10%;
+	width: 80%;
+	
+	border: 1px solid white;
 
+}
 
+.article-part {
+	width: 90%;
+	text-align: center;
+	margin-right:5% ;
+}
+
+}
+
+/*img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.entrepreneur-img-1 {
+	width: 30%;
+	float:left;
+	margin-left: 3%;
+}
+
+.entrepreneur-img-2 {
+	width: 30%;
+	float: right;
+	margin-right: 3%;
+}
+.entrepreneurArticle-1{
+	width: 60%;
+	float: right;
+	margin-right: 3%;
+}
+.entrepreneurArticle-2{
+	width: 60%;
+	float: left;
+	margin-left: 3%;
+}*/

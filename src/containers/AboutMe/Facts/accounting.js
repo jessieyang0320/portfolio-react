@@ -35,12 +35,13 @@ class Accounting extends Component {
            overlayClassName="Overlay"
             style={{
               overlay: {
-                backgroundColor: 'papayawhip'
+                backgroundColor: '#ac9a86'
               },
               content: {
-                color: 'lightsteelblue',
+                color: 'white',
+                backgroundColor: '#c9b199',
                 width:'60%',
-                height:'80%'                              
+                boxShadow: '-10px 10px 35px gray'                              
               },                           
             }}
         >
