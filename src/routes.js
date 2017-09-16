@@ -1,28 +1,28 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
-  Route
+  Route, BrowserRouter,Switch
 } from 'react-router-dom'
 import App from './containers/App/App'
 import Home from './containers/Home/Home'
 import AboutMe from './containers/AboutMe/AboutMe'
 import Projects from './containers/Projects/Projects'
 import Contact from './containers/Contact/Contact'
-import './routes.css';
+
 
 
 const RoutesMap = () => (
-  <Router>
+  <BrowserRouter>
     <div className="routes">
 
-
-      <Route exact path="/" component={App}/>
-          <Route exact path="/" component={Home}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/me" component={AboutMe}/>
-          <Route path="/contact" component={Contact}/>
+      <Switch>
+            <Route exact path="/" component={ Home }/>
+            
+            <Route path="/projects" component={Projects}/>
+            <Route path="/me" component={AboutMe}/>
+            <Route path="/contact" component={Contact}/>
+      </Switch>
     </div>
-  </Router>
+  </BrowserRouter>
 )
 
 export default RoutesMap
