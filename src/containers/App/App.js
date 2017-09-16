@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavigationBar from '../../components/NavigationBar/NavigationBar';
+
 
 // import Loading from '../../components/Loading/Loading';
 

@@ -1,12 +1,12 @@
 
 .entrepreneurContainer {
   width: 100%;
-  
+  font-family: "Futura-PT", sans-serif;
   color:white;
   background-image: url('../../../assets/leaf2.png');
   background-size:50%;
-  
-  
+  background-repeat: no-repeat;
+   
   background-position: center;
 }
 .entrepreneurTitle{
@@ -17,6 +17,7 @@
 img {
 	width: 100%;
 	border-radius: 15px;
+	border: 3px solid white;
 }
 .img-part {
 	width: 30%;

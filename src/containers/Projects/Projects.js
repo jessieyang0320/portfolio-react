@@ -30,7 +30,7 @@ class Projects extends Component {
    
     return (
 
-  <div>
+  <div className="project-page">
         <NavigationBar/>
         <Background/>
 
