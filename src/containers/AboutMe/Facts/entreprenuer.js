@@ -35,15 +35,16 @@ class Entreprenuer extends Component {
            onRequestClose={this.handleCloseModal}
           style={{
               overlay: {
-                backgroundColor: '#8cb686'
+                backgroundColor:'#eeeeee'
               },
               content: {
                 color: 'lightsteelblue',
                 width: '80%',
                 margin: '10px auto',
                 backgroundColor:'#a0d69a',
+
                 
-                
+              
                 boxShadow: '-10px 10px 55px black'
               }
             }}

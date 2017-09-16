@@ -3,15 +3,15 @@ import styled from 'styled-components';
 
 export const Background = styled.div`
   position: fixed;
-  background-image: url(${require('../assets/head2.png')});
-  background-color: white;
+  background-image: url(${require('../assets/profile-kgh.png')});
+ 
   z-index: -99;
-  background-size:50%;
-  top: 140px;
-  left: 10vw;
-  width: 80vw;
-  height:80vh;
+  background-size:100%;
+  top: 5%;
+  left: 0;
+  width: 100vw;
+  height:100vh;
   background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.3;
+  background-position: cover;
+  opacity: 0.6;
 `

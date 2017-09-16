@@ -18,13 +18,16 @@
   text-align: center;
   
 }*/
+.homepage{
+  background-image: url('../../assets/header-bkg.png');
+}
 
 .banner-text{
   margin: 200px auto;
 
 }
 .homecontainer{
-  width: 94%;
+  width: 100%;
   max-width: 1170px;
   margin:0 auto;
 }
@@ -33,10 +36,13 @@
 
   padding: 90px 20px;
   margin-top: 0;
-  background-color:#DEDECD;
+  background-color:#8396AF;
+  
+  
 }
 .self-description p {
   width: 80%;
+  color:#fff;
   max-width: 900px;
   text-align: center;
   margin: auto;
@@ -70,16 +76,18 @@
 
 
 .skill-circle{
+  background-image: url('../../assets/header-bkg.png');
   background-color:#EEEFE5;
   width:112px;
-  height:96px;
+  height:112px;
   text-align:center;
   padding-top:16px;
   margin:0px auto;
   -moz-border-radius: 56px;
   -webkit-border-radius: 56px;
-  border-radius: 56px;
+  border-radius: 50%;
   -khtml-border-radius: 56px;
+  z-index:99;
 }
 
 
@@ -88,7 +96,7 @@
     width:73.2%;
     max-width:82px;
     margin: 18px 0;
-    color:#D56724;
+    color:#d76713;
 }
 .seperate{
   margin: 35px auto 35px auto;
@@ -153,6 +161,7 @@
 
 .homecontainer{
   width: 100%;
+
   max-width: 1170px;
   margin:0 auto;
 }

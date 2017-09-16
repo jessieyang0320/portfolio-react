@@ -4,31 +4,33 @@
 
 .contactBkg {
   width:100%;
-  background-image:url(../../assets/bkg.png);
+  background-image:url(../../assets/header-bkg.png);
   background-position:top center;
   background-size: cover;
-  color: #ffffff;
-  height: 700px;
+  color: #687A8F;
+  height: 80vh;
   margin: 0px 0px 0px 0px;
-  padding: 70px 0 0 0;
+  padding: 0 0 0 0;
   text-align: center;
+  
 
 }
 .contactWrapper {
   width:94%;
+  
   max-width:710px;
   margin:0px auto;
   text-align:center;
   font-size:18px;
   line-height:27px;
-  padding:100px 0px 0px 0px;
+  padding:50px 0px 0px 0px;
 }
 
 .contactWrapper h2{
   
   font-size:86px;
   line-height:100px;
-  color:#FFFFFF;
+  color:#687A8F;
   
 }
 

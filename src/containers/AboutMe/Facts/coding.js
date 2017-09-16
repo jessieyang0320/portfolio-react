@@ -37,7 +37,8 @@ class Coding extends Component {
            overlayClassName="Overlay"
            style={{
               overlay: {
-                backgroundColor: 'papayawhip'
+                backgroundColor: 'papayawhip',
+                
               },
               content: {
                 color: 'lightsteelblue',

@@ -110,17 +110,19 @@ h1 {
 }
 .third:hover {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  color:#6B7A8F;
 }
 
 .forth {
-  border-color: #FCEA49;
+  border-color: #F7882f;
   color: #fff;
-  box-shadow: 0 0 40px 40px #FCEA49 inset, 0 0 0 0 #FCEA49;
+  box-shadow: 0 0 40px 40px #F7882f inset, 0 0 0 0 #F7882f;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
 .forth:hover {
-  box-shadow: 0 0 10px 0 #FCEA49 inset, 0 0 10px 4px #FCEA49;
+  box-shadow: 0 0 10px 0 #F7882f inset, 0 0 10px 4px #F7882f;
+  color:#6B7A8F;
 }
 
 

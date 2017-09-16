@@ -1,17 +1,18 @@
 .aboutMeContainer{
   width: 80%;
   margin:0 auto;
+  
 }
 .content {
   width: 100%;
-  height:500px;
-  border: 1px solid black;
-  margin:50px auto 20px auto;
-  padding: 10px;
+  height:300px;
+  
+  margin:20px auto 20px auto;
+  
 }
 
 .aboutMeOpen {
-  margin-top:30px;
+  margin-top:5px;
   margin-bottom:0;
   padding: 10px;
   font-size:1.5em;
@@ -19,12 +20,13 @@
 
 .left-conv{
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .right-conv{
-  float:right;  
-  margin-bottom: 20px;
+  float:right; 
+  margin-top: -40px; 
+  margin-bottom: 10px;
   text-align: right;
   cursor: pointer;
 
