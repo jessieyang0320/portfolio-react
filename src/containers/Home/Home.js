@@ -34,7 +34,7 @@ class Home extends Component {
        <div className = "self-description">
           <Reveal effect="animated zoomIn">
               <p> Hi! My name is Jessie Yang. I am a New York based Front End Developer
-              and I create beautiful & functional websites! Below are tools I use: </p>
+              <br/>I create beautiful & functional websites!  </p>
           </Reveal>
        </div>
 
@@ -54,7 +54,7 @@ class Home extends Component {
                   </div>
 
                   <div className="skill-detail">
-                      I work with agile frameworks such as Node.js, React, and Ruby on Rails.
+                      I work with frameworks such as Node.js, React, Express, and Ruby on Rails.
                   </div>
                </Reveal>
               </div>
@@ -76,7 +76,7 @@ class Home extends Component {
 
                   </div>
                   <div className="skill-detail">
-                    I use Git/Github for version control and deploy and Heroku.
+                    I use Git/Github for version control and deploy on Heroku.
                   </div>
 
               </Reveal>
@@ -118,8 +118,7 @@ class Home extends Component {
                       UP to Date
                   </div>
                   <div className="skill-detail">
-                         I keep on my toes with cutting-edge languages such as
-                         JavaScript, HTML5, CSS3, ES6, and Ruby.
+                         I like trying out new things and keep on my toes with cutting-edge technologies, .
                   </div>
               </Reveal>
               </div>

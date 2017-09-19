@@ -40,7 +40,7 @@ class PopGallery extends Component {
         >
           <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
-          <a href="#inline_content" className="overlay">
+          <div href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/react-gallery.jpg')} alt="" />
@@ -51,9 +51,10 @@ class PopGallery extends Component {
                                     <div className="popUpTech">Webpack</div>
                                     <div className="popUpTech">ES6</div>
                                     <div className="popUpTech">Yeoman</div>
+                                  <p className="app-description">
                                   Built with ReactJS and webpack, click on one img, all imgs will be positioned randomly.
-                                  Click on the centered one, img will flip and show msg on the back
-                                                   
+                                  Click on the centered img, it will flip and show msg on the back
+                                  </p>                 
                                   <br/><br/>
                                 <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
                                 <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/Image-Gallery-React" target="_blank"><div className="popUpBtn">Github Repo</div></a>
@@ -63,7 +64,7 @@ class PopGallery extends Component {
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 

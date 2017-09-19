@@ -50,12 +50,14 @@ class PopMusic extends Component {
                                     <div className="popUpTech">ReactJS</div>
                                     <div className="popUpTech"> API</div>
                                     <div className="popUpTech"> HTML and CSS</div>
+                                    
+                                    <p className="app-description">
                                     A music player built with Reactjs. 
-                                    control pannel: play the previous song, stop/play, play next song. 
-                                    It plays next music randomly. Click on "music list", a list of 10 songs showed
+                                    control pannel: previous song, stop/play, next song. 
+                                    Music played randomly. Click on "music list", a list of 10 songs showed
                                     up and music will play when click on the name. 
                                     aliyun Music Api provide 10 songs for free.
-
+                                    </p>
                                     
                                                    
                                   <br/><br/>

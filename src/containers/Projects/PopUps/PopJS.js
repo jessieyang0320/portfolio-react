@@ -50,8 +50,10 @@ class PopJS extends Component {
                                     <div className="popUpTech">JavaScript</div>
                                     <div className="popUpTech"> API</div>
                                     <div className="popUpTech"> HTML and CSS</div>
+                                    
+                                    <p className="app-description">
                                     Small projects built for practicing vanilla JavaScript
-                                                                                
+                                    </p>                                            
                                   <br/><br/>
                                 <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/day-1/day-1-drumkit.html" target="_blank"><div className="popUpBtn">One</div></a>
                                 <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/JavaScript-30days/blob/master/02-JS-CSS-Clock/CSS-Clock.html" target="_blank"><div className="popUpBtn">Two</div></a>

@@ -8,11 +8,13 @@
 
 }
 .accountingTitle {
-
-  margin-top: 40px;
-  text-align: center;
-  font-size:34px;
-  padding-top: 20px;
+ 
+  margin-top: 20px;
+  margin-left: 3%;
+  line-height: 35px;
+  text-shadow: 4px 4px 4px #fff;
+  font-size:45px;
+  padding: 10px 0 20px 0;
   color: #956a39;
 
 }
@@ -20,7 +22,126 @@
 
   width:80%;
   margin:auto;
-  text-align: justify;
+  
   padding:15px;
-  margin-bottom: 10px;
+  padding-bottom: 40px; 
+  margin-bottom: 40px;
+  
 }
+
+@media screen and (max-width: 980px){
+  .accountingTitle {
+ 
+  margin-top: 20px;
+  margin-left: 3%;
+  line-height: 30px;
+ 
+  font-size:40px;
+  padding: 20px 0 10px 0;
+  
+  }
+
+  .accountingArticle {
+
+  width:90%;
+  margin:auto;
+  font-size:25px;
+  padding:15px;
+  padding-bottom: 20px; 
+  margin-bottom: 40px;
+  
+}
+
+
+}
+
+@media screen and (max-width: 680px){
+  .accountingTitle {
+ 
+  margin-top: 20px;
+  margin-left: 3%;
+  line-height: 25px;
+ 
+  font-size:30px;
+  padding: 20px 0 10px 0;
+  
+  }
+
+  .accountingArticle {
+
+  width:90%;
+  margin:auto;
+  font-size:20px;
+  padding:15px;
+  padding-bottom: 20px; 
+  margin-bottom: 20px;
+  
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 450px){
+  .accountingTitle {
+  margin-top: 10px;
+  margin-left: 3%;
+  line-height: 25px;
+  font-size:25px;
+  padding: 5px 0 10px 0;
+  
+  }
+
+  .accountingArticle {
+
+  width:100%;
+  margin:auto;
+  font-size:20px;
+  padding:5px;
+  padding-bottom: 20px; 
+  
+}
+
+
+}
+
+@media screen and (max-width: 350px){
+  .accountingTitle {
+ 
+  margin-top: 0px;
+  margin-left: 3%;
+  line-height: 20px;
+  font-size:20px;
+  padding: 5px 0 10px 0;
+  
+  }
+
+  .accountingArticle {
+
+  width:100%;
+  margin:auto;
+  font-size:15px;
+  padding:5px;
+  padding-bottom: 20px; 
+ 
+  
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

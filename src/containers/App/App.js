@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 
-// import Loading from '../../components/Loading/Loading';
-
 
 class App extends Component {
+	
 
 
   render() {

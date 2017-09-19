@@ -23,7 +23,7 @@ class RandomFacts extends Component {
   render() {
     return (
       <div>
-      	<button onClick={this.handleOpenModal} className="btn second" id="randomfacts">Quirks</button>
+      	<button onClick={this.handleOpenModal} className="btn nine" id="randomfacts">Cat Lover</button>
 
       	<ReactModal 
            isOpen={this.state.showModal}
@@ -34,7 +34,11 @@ class RandomFacts extends Component {
         >
 
         <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
-        <h1>This is the Random Facts Part</h1>
+        <h1>Love Cats!!</h1>
+        
+        <p>
+
+        </p>
 
 
         </ReactModal>

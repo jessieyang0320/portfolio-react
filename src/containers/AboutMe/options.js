@@ -30,14 +30,11 @@ class Options extends Component {
       <div className = "option-container">
           <p>Sure,
           <br/>
-          click on bubbles below to get to know more about me:</p>
+          click on buttons below, get to know more about me:</p>
 
 
-          <div className = "options">
-      
-
+          <div className = "options">      
 							<div className='buttons' >
-
                 <div className='opt-btn'>
                 <Entreprenuer/>
                 </div>
@@ -64,16 +61,9 @@ class Options extends Component {
 
                 <div className='opt-btn'>
                 <Accounting/>
-                </div>
-
-
-
-			            
-                  
-
-			        </div>
-
-              
+                </div>	            
+     
+			        </div>             
         </div>
       </div>
     );

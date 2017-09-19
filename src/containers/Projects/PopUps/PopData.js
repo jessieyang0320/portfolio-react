@@ -51,12 +51,14 @@ class PopData extends Component {
                                     <div className="popUpTech"> fullpage.js</div>
                                     <div className="popUpTech"> canvas.js </div>
                                     <div className="popUpTech">HTML and CSS</div>
-                                  This is a data visualization template for generate data reports. 
-                                  This template is built with jQyert abd canvas, it also uses fullpage.js to make
-                                  scroll smooth, it is designed based on the concept of componentization and 
-                                            
+
+                                    <p className="app-description">
+                                  A Data visualization template for generate data reports. 
+                                  Built with jQuery, canvas, and fullpage.js 
+                                  it is designed based on the concept of componentization 
+                                  </p>          
                                   <br/><br/>
-                                <a rel="noopener noreferrer" href="https://canvas-report.herokuapp.com/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <div className="popUpBtn"><a rel="noopener noreferrer" href="https://canvas-report.herokuapp.com/index.html" target="_blank">LAUNCH WEBSITE</a></div>
                                 <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB DEMO</div></a>
                               </div>
                               <div className="space"></div>

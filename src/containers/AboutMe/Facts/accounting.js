@@ -25,14 +25,13 @@ class Accounting extends Component {
   render() {
     return (
       <div>
-          <button onClick={this.handleOpenModal} className="btn third" id="accounting">Accounting</button>
+          <button onClick={this.handleOpenModal} className="btn seven" id="accounting">Accountant</button>
 
           <ReactModal 
            isOpen={this.state.showModal}
            contentLabel="onRequestClose Example"
            onRequestClose={this.handleCloseModal}
-           className="Modal"
-           overlayClassName="Overlay"
+           
             style={{
               overlay: {
                 backgroundColor: '#ac9a86'
@@ -40,26 +39,28 @@ class Accounting extends Component {
               content: {
                 color: 'white',
                 backgroundColor: '#c9b199',
-                width:'60%',
-                boxShadow: '-10px 10px 35px gray'                              
+                width:'70vw',
+                boxShadow: '-10px 10px 35px gray',
+                margin: '20px auto'                              
               },                           
             }}
         >
 
         <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
           <div className="accountingContainer">
-            <h1 className="accountingTitle">This is the Accounting Skills Part</h1>
+            <h1 className="accountingTitle">I have an accounting background</h1>
             <p className="accountingArticle">
-             what about accounting?
-             Accounting was my major and I have a master degree on that from Bentley University,
-             which locates in Waltham MA.
-             I also passed the CPA exam, I thought I will become a CPA,
-             but listened to my heart, no, I don`t want to be a CPA for my whole life,
-             I want to work in the tech industry, and build something,
-             be a part of change of people`s life. Did I learn something from accounting?
-             Of course, paying attention to details, business logical mindset,
-
-             People do not get it, why you have to change career
+             What about accounting?
+             I got my master degree in accounting from Bentley Unviersity. I`ve been working 
+             as a staff accountant after graduation, I passed CPA exams, and I have a 
+             solid understanding of accounting principles.
+             <br/><br/>
+             But deep in my heart I know I cannot be an accountant for my whole life. 
+             I enjoy creating things from scratch, being creative. I tried building websites
+             when I started my own business and found myself fall in love with it. 
+             <br/><br/>
+             So, here I am, looking for a front end position while continuously learning new skills. 
+             
 
             </p>
 

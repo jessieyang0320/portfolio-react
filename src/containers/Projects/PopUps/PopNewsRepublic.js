@@ -51,7 +51,9 @@ class PopNewsRepublic extends Component {
                                     <div className="popUpTech">Responsive</div>
                                     <div className="popUpTech">Web Desgin</div>
                                     <div className="popUpTech">API</div>
+                                  <p className="app-description">
                                   News Republic is a news feed website made with Nodejs and ReactJS                  
+                                  </p>
                                   <br/><br/>
                                 <a href="https://jessieyang0320.github.io/news-republic-react/" target="_blank" rel="noopener noreferrer"><div className="popUpBtn">LAUNCH DEMO</div></a>
                                 <a href="https://github.com/jessieyang0320/News-Republic" target="_blank" rel="noopener noreferrer"><div className="popUpBtn">GITHUB REPO</div></a>

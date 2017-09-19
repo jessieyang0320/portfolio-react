@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Route, BrowserRouter,Switch
 } from 'react-router-dom'
-import App from './containers/App/App'
+
 import Home from './containers/Home/Home'
 import AboutMe from './containers/AboutMe/AboutMe'
 import Projects from './containers/Projects/Projects'

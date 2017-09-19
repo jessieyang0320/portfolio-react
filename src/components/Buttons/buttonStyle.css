@@ -77,12 +77,17 @@ h1 {
   outline: 0;
 }
 
+
 .first {
-  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  border-color: #e74c3c;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #e74c3c inset, 0 0 0 0 #e74c3c;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 .first:hover {
-  box-shadow: 0 0 40px 40px #e74c3c inset;
+  box-shadow: 0 0 10px 0 #e74c3c inset, 0 0 10px 4px #e74c3c;
+  color:#e74c3c;
 }
 
 .second {
@@ -110,7 +115,60 @@ h1 {
 }
 .third:hover {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  color:#3498db;
+}
+
+/*.forth {
+  border-color: #F7882f;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #F7882f inset, 0 0 0 0 #F7882f;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.forth:hover {
+  box-shadow: 0 0 10px 0 #F7882f inset, 0 0 10px 4px #F7882f;
+  color:#F7882f;
+}
+*/
+
+
+
+.seven {
+  border-color: #6B7A8F;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #6B7A8F inset, 0 0 0 0 #6B7A8F;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.seven:hover {
+  box-shadow: 0 0 10px 0 #6B7A8F inset, 0 0 10px 4px #6B7A8F;
   color:#6B7A8F;
+}
+
+
+.eight {
+  border-color: #1abc9c;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #1abc9c inset, 0 0 0 0 #1abc9c;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.eight:hover {
+  box-shadow: 0 0 10px 0 #1abc9c inset, 0 0 10px 4px #1abc9c;
+  color:#1abc9c;
+}
+
+
+.nine {
+  border-color: #675682;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #675682 inset, 0 0 0 0 #675682;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.nine:hover {
+  box-shadow: 0 0 10px 0 #675682 inset, 0 0 10px 4px #675682;
+  color:#675682;
 }
 
 .forth {
@@ -122,9 +180,8 @@ h1 {
 }
 .forth:hover {
   box-shadow: 0 0 10px 0 #F7882f inset, 0 0 10px 4px #F7882f;
-  color:#6B7A8F;
+  color:#F7882f;
 }
-
 
 
 
@@ -176,3 +233,12 @@ h1 {
   color: #fff;
   background-position: 0 100%;
 }
+
+
+
+
+
+
+
+
+

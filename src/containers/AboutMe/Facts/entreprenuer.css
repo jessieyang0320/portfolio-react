@@ -1,17 +1,21 @@
 
 .entrepreneurContainer {
   width: 100%;
-  font-family: "Futura-PT", sans-serif;
+  font-family: "Lora",serif;
   color:white;
-  background-image: url('../../../assets/leaf2.png');
+  
   background-size:50%;
   background-repeat: no-repeat;
    
   background-position: center;
 }
 .entrepreneurTitle{
+	color: #373F27;
+	font-size: 40px;
+	line-height: 45px;
 	margin-left: 2%;
 	margin-bottom: 5%;
+    text-shadow: 4px 4px 4px #FFF;
 }
 
 img {
@@ -32,7 +36,9 @@ img {
 }
 
 .article-part p {
-	margin-bottom: 10%;
+	color: #636B46;
+	margin-bottom: 5%;
+	font-size: 23px;
 }
 
 .last-paragraph {

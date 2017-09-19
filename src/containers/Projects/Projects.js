@@ -34,15 +34,17 @@ class Projects extends Component {
         <NavigationBar/>
         <Background/>
 
-
-
       <div className="projects-container">
               <Reveal effect="animated fadeInUp" className="passage-block">
-                  <p>
-                      I made beautiful and functional website with React, Nodejs, Express, Rails, MongoDB, Postgres.
-                      and as a VR enthusiast, I made VR apps too.
+                                  
+                  <p className = "slogan">
+                      Coding to Make a Difference!!
+                      
                   </p>
 
+                  <p className="open-part1">
+                    -- this website is built with React.js 
+                  </p>
               </Reveal>
 
 
@@ -50,9 +52,10 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <PopNewsRepublic/><br/>
-                                      News Republic<br/>
-                            <div className="boxesInfo">Web Design / Development</div>
+                            <PopMusic/><br/>
+                                React Music<br/>
+                            <div className="boxesInfo">React / Api / Music Player</div>
+                            
                         </div>
                     </div>
 
@@ -97,8 +100,8 @@ class Projects extends Component {
 
                     <div href="#" target="_blank" className="inline"  >
                         <div className="yellowBox">
-                            <PopMusic/><br/>
-                                      React Music<br/>
+                            <PopNewsRepublic/><br/>
+                                      News Republic<br/>
                             <div className="boxesInfo">Web Design / Development</div>
                         </div>
                     </div>

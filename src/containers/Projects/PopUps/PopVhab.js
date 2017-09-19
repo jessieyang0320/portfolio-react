@@ -40,7 +40,7 @@ class PopVhab extends Component {
         >
           <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
-          <a href="#inline_content" className="overlay">
+          <div href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/v-hab.jpg')} alt="" />
@@ -50,12 +50,11 @@ class PopVhab extends Component {
                                     <div className="popUpTech">ReactJS</div>
                                     <div className="popUpTech">ThreeJS</div>
                                     <div className="popUpTech">VR</div>
-                                    
-                                  I was inspired by a good friend of mine who lost her hands functions in a car accident, I see her went through the
-                                  whole physical therophy process, it was expensive and boring, I want to make something that can help these people  
-                                  practice using their hands while also have fun.  
-                                  V-hab is a VR game built with Three.js, it uses leap motion controller to capture users hands movement
-                                  and rendered the data on screen. Users need to perform certain hands functions to pass the tasks.   
+                                  <p className="app-description">  
+                                  With the purpose to make hand physical therapy more engaing, fun and inexpensive.   
+                                  A VR game which uses leap motion controller to capture users hands movements data and render images with Three.js
+                                     
+                                  </p>
                                   <br/><br/>
                                 <a rel="noopener noreferrer" href="https://www.youtube.com/watch?v=qPoWPNmsvx0&feature=youtu.be&t=2m44s" target="_blank"><div className="popUpBtn">Live Demo</div></a>
                                 <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/VHab" target="_blank"><div className="popUpBtn">Github Repo</div></a>
@@ -66,7 +65,7 @@ class PopVhab extends Component {
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 

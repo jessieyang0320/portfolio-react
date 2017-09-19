@@ -1,33 +1,62 @@
 .travelContainer{
   background-color: #DD5444;
+
 }
 
 .travelTitle{
-  margin-top: 5px;
-  text-align: center;
+  margin-top: -5px;
+  font-size:45px;
+  color: #DF744A;
+  text-shadow: 4px 4px 4px #CAEBF2;
  
 }
 
 .travelMap {
   display: block;
-  margin: auto;
-  width:60%;
-  float:left;
-  
+  margin: 10px auto;
+  width:65%;
   border-radius: 10px;
   border: 5px solid orange;
 
 }
 .travelArticle-part {
-  width:35%;
-  float: right; 
+  background-image: url('../../../assets/header-bkg.png');
+ width:80%;
+
+ margin:20px auto; 
+ color: #DF744A;
+ font-size:20px; 
+
+}
+.travelArticle-part p{
+  margin-bottom: 10px;
+   line-height: 20px;
+}
+
+.travelArticle-Q{
+    color:gray;
+}
+@media screen and (max-width:750px ){
+  .travelTitle{
+  margin-top: 5px;
+  font-size:35px;
+ 
+}
+.travelMap {
+ 
+  margin: 10px auto;
+  width:100%;
   
 }
-.travelArticle {
-  display:block;
-  
-  text-align:justify;
-  
+
+.travelArticle-part {
+ width:100%;
+ margin:20px auto; 
+ color: #DF744A;
+ font-size:15px; 
+
 }
+}
+
 
 

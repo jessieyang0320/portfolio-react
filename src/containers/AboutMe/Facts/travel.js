@@ -24,7 +24,7 @@ class Travel extends Component {
   render() {
     return (
       <div>
-      <button onClick={this.handleOpenModal} className="btn second" id="travel" >Traveler</button>
+      <button onClick={this.handleOpenModal} className="btn eight" id="travel" >Traveler</button>
         <div className="travelContainer">
         
         <ReactModal 
@@ -34,11 +34,12 @@ class Travel extends Component {
            
            style={{
               overlay: {
-                backgroundColor: '#B5DEFF'
+                backgroundColor: '#CAEBF2'
               },
               content: {
-                backgroundColor:'White',
+                backgroundColor:'#fff',
                 width:'60vw',
+
                 margin:'10px auto',
                 boxShadow: '-10px 10px 35px gray'
 
@@ -51,12 +52,14 @@ class Travel extends Component {
         <h1 className="travelTitle">I am a Traveler!</h1>
         <img className="travelMap" src={require("../../../assets/travelMap.png")} alt=""/>
           <div className="travelArticle-part">
-            <p className="travelArticle">why do I like traveling?</p>  
+            <p className="travelArticle-Q">Why do I like traveling?</p>  
             
-            <p className="travelArticle">Traveling around the world
-             makes me fall in love with my life.</p> 
+            <p className="travelArticle">Traveling around the world, meeting new people,
+            exploring different cultures, seeing things that I never saw before -- travel has been an 
+            eye opener for me.</p> 
+
              
-            <p className="travelArticle">Most proud travel experience so far? </p>
+            <p className="travelArticle-Q">Most proud travel experience so far? </p>
 
             <p className="travelArticle">Backpacking in Europe for a
             month by myself.

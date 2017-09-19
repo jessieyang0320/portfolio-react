@@ -17,7 +17,7 @@ class Contact extends Component {
               <div className="contactBkg">
                   <div className="contactWrapper">
                     <h2>get in touch</h2>
-                      I am currently looking for opportunities, send me an email<br/><br/>
+                      If you`re looking for developers who don't need hand-holding, who are coachable, driven, and thrive on ownership and initiative. <br/><br/>
                       
                       <div className="submitBtnBkg">
                   <a href="mailto:jessieyang0320@gmail.com"><div className="submitBtnNew">SEND AN EMAIL</div></a>
@@ -26,7 +26,8 @@ class Contact extends Component {
                   <div className='buttons'>
                       <a rel="noopener noreferrer" href="https://www.linkedin.com/in/jessie-lijie-yang/" target="_blank"><button className="btn first">LinkeIn</button></a>
                       <a rel="noopener noreferrer" href="https://github.com/jessieyang0320" target="_blank"><button className="btn second">Github</button></a>
-                      <a rel="noopener noreferrer" href="../../assets/Jessie Yang Resume.pdf" target="_blank"><button className="btn third">Resume</button></a>
+                      <a rel="noopener noreferrer" href="https://resume.creddle.io/resume/b6cdr3eng69" target="_blank"><button className="btn third">Resume</button></a>
+                      
                       
                   </div>
                       

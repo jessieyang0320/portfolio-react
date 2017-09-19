@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+html {
+	min-height: 100%;
+	position: relative;
+}
 body {
  
   font-family: 'VT323', cursive, sans-serif;
@@ -30,3 +34,4 @@ p{
 	font-size: 110%;
 	line-height: 110%;
 }
+
