@@ -5,19 +5,17 @@
 }
 .photoTitle {
   color: #775c8f;
-  font-size: 1.5em;
-  margin-top: 10px;
-  text-align: center;
+  font-size: 45px;
+  margin-top: 5px;
+  text-shadow: 4px 4px 4px #fff;
+  
 }
 .photoArticle {
   display:block;
-  width:100%;
-  margin:auto;
-  font-size: 24px;
-  text-align: center;
+  width:80%;
+  margin-bottom: 10px;
+  font-size: 20px;  
   color: #775c8f;
-  padding: 5px;
-
 }
 
 

@@ -42,9 +42,6 @@ class Entreprenuer extends Component {
                 width: '80%',
                 margin: '10px auto',
                 backgroundColor:'#a0d69a',
-
-                
-              
                 boxShadow: '-10px 10px 55px black'
               }
             }}

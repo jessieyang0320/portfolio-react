@@ -43,9 +43,11 @@
 .self-description p {
   width: 80%;
   color:#fff;
+  font-size:30px;
   max-width: 900px;
   text-align: center;
   margin: auto;
+  line-height: 45px;
 }
 .skills{
   width: 94%;

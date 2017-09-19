@@ -166,12 +166,13 @@ function genImageURL(imageDataArr) {
           <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
           <div className="photoContainer">
-            <h1 className="photoTitle">I Love Photography</h1>
-            <Tiles data={data}/>
+            <h1 className="photoTitle">I Am A Photographer!</h1>
             <p className="photoArticle">
-            Simply three words: I love Photography. Taking pictures, leaving memories. 
-            I am new to NYC, so you`ll find me exploring and taking photos of the city.
+            During weekends, I always spend time exploring the city, taking pictures, leaving memories. 
+            checkout some of my works below:
             </p>
+            <Tiles data={data}/>
+            
 
           </div>
         </ReactModal>

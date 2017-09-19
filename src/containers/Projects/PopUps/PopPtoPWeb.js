@@ -41,7 +41,7 @@ class PopPtoPWeb extends Component {
         >
           <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
 
-          <a href="#inline_content" className="overlay">
+          <div href="#inline_content" className="overlay">
                         <div id='inline_content' className="popup" visible={this.state.visible}>
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/responsive-web.jpg')} alt="" />
@@ -52,8 +52,9 @@ class PopPtoPWeb extends Component {
                                     <div className="popUpTech">CSS3</div>
                                     <div className="popUpTech">Responsive</div>
                                     <div className="popUpTech">Web Desgin</div>
-                                    
+                                  <p className="app-description">  
                                   A responsive website built with HTML and CSS, displayed well on various sizes screens                
+                                  </p>
                                   <br/><br/>
                                 <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/responsive-web-design/blob/master/src/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
                                 <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/responsive-web-design" target="_blank"><div className="popUpBtn">Github Repo</div></a>
@@ -63,7 +64,7 @@ class PopPtoPWeb extends Component {
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 

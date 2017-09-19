@@ -1,19 +1,23 @@
 .codingContainer{
   background: white;
+  
+
 }
 .codingTitle {
-  margin-top: 10px;
-  text-align: center;
-  padding: 5px;
-  color:gray;
+  font-size:45px;
+  margin-top: 5px;
+  
+  color:#3C3c3C;
+  
 }
 .codingArticle {
   display:block;
   width:80%;
   margin:auto;
-  text-align: center;
-  padding:15px;
-  color: gray;
+  margin-bottom: 15px;
+  line-height: 25px;
+  padding:10px;
+  color: #3C3c3C;
 }
 
 .skill-icons{
@@ -24,6 +28,109 @@
 
 svg {
   width: 15%;
-  padding: 15px;
+  padding: 5px;
   margin-right: 10px;
 }
+
+@media screen and (max-width: 850px){
+  .codingTitle {
+  font-size:25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+
+ }
+
+ .codingArticle {
+  
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 18px;
+  padding:5px;
+  
+}
+
+}
+
+
+@media screen and (max-width: 540px){
+  .codingTitle {
+  
+  font-size:20px;
+  line-height: 25px;
+  margin-bottom: 10px;
+
+ }
+
+ .codingArticle {
+ 
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 18px;
+  padding:5px;
+  
+}
+
+}
+
+
+@media screen and (max-width: 480px){
+  .codingTitle {
+  
+  font-size:20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+
+ }
+
+ .codingArticle {
+  width: 90%;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 17px;
+  padding:5px;  
+}
+
+}
+
+@media screen and (max-width: 350px){
+  .codingTitle {
+  
+  font-size:20px;
+  line-height: 15px;
+  margin-bottom: 10px;
+
+ }
+
+ .codingArticle {
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 16px;
+  padding:1px;  
+}
+
+.skill-icons{
+ 
+ width: 100%;
+ 
+}
+
+svg {
+  width: 20%;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

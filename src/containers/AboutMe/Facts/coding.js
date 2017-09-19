@@ -33,8 +33,6 @@ class Coding extends Component {
            isOpen={this.state.showModal}
            contentLabel="onRequestClose Example"
            onRequestClose={this.handleCloseModal}
-           className="Modal"
-           overlayClassName="Overlay"
            style={{
               overlay: {
                 backgroundColor: 'papayawhip',
@@ -44,7 +42,8 @@ class Coding extends Component {
                 color: 'lightsteelblue',
                 width:'60vw',
                 height: '80vh',
-                boxShadow: '-10px 10px 35px lightsteelblue'                               
+                boxShadow: '-10px 10px 35px lightsteelblue',
+                margin: '10px auto'                               
               },                           
             }}
         >
@@ -53,19 +52,24 @@ class Coding extends Component {
               <div className="codingContainer">
                 <h1 className="codingTitle">Coding to Make a Difference</h1>
                 <p className="codingArticle">
-                I started teaching myself HTML and CSS when I realized
-                I need a landing page for my business. I enjoy making beautiful and 
-                functional websites with different tools. I believe that programming has 
+                My journey of programming started three years ago when I realized that
+                I needed a landing page for my business. I studied full stack web development, 
+                with a specialization in front-end engineering.
+                <br/><br/>I enjoy making beautiful and 
+                functional websites and I strive to create innovative and thoughtful solutions
+                with code & design. 
+                <br/><br/>I believe that programming has 
                 the power to make people`s life better and easier!
                  
-                <br/>these are tools that I use:
+                <br/><br/>These are tools that I use:
                 </p>
-
+                
                 <div className="skill-icons">
 
                   <CodingIcon/>
 
                 </div>
+                
 
               </div>
         </ReactModal> 
