@@ -50,7 +50,7 @@ class Coding extends Component {
 
               <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
               <div className="codingContainer">
-                <h1 className="codingTitle">Coding to Make a Difference</h1>
+                <h1 className="codingTitle">Coding to Make a Difference!!</h1>
                 <p className="codingArticle">
                 My journey of programming started three years ago when I realized that
                 I needed a landing page for my business. I studied full stack web development, 

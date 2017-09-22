@@ -28,8 +28,8 @@ class PopData extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/data.png')} alt="news" 
-          className="grow"/></a>
+         <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/data.png')} alt="news" 
+          className="grow"/></div>
          
         <ReactModal 
            isOpen={this.state.showModal}
@@ -38,10 +38,10 @@ class PopData extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
-          <a href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+          <div href="#inline_content" className="overlay">
+                        <div id='inline_content' className="popup">
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/report-template.jpg')} alt="" />
                               </div>
@@ -58,15 +58,15 @@ class PopData extends Component {
                                   it is designed based on the concept of componentization 
                                   </p>          
                                   <br/><br/>
-                                <div className="popUpBtn"><a rel="noopener noreferrer" href="https://canvas-report.herokuapp.com/index.html" target="_blank">LAUNCH WEBSITE</a></div>
-                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB DEMO</div></a>
+                                <div className="popUpBtn"><a rel="noopener noreferrer" href="https://canvas-report.herokuapp.com/index.html" target="_blank">LAUNCH DEMO</a></div>
+                                <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/report-canvas" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
                               </div>
                               <div className="space"></div>
                           </div>
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 

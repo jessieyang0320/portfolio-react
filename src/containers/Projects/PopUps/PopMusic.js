@@ -28,8 +28,8 @@ class PopMusic extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/music-player.png')} alt="news" 
-          className="grow"/></a>
+         <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/music-player.png')} alt="news" 
+          className="grow"/></div>
          
         <ReactModal 
            isOpen={this.state.showModal}
@@ -38,10 +38,10 @@ class PopMusic extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
-          <a href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+          <div href="#inline_content" className="overlay">
+                        <div id='inline_content' className="popup">
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/react-music-player.jpg')} alt="" />
                               </div>
@@ -69,7 +69,7 @@ class PopMusic extends Component {
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 

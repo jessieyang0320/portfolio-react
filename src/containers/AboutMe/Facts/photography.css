@@ -1,6 +1,6 @@
 .photoContainer{
   background-color: #eeeeee;
-  width: 85vw;
+  width: 100%;
 
 }
 .photoTitle {
@@ -18,4 +18,19 @@
   color: #775c8f;
 }
 
-
+@media screen and (max-width: 480px){
+  .photoTitle {
+  
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 5px;  
+  
+}
+.photoArticle {
+  display:block;
+  width:95%;
+  margin-bottom: 10px;
+  font-size: 20px;  
+ 
+}
+}

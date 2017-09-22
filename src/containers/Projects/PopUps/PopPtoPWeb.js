@@ -30,8 +30,8 @@ class PopPtoPWeb extends Component {
     return (
       <div>
           
-          <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/responsive-website.png')} alt="news" 
-          className="grow"/></a>
+          <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/responsive-website.png')} alt="news" 
+          className="grow"/></div>
         <ReactModal 
            isOpen={this.state.showModal}
            contentLabel="onRequestClose Example"
@@ -39,10 +39,10 @@ class PopPtoPWeb extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
           <div href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+                        <div id='inline_content' className="popup">
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/responsive-web.jpg')} alt="" />
                               </div>
@@ -56,7 +56,7 @@ class PopPtoPWeb extends Component {
                                   A responsive website built with HTML and CSS, displayed well on various sizes screens                
                                   </p>
                                   <br/><br/>
-                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/responsive-web-design/blob/master/src/index.html" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a rel="noopener noreferrer" href="https://htmlpreview.github.io/?https://github.com/jessieyang0320/responsive-web-design/blob/master/src/index.html" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
                                 <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/responsive-web-design" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>

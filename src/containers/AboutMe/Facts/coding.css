@@ -6,8 +6,8 @@
 .codingTitle {
   font-size:45px;
   margin-top: 5px;
-  
-  color:#3C3c3C;
+  line-height: 45px;
+  color:#6B7A8F;
   
 }
 .codingArticle {
@@ -17,7 +17,7 @@
   margin-bottom: 15px;
   line-height: 25px;
   padding:10px;
-  color: #3C3c3C;
+  color: #6B7A8F;
 }
 
 .skill-icons{

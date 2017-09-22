@@ -167,7 +167,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight:400;
   letter-spacing:0px;
-  padding:2px 50px 0px 50px;
+  padding:2px 25px 0px 25px;
   line-height:15px;
 }
 
@@ -329,6 +329,27 @@
   margin-bottom: 3%;
  }
 
+ .yellowBox img{
+ margin-bottom: 2px;
+  
+ }
+
+  .ltOrangeBox img{
+  margin-bottom: 2px;
+ }
+
+  .ltGreenBox img{
+  margin-bottom: 2px;
+  
+  
+ }
+
+ .boxesInfo {
+  
+  padding:2px 20px 0px 20px;
+ 
+}
+
 
  
  .popUpLeft {
@@ -391,6 +412,16 @@
   line-height:15px;
   
 }
+
+.ltGreenBox img {
+  margin-bottom: 5px;
+}
+
+.boxesInfo {
+  
+  padding:2px 20px 0px 20px;
+ 
+}
 }
 
 
@@ -408,6 +439,7 @@
   width:100%;
   margin: 0 auto 3% auto;
   height:250px;
+
   
  }
 
@@ -417,6 +449,28 @@
   height:250px;
   
  }
+
+ .yellowBox img{
+ margin-bottom: 2px;
+  
+ }
+
+  .ltOrangeBox img{
+  margin-bottom: 2px;
+ }
+
+  .ltGreenBox img{
+  margin-bottom: 2px;
+  
+  
+ }
+
+ .boxesInfo {
+  
+  padding:2px 25px 0px 25px;
+ 
+}
+
 }
 
 

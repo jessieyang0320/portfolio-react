@@ -28,8 +28,8 @@ class PopJS extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/js.png')} alt="js" 
-          className="grow"/></a>
+         <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/js.png')} alt="js" 
+          className="grow"/></div>
          
         <ReactModal 
            isOpen={this.state.showModal}
@@ -38,10 +38,10 @@ class PopJS extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
-          <a href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+          <div href="#inline_content" className="overlay">
+                        <div id='inline_content' className="popup" >
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/vanilla-js.jpg')} alt="" />
                               </div>
@@ -70,7 +70,7 @@ class PopJS extends Component {
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 
