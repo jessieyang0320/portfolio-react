@@ -16,7 +16,8 @@ class Contact extends Component {
 
               <div className="contactBkg">
                   <div className="contactWrapper">
-                    <h2>get in touch</h2>
+                    <h2>Get in Touch</h2>
+
                       If you`re looking for developers who don't need hand-holding, who are coachable, driven, and thrive on ownership and initiative. <br/><br/>
                       
                       <div className="submitBtnBkg">

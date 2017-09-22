@@ -54,10 +54,7 @@ class Options extends Component {
                   
                 </div>
 
-                <div className='opt-btn'>
-                <RandomFacts/>
-                  
-                </div>
+             
 
                 <div className='opt-btn'>
                 <Accounting/>

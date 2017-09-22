@@ -28,8 +28,8 @@ class PopVhab extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/v-hab.png')} alt="news" 
-          className="grow"/></a>
+         <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/v-hab.png')} alt="news" 
+          className="grow"/></div>
          
         <ReactModal 
            isOpen={this.state.showModal}
@@ -38,10 +38,10 @@ class PopVhab extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
           <div href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+                        <div id='inline_content' className="popup" >
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/v-hab.jpg')} alt="" />
                               </div>

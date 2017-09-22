@@ -79,14 +79,25 @@ class Entreprenuer extends Component {
                   I started a company called MagiTech in 2015. Our goal was to change the traditional way of
                   how people grow vegetables in China. 
                 </p>
+
                 <p className="last-paragraph">
                   Inspired by <a href="https://www.theaquaponicsource.com/what-is-aquaponics/">Aquaponic system</a>, me and my business partner
                   redesigned a solar powered greenhouse, inside it, we utilized Aquaponic system to
-                  grow vegetables and keep fish, all these products are organic. Pro: organic,
-                  no fertilizer or pesticide, no pollution to water or soil  Con: hard to maintain,
-                  high cost. We got seed fund from Chinese local government and started our project 
+                  grow vegetables and keep fish, all these products are organic. 
+                  <br/>
+                  Pro: organic, no fertilizer or pesticide used, no pollution to water or soil.  
+                  <br/>
+                  Con: hard to maintain, high cost. 
 
                 </p>
+                   <p>
+                  We got some seed fund from Chinese local government and built four greenhouses. We were able to sell our products
+                  in local market stores. Even though it did not work out in the end, it was a great experience for me and I learnt
+                  a lot.  
+                </p>
+
+
+
             </div>
 
             <div className="clear-fix"></div>

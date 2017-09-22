@@ -28,8 +28,8 @@ class PopGallery extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/image-gallery.png')} alt="news" 
-          className="grow"/></a>
+         <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/image-gallery.png')} alt="news" 
+          className="grow"/></div>
          
         <ReactModal 
            isOpen={this.state.showModal}
@@ -38,10 +38,10 @@ class PopGallery extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
           <div href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+                        <div id='inline_content' className="popup" >
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/react-gallery.jpg')} alt="" />
                               </div>
@@ -56,7 +56,7 @@ class PopGallery extends Component {
                                   Click on the centered img, it will flip and show msg on the back
                                   </p>                 
                                   <br/><br/>
-                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH WEBSITE</div></a>
+                                <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/Image-Gallery-React/" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
                                 <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/Image-Gallery-React" target="_blank"><div className="popUpBtn">Github Repo</div></a>
                               </div>
                               <div className="space"></div>

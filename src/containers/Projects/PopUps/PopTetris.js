@@ -28,8 +28,8 @@ class PopTetris extends Component {
 
     return (
       <div>
-         <a><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/websocket-tetris.png')} alt="news" 
-          className="grow"/></a>
+         <div><img id="1" onClick={this.handleOpenModal} src={require('../../../assets/websocket-tetris.png')} alt="news" 
+          className="grow"/></div>
          
         <ReactModal 
            isOpen={this.state.showModal}
@@ -38,10 +38,10 @@ class PopTetris extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <a className="closeBtn" onClick={this.handleCloseModal}>&times;</a>
+          <div className="closeBtn" onClick={this.handleCloseModal}>&times;</div>
 
-          <a href="#inline_content" className="overlay">
-                        <div id='inline_content' className="popup" visible={this.state.visible}>
+          <div href="#inline_content" className="overlay">
+                        <div id='inline_content' className="popup" >
                               <div className="popUpLeft">
                                 <img src={require('../../../assets/projects/tetris.jpg')} alt="" />
                               </div>
@@ -56,8 +56,10 @@ class PopTetris extends Component {
                                   player. With Multi-player mode. With socket.io, player can see the other player`s game in real-time.                 
                                   </p>
                                   <br/><br/>
-                                   <a rel="noopener noreferrer" href="https://jessieyang0320.github.io/Tetris-websocket/game.html" target="_blank"><div className="popUpBtn">LAUNCH DEMO</div></a>
-                                   <a rel="noopener noreferrer" href="https://github.com/jessieyang0320/Tetris-websocket" target="_blank"><div className="popUpBtn">GITHUB REPO</div></a>
+                                   <div className="popUpBtn"><a rel="noopener noreferrer" href="https://jessieyang0320.github.io/Tetris-websocket/game.html" target="_blank">
+                                   LAUNCH DEMO</a></div>
+                                    <div className="popUpBtn"><a rel="noopener noreferrer" href="https://github.com/jessieyang0320/Tetris-websocket" target="_blank">
+                                  GITHUB REPO</a></div>
                                
                               </div>
                               <div className="space"></div>
@@ -65,7 +67,7 @@ class PopTetris extends Component {
                
 
                <div className="clear-fix"></div>     
-            </a>
+            </div>
 
         </ReactModal>
 
